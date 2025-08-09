@@ -1,31 +1,14 @@
-import { Facing, PlayerId, Position, PokemonId } from './types'
+import { Facing, PlayerId, Position, PokemonId, PokemonType } from './types'
+import { Attack } from './attacks'
 
-export enum PokemonType {
-  NORMAL,
-  FIRE,
-  WATER,
-  ELECTRIC,
-  GRASS,
-  ICE,
-  FIGHTING,
-  POISON,
-  GROUND,
-  FLYING,
-  PSYCHIC,
-  BUG,
-  ROCK,
-  GHOST,
-  DRAGON,
-  DARK,
-  STEEL,
-  FAIRY,
-}
+
 
 export class Pokemon {
   id: PokemonId
   name: string
   primaryType: PokemonType
   secondaryType: PokemonType | null
+  attack: Attack
   team: PlayerId
   image: string
   position: Position
@@ -33,13 +16,13 @@ export class Pokemon {
   maxHp: number
   hp: number
   movementRange: number
-  baseAttackDamage: number
 
   constructor(params: {
     id: PokemonId
     name: string
     primaryType: PokemonType
     secondaryType: PokemonType | null
+    attack: Attack
     team: PlayerId
     image: string
     position: Position
@@ -47,7 +30,6 @@ export class Pokemon {
     maxHp?: number
     hp?: number
     movementRange?: number
-    baseAttackDamage?: number
   }) {
     this.id = params.id
     this.name = params.name
@@ -58,9 +40,9 @@ export class Pokemon {
     this.maxHp = params.maxHp ?? 200
     this.hp = params.hp ?? this.maxHp
     this.movementRange = params.movementRange ?? 3
-    this.baseAttackDamage = params.baseAttackDamage ?? 50
     this.primaryType = params.primaryType
     this.secondaryType = params.secondaryType ?? null
+    this.attack = params.attack
   }
 
   get isFainted(): boolean {
@@ -91,6 +73,6 @@ const effectiveness: number[][] = [
   /* FAIRY  */  [ 1.0 /* NORMAL */,   0.5 /* FIRE */,  1.0 /* WATER */,  1.0 /* ELECTRIC */,   1.0 /* GRASS */,  1.0 /* ICE */,  2.0 /* FIGHTING */,  0.5 /* POISON */,  1.0 /* GROUND */,  1.0 /* FLYING */,  1.0 /* PSYCHIC */,  1.0 /* BUG */,  1.0 /* ROCK */,  1.0 /* GHOST */,  2.0 /* DRAGON */,  2.0 /* DARK */,  0.5 /* STEEL */, 1.0 /* FAIRY */ ],
 ];
 
-export const getMultiplier = (attacker: PokemonType, defender: PokemonType): number => {
-  return effectiveness[attacker][defender] ?? 1.0
+export const getMultiplier = (attackType: PokemonType, defenderPrimary: PokemonType, defenderSecondary: PokemonType | null): number => {
+  return effectiveness[attackType][defenderPrimary] * (defenderSecondary ? effectiveness[attackType][defenderSecondary] : 1.0)
 }

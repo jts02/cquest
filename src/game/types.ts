@@ -1,3 +1,5 @@
+import { Attack } from "./attacks"
+
 export type PlayerId = 'A' | 'B'
 
 export type Facing = 'N' | 'E' | 'S' | 'W'
@@ -15,7 +17,29 @@ export interface PokemonSpecies {
   image: string
   maxHp: number
   movementRange: number
-  baseAttackDamage: number
+  primaryType: PokemonType
+  secondaryType: PokemonType | null
+  attack: Attack
 }
 
+export enum PokemonType {
+  NORMAL,
+  FIRE,
+  WATER,
+  ELECTRIC,
+  GRASS,
+  ICE,
+  FIGHTING,
+  POISON,
+  GROUND,
+  FLYING,
+  PSYCHIC,
+  BUG,
+  ROCK,
+  GHOST,
+  DRAGON,
+  DARK,
+  STEEL,
+  FAIRY,
+}
 

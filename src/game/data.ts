@@ -1,4 +1,5 @@
-import { Facing, PlayerId, Position, PokemonSpecies } from './types'
+import { Facing, PlayerId, Position, PokemonSpecies, PokemonType } from './types'
+import { ATTACKS } from './attacks'
 
 export const BOARD_SIZE = 8
 
@@ -40,19 +41,25 @@ export async function loadSpeciesFromCsv(url: string): Promise<PokemonSpecies[]>
   const header = lines.shift()!.split(',')
   const idx = (name: string) => header.indexOf(name)
   const out: PokemonSpecies[] = []
+
   for (const line of lines) {
     const parts = line.split(',')
     if (parts.length !== header.length) continue
+    const primaryTypeStr = parts[idx('primaryType')].trim()
+    const secondaryTypeStr = parts[idx('secondaryType')]?.trim() || ''
     out.push({
       id: parts[idx('id')],
       name: parts[idx('name')],
       image: parts[idx('image')],
       maxHp: parseInt(parts[idx('maxHp')], 10),
       movementRange: parseInt(parts[idx('movementRange')], 10),
-      baseAttackDamage: parseInt(parts[idx('baseAttackDamage')], 10),
-    })
+      primaryType: PokemonType[primaryTypeStr as keyof typeof PokemonType],
+      secondaryType: secondaryTypeStr
+        ? PokemonType[secondaryTypeStr as keyof typeof PokemonType]
+        : null,
+      attack: ATTACKS.find(a => a.name === parts[idx('attack')]) ?? ATTACKS[0],
+      })
   }
   return out
+
 }
-
-
