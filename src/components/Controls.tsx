@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { act } from 'react'
 import { Facing, PlayerId } from '../game/types'
 import { Pokemon } from '../game/Pokemon'
 
@@ -44,7 +44,7 @@ export const Controls: React.FC<ControlsProps> = ({
               </div>
             </div>
             <div className="actions">
-              <button disabled={!canAttack} onClick={onAttack}>Attack</button>
+              <button disabled={!canAttack} onClick={onAttack}>{activePokemon.attack.name}</button>
               <button onClick={onWait}>Wait</button>
             </div>
           </>

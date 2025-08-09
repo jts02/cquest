@@ -23,9 +23,7 @@ function App() {
   const [winner, setWinner] = useState<WinnerState>(null)
 
   // Derived: has each side at least one unit?
-  const aCount = useMemo(() => pokemons.filter((p) => p.team === 'A' && !p.isFainted).length, [pokemons])
-  const bCount = useMemo(() => pokemons.filter((p) => p.team === 'B' && !p.isFainted).length, [pokemons])
-  const gameStarted = !isSetupPhase && aCount > 0 && bCount > 0
+  const gameStarted = !isSetupPhase
 
   // Build initial turn order only when the player changes and the game has started
   useEffect(() => {
@@ -44,12 +42,12 @@ function App() {
   }, [pokemons, turnOrder, turnIndex])
 
   useEffect(() => {
-    // Check win condition only after both teams have at least one unit
-
     // if all pokemon are fainted on one team, the other team wins
     if (!gameStarted) return
     const aAlive = pokemons.some((p) => p.team === 'A' && !p.isFainted)
     const bAlive = pokemons.some((p) => p.team === 'B' && !p.isFainted)
+    console.log ('aAlive:' , aAlive);
+    console.log ('bAlive:' , bAlive);
     if (!aAlive && bAlive) {
       setWinner('B')
       return
@@ -318,7 +316,7 @@ function App() {
       </div>
     )
   }
-
+  console.log("winner: ", winner);
   return (
     <div className="app">
       <div className="left">
