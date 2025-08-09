@@ -9,6 +9,16 @@ export interface Attack {
 
 // Example attacks
 export const ATTACKS: Attack[] = [
+    {
+        name: 'Water Gun',
+        damage: 40,
+        type: PokemonType.WATER,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+    },
   {
     name: 'Forward Strike',
     damage: 20,
@@ -40,6 +50,36 @@ export const ATTACKS: Attack[] = [
       { x: 0, y: -3 },
     ],
   },
+  {
+    name: 'Dragon Pulse',
+    damage: 90,
+    type: PokemonType.DRAGON,
+    shape: [
+        { x: 0, y: -1 },
+        { x: 0, y: -2 },
+        { x: 0, y: -3 },
+    ],
+    },
+    {
+        name: 'Flamethrower',
+        damage: 90,
+        type: PokemonType.FIRE,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
+        name: 'Dragon Rush',
+        damage: 100,
+        type: PokemonType.DRAGON,
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+          ],
+    },
 ]
 
 export const  rotatePosition = (pos: Position, facing: Facing): Position => {
