@@ -1,10 +1,10 @@
 id,name,image,primaryType,secondaryType,maxHp,baseAttack,baseDefense,baseSpeed,movementRange,move
-WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,10,3,Water Gun
-LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,10,3,Forward Strike
-PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Skip Strike
-RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,10,4,Dragon Pulse
-INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,10,3,Flamethrower
-GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,10,3,Dragon Rush
 BULBASAUR,Bulbasaur,/pokemon/bulbasaur.png,GRASS,POISON,90,65,57,10,3,Vine Whip
 SQUIRTLE,Squirtle,/pokemon/squirtle.png,WATER,,88,49,65,10,3,Water Gun
 CHARMANDER,Charmander,/pokemon/charmander.png,FIRE,,78,60,47,10,3,Ember
+PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Skip Strike
+WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,10,3,Water Gun
+LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,10,3,Forward Strike
+RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,10,4,Dragon Pulse
+INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,10,3,Flamethrower
+GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,10,3,Dragon Rush
