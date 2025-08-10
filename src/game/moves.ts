@@ -108,6 +108,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Poison Sting',
+        power: 15,
+        type: PokemonType.POISON,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Disarming Voice',
         power: 40,
         type: PokemonType.FAIRY,
