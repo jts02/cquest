@@ -60,7 +60,7 @@ export async function loadSpeciesFromCsv(url: string): Promise<PokemonSpecies[]>
       secondaryType: secondaryTypeStr
         ? PokemonType[secondaryTypeStr as keyof typeof PokemonType]
         : null,
-      move: MOVES.find(a => a.name === parts[idx('attack')]) ?? MOVES[0],
+      move: MOVES.find(a => a.name === parts[idx('move')]) ?? MOVES[0],
       })
   }
   return out
