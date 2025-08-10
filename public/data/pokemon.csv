@@ -4,6 +4,7 @@ CHARMANDER,Charmander,/pokemon/charmander.png,FIRE,,78,60,47,10,3,Ember
 SQUIRTLE,Squirtle,/pokemon/squirtle.png,WATER,,88,49,65,10,3,Water Gun
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Skip Strike
 JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,10,3,Disarming Voice
+MAGIKARP,Magikarp,/pokemon/magikarp.png,WATER,,40,10,38,10,3,Splash
 EEVEE,Eevee,/pokemon/eevee.png,NORMAL,,110,55,58,10,4,Quick Attack
 WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,10,3,Water Gun
 LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,10,3,Forward Strike

@@ -115,6 +115,22 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Splash',
+        power: 0,
+        type: PokemonType.NORMAL,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+    },
+    {
         name: 'Dragon Rush',
         power: 100,
         type: PokemonType.DRAGON,
