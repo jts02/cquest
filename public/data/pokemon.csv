@@ -6,3 +6,5 @@ RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,10,4,Dragon Pul
 INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,10,3,Flamethrower
 GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,10,3,Dragon Rush
 BULBASAUR,Bulbasaur,/pokemon/bulbasaur.png,GRASS,POISON,90,65,57,10,3,Vine Whip
+SQUIRTLE,Squirtle,/pokemon/squirtle.png,WATER,,88,49,65,10,3,Water Gun
+CHARMANDER,Charmander,/pokemon/charmander.png,FIRE,,78,60,47,10,3,Ember

@@ -81,6 +81,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Ember',
+        power: 40,
+        type: PokemonType.FIRE,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+    },
+    {
         name: 'Dragon Rush',
         power: 100,
         type: PokemonType.DRAGON,
