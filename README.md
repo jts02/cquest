@@ -8,7 +8,7 @@ To start the development server, run:
 
 ```bash
 npm run dev --silent | cat
-
+```
 ## How to Add Pokémon
 Edit public/data/pokemon.csv to include your new Pokémon’s information.
 Follow the same column format as the existing entries.
