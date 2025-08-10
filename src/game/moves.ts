@@ -90,6 +90,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Quick Attack',
+        power: 40,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Dragon Rush',
         power: 100,
         type: PokemonType.DRAGON,
