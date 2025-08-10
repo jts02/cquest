@@ -22,7 +22,7 @@ export const MOVES: Move[] = [
         name: 'Vine Whip',
         power: 45,
         type: PokemonType.GRASS,
-        // Two squares forward
+        // Horizontally in front of user
         shape: [
           { x: -1, y: -1 },
           { x: 0, y: -1 },
@@ -96,6 +96,22 @@ export const MOVES: Move[] = [
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Disarming Voice',
+        power: 40,
+        type: PokemonType.FAIRY,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
         ],
     },
     {
