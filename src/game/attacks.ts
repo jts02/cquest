@@ -23,10 +23,11 @@ export const ATTACKS: Attack[] = [
         name: 'Vine Whip',
         damage: 45,
         type: PokemonType.GRASS,
-        // Two squares forward
+        // Three squares in front of user
         shape: [
+            { x: -1, y: -1 },
             { x: 0, y: -1 },
-            { x: 0, y: -2 },
+            { x: 1, y: -1 },
         ],
     },
   {
