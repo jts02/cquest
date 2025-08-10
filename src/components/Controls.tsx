@@ -44,7 +44,7 @@ export const Controls: React.FC<ControlsProps> = ({
               </div>
             </div>
             <div className="actions">
-              <button disabled={!canAttack} onClick={onAttack}>{activePokemon.attack.name}</button>
+              <button disabled={!canAttack} onClick={onAttack}>{activePokemon.move.name}</button>
               <button onClick={onWait}>Wait</button>
             </div>
           </>

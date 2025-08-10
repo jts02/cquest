@@ -1,4 +1,4 @@
-import { Attack } from "./attacks"
+import { Move } from "./moves"
 
 export type PlayerId = 'A' | 'B'
 
@@ -16,10 +16,13 @@ export interface PokemonSpecies {
   name: string
   image: string
   maxHp: number
+  baseAttack: number
+  baseDefense: number
+  baseSpeed: number
   movementRange: number
   primaryType: PokemonType
   secondaryType: PokemonType | null
-  attack: Attack
+  move: Move
 }
 
 export enum PokemonType {

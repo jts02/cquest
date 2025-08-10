@@ -1,17 +1,16 @@
 import { Facing, Position, PokemonType } from './types'
 
-export interface Attack {
+export interface Move {
   name: string
-  damage: number
+  power: number
   type: PokemonType
   shape: Position[] // Relative coordinates from attacker facing "north"
 }
 
-// Example attacks
-export const ATTACKS: Attack[] = [
+export const MOVES: Move[] = [
     {
         name: 'Water Gun',
-        damage: 40,
+        power: 40,
         type: PokemonType.WATER,
         // Two squares forward
         shape: [
@@ -21,18 +20,18 @@ export const ATTACKS: Attack[] = [
     },
     {
         name: 'Vine Whip',
-        damage: 45,
+        power: 45,
         type: PokemonType.GRASS,
-        // Three squares in front of user
+        // Two squares forward
         shape: [
-            { x: -1, y: -1 },
-            { x: 0, y: -1 },
-            { x: 1, y: -1 },
-        ],
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+      ],
     },
   {
     name: 'Forward Strike',
-    damage: 20,
+    power: 20,
     type: PokemonType.NORMAL,
     // Two squares forward
     shape: [
@@ -42,7 +41,7 @@ export const ATTACKS: Attack[] = [
   },
   {
     name: 'Wide Swipe',
-    damage: 15,
+    power: 15,
     type: PokemonType.WATER,
     // Three squares horizontally in front
     shape: [
@@ -53,7 +52,7 @@ export const ATTACKS: Attack[] = [
   },
   {
     name: 'Skip Strike',
-    damage: 25,
+    power: 25,
     type: PokemonType.FIRE,
     // One square forward, skip one, then another forward
     shape: [
@@ -63,7 +62,7 @@ export const ATTACKS: Attack[] = [
   },
   {
     name: 'Dragon Pulse',
-    damage: 90,
+    power: 90,
     type: PokemonType.DRAGON,
     shape: [
         { x: 0, y: -1 },
@@ -73,7 +72,7 @@ export const ATTACKS: Attack[] = [
     },
     {
         name: 'Flamethrower',
-        damage: 90,
+        power: 90,
         type: PokemonType.FIRE,
         shape: [
             { x: 0, y: -1 },
@@ -83,7 +82,7 @@ export const ATTACKS: Attack[] = [
     },
     {
         name: 'Dragon Rush',
-        damage: 100,
+        power: 100,
         type: PokemonType.DRAGON,
         shape: [
             { x: -1, y: -1 },
@@ -102,7 +101,7 @@ export const  rotatePosition = (pos: Position, facing: Facing): Position => {
     }
   }
 
-export const  getAttackSquares = (attackerPos: Position, facing: Facing, shape: Position[]): Position[] => {
+export const  getMoveSquares = (attackerPos: Position, facing: Facing, shape: Position[]): Position[] => {
 return shape.map(offset => {
     const rotated = rotatePosition(offset, facing)
     return {

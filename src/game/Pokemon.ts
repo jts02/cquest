@@ -1,5 +1,5 @@
 import { Facing, PlayerId, Position, PokemonId, PokemonType } from './types'
-import { Attack } from './attacks'
+import { Move } from './moves'
 
 
 
@@ -8,13 +8,16 @@ export class Pokemon {
   name: string
   primaryType: PokemonType
   secondaryType: PokemonType | null
-  attack: Attack
+  move: Move
   team: PlayerId
   image: string
   position: Position
   facing: Facing
   maxHp: number
   hp: number
+  attack: number
+  defense: number
+  speed: number
   movementRange: number
 
   constructor(params: {
@@ -22,13 +25,16 @@ export class Pokemon {
     name: string
     primaryType: PokemonType
     secondaryType: PokemonType | null
-    attack: Attack
+    move: Move
     team: PlayerId
     image: string
     position: Position
     facing?: Facing
     maxHp?: number
     hp?: number
+    attack?: number
+    defense?: number
+    speed?: number
     movementRange?: number
   }) {
     this.id = params.id
@@ -39,10 +45,13 @@ export class Pokemon {
     this.facing = params.facing ?? 'N'
     this.maxHp = params.maxHp ?? 200
     this.hp = params.hp ?? this.maxHp
+    this.attack = params.attack ?? 10
+    this.defense = params.defense ?? 10
+    this.speed = params.speed ?? 10
     this.movementRange = params.movementRange ?? 3
     this.primaryType = params.primaryType
     this.secondaryType = params.secondaryType ?? null
-    this.attack = params.attack
+    this.move = params.move
   }
 
   get isFainted(): boolean {
@@ -75,4 +84,10 @@ const effectiveness: number[][] = [
 
 export const getMultiplier = (attackType: PokemonType, defenderPrimary: PokemonType, defenderSecondary: PokemonType | null): number => {
   return effectiveness[attackType][defenderPrimary] * (defenderSecondary ? effectiveness[attackType][defenderSecondary] : 1.0)
+}
+
+export const getDamage = (attacker: Pokemon, defender: Pokemon) => {
+  const move = attacker.move;
+  const multiplier = getMultiplier(attacker.move.type, defender.primaryType, defender.secondaryType);
+  return move.power * multiplier * attacker.attack / defender.defense; 
 }

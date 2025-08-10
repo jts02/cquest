@@ -2,10 +2,10 @@ import React, { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import { Board } from './components/Board'
 import { Controls } from './components/Controls'
-import { getMultiplier, Pokemon } from './game/Pokemon'
+import { getDamage, getMultiplier, Pokemon } from './game/Pokemon'
 import { BOARD_SIZE, loadSpeciesFromCsv, defaultFacingForTeam, makePositionsForTeam } from './game/data'
 import { Facing, PlayerId, Position, PokemonSpecies } from './game/types'
-import { getAttackSquares } from './game/attacks'
+import { getMoveSquares } from './game/moves'
 
 type WinnerState = 'A' | 'B' | 'Draw' | null
 
@@ -60,11 +60,13 @@ function App() {
 
   // Load base species CSV at startup
   useEffect(() => {
-    ;(async () => {
+    (async () => {
       try {
         const list = await loadSpeciesFromCsv('/data/pokemon.csv')
         setSpecies(list)
-      } catch {}
+      } catch {
+        console.log("Error caught");
+      }
     })()
   }, [])
 
@@ -120,13 +122,12 @@ function App() {
     return result
   }, [activePokemon, pokemons])
 
-  // const ATTACK_LENGTH = 2
   const attackHighlights: Set<string> = useMemo(() => {
     const result = new Set<string>()
     if (!activePokemon) return result
   
     console.log('activepokemon:', activePokemon);
-    const squares = getAttackSquares(activePokemon.position, activePokemon.facing, activePokemon.attack.shape)
+    const squares = getMoveSquares(activePokemon.position, activePokemon.facing, activePokemon.move.shape)
   
     for (const pos of squares) {
       if (isInside(pos)) {
@@ -135,27 +136,6 @@ function App() {
     }
     return result
   }, [activePokemon])
-  // const attackHighlights: Set<string> = useMemo(() => {
-  //   const result = new Set<string>()
-  //   if (!activePokemon) return result
-  //   let dx = 0, dy = 0
-  //   switch (activePokemon.facing) {
-  //     case 'N': dy = -1; break
-  //     case 'S': dy = 1; break
-  //     case 'E': dx = 1; break
-  //     case 'W': dx = -1; break
-  //   }
-  //   let cx = activePokemon.position.x
-  //   let cy = activePokemon.position.y
-  //   for (let i = 1; i <= ATTACK_LENGTH; i++) {
-  //     cx += dx
-  //     cy += dy
-  //     const pos = { x: cx, y: cy }
-  //     if (!isInside(pos)) break
-  //     result.add(`${pos.x},${pos.y}`)
-  //   }
-  //   return result
-  // }, [activePokemon])
 
   function handleCellClick(pos: Position) {
     if (isSetupPhase && placementMode) {
@@ -179,7 +159,7 @@ function App() {
         movementRange: spec.movementRange,
         primaryType: spec.primaryType,
         secondaryType: spec.secondaryType ?? null,
-        attack: spec.attack,
+        move: spec.move,
       })
       setPokemons((prev) => [...prev, newP])
       // Exit placement mode after a successful placement so user must re-enable
@@ -212,8 +192,7 @@ function App() {
         if (p.team === activePokemon.team) return p
         const key = `${p.position.x},${p.position.y}`
         if (targets.has(key)) {
-          const attack = activePokemon.attack
-          const newHp = p.hp - attack.damage * getMultiplier(attack.type, p.primaryType, p.secondaryType)
+          const newHp = p.hp - getDamage(activePokemon, p);
           return new Pokemon({ ...p, hp: newHp })
         }
         return p
@@ -301,11 +280,21 @@ function App() {
               const toAdd: Pokemon[] = []
               for (let i = 0; i < Math.min(3, species.length); i++) {
                 const s = species[i]
-                toAdd.push(new Pokemon({ id: `A-${s.id}-${i}`, name: s.name, team: 'A', image: s.image, position: posA[i], facing: defaultFacingForTeam('A'), maxHp: s.maxHp, hp: s.maxHp, movementRange: s.movementRange, primaryType: s.primaryType, secondaryType: s.secondaryType, attack: s.attack }))
+                toAdd.push(new Pokemon({ id: `A-${s.id}-${i}`, 
+                  name: s.name, team: 'A', image: s.image, position: posA[i], 
+                  facing: defaultFacingForTeam('A'), maxHp: s.maxHp, hp: s.maxHp, 
+                  attack: s.baseAttack, defense: s.baseDefense, speed: s.baseSpeed,
+                  movementRange: s.movementRange, primaryType: s.primaryType, 
+                  secondaryType: s.secondaryType, move: s.move }))
               }
               for (let i = 0; i < Math.min(3, species.length); i++) {
                 const s = species[i]
-                toAdd.push(new Pokemon({ id: `B-${s.id}-${i}`, name: s.name, team: 'B', image: s.image, position: posB[i], facing: defaultFacingForTeam('B'), maxHp: s.maxHp, hp: s.maxHp, movementRange: s.movementRange, primaryType: s.primaryType, secondaryType: s.secondaryType, attack: s.attack }))
+                toAdd.push(new Pokemon({ id: `B-${s.id}-${i}`, 
+                  name: s.name, team: 'B', image: s.image, position: posB[i], 
+                  facing: defaultFacingForTeam('B'), maxHp: s.maxHp, hp: s.maxHp, 
+                  attack: s.baseAttack, defense: s.baseDefense, speed: s.baseSpeed,
+                  movementRange: s.movementRange, primaryType: s.primaryType, 
+                  secondaryType: s.secondaryType, move: s.move }))
               }
               setPokemons(toAdd)
             }}
