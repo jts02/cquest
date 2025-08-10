@@ -2,6 +2,7 @@ id,name,image,primaryType,secondaryType,maxHp,baseAttack,baseDefense,baseSpeed,m
 BULBASAUR,Bulbasaur,/pokemon/bulbasaur.png,GRASS,POISON,90,65,57,10,3,Vine Whip
 CHARMANDER,Charmander,/pokemon/charmander.png,FIRE,,78,60,47,10,3,Ember
 SQUIRTLE,Squirtle,/pokemon/squirtle.png,WATER,,88,49,65,10,3,Water Gun
+PIDGEY,Pidgey,/pokemon/pidgey.png,NORMAL,FLYING,45,38,10,3,Tackle
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Skip Strike
 JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,10,3,Disarming Voice
 MAGIKARP,Magikarp,/pokemon/magikarp.png,WATER,,40,10,38,10,3,Splash

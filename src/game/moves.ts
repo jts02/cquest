@@ -99,6 +99,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Tackle',
+        power: 40,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Disarming Voice',
         power: 40,
         type: PokemonType.FAIRY,
