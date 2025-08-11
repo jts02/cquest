@@ -51,6 +51,28 @@ export const MOVES: Move[] = [
     ],
   },
   {
+    name: 'Acid',
+    power: 40,
+    type: PokemonType.POISON,
+    // Three squares horizontally in front
+    shape: [
+      { x: -1, y: -1 },
+      { x: 0, y: -1 },
+      { x: 1, y: -1 },
+    ],
+  },
+  {
+    name: 'Thunderbolt',
+    power: 90,
+    type: PokemonType.ELECTRIC,
+    // Three squares horizontally in front
+    shape: [
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+    ],
+  },
+  {
     name: 'Skip Strike',
     power: 25,
     type: PokemonType.FIRE,
@@ -165,6 +187,22 @@ export const MOVES: Move[] = [
         name: 'Disarming Voice',
         power: 40,
         type: PokemonType.FAIRY,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+    },
+    {
+        name: 'Hyper Voice',
+        power: 80,
+        type: PokemonType.NORMAL,
         // All Around user
         shape: [
             { x: -1, y: -1 },
