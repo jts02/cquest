@@ -130,12 +130,32 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Low Kick',
+        power: 50,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Tackle',
         power: 40,
         type: PokemonType.NORMAL,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Pay Day',
+        power: 40,
+        type: PokemonType.NORMAL,
+        // Horizontal line in front of user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
         ],
     },
     {
