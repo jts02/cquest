@@ -7,6 +7,8 @@ WEEDLE,Weedle,/pokemon/weedle.png,BUG,POISON,80,35,25,10,1,Poison Sting
 PIDGEY,Pidgey,/pokemon/pidgey.png,NORMAL,FLYING,80,45,38,10,3,Tackle
 RATTATA,Rattata,/pokemon/rattata.png,NORMAL,,60,56,35,10,3,Tackle
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Skip Strike
+NIDORANF,Nidoran♀,/pokemon/nidoran♀.png,POISON,,110,47,46,10,3,Poison Sting
+NIDORANM,Nidoran♂,/pokemon/nidoran♂.png,POISON,,92,57,40,10,3,Poison Sting
 JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,10,3,Disarming Voice
 MAGIKARP,Magikarp,/pokemon/magikarp.png,WATER,,40,10,38,10,3,Splash
 EEVEE,Eevee,/pokemon/eevee.png,NORMAL,,110,55,58,10,4,Quick Attack
