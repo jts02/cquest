@@ -108,6 +108,33 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Poison Jab',
+        power: 80,
+        type: PokemonType.POISON,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Peck',
+        power: 35,
+        type: PokemonType.FLYING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Wing Attack',
+        power: 60,
+        type: PokemonType.FLYING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Poison Sting',
         power: 15,
         type: PokemonType.POISON,
@@ -117,9 +144,34 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Bug Bite',
+        power: 60,
+        type: PokemonType.BUG,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Disarming Voice',
         power: 40,
         type: PokemonType.FAIRY,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+    },
+    {
+        name: 'Bug Buzz',
+        power: 90,
+        type: PokemonType.BUG,
         // All Around user
         shape: [
             { x: -1, y: -1 },
