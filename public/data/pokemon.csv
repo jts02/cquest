@@ -3,7 +3,9 @@ BULBASAUR,Bulbasaur,/pokemon/bulbasaur.png,GRASS,POISON,90,65,57,10,3,Vine Whip
 CHARMANDER,Charmander,/pokemon/charmander.png,FIRE,,78,60,47,10,3,Ember
 SQUIRTLE,Squirtle,/pokemon/squirtle.png,WATER,,88,49,65,10,3,Water Gun
 CATERPIE,Caterpie,/pokemon/caterpie.png,BUG,,90,30,28,10,1,Tackle
+METAPOD,Metapod,/pokemon/metapod.png,BUG,,100,20,40,10,1,Tackle
 WEEDLE,Weedle,/pokemon/weedle.png,BUG,POISON,80,35,25,10,1,Poison Sting
+KAKUNA,Kakuna,/pokemon/kakuna.png,BUG,POISON,90,25,38,10,1,Poison Sting
 PIDGEY,Pidgey,/pokemon/pidgey.png,NORMAL,FLYING,80,45,38,10,3,Tackle
 RATTATA,Rattata,/pokemon/rattata.png,NORMAL,,60,56,35,10,3,Tackle
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Skip Strike
