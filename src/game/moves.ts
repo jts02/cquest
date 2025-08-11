@@ -90,6 +90,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Rock Throw',
+        power: 50,
+        type: PokemonType.ROCK,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+    },
+    {
         name: 'Quick Attack',
         power: 40,
         type: PokemonType.NORMAL,
@@ -182,6 +191,18 @@ export const MOVES: Move[] = [
             { x: -1, y: 1 },
             { x: 0, y: 1 },
             { x: 1, y: 1 },
+        ],
+    },
+    {
+        name: 'Bulldoze',
+        power: 60,
+        type: PokemonType.GROUND,
+        // Cross around user
+        shape: [
+            { x: 0, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: 0, y: 1 },
         ],
     },
     {

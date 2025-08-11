@@ -10,14 +10,17 @@ KAKUNA,Kakuna,/pokemon/kakuna.png,BUG,POISON,90,25,38,10,1,Poison Sting
 BEEDRILL,Beedrill,/pokemon/beedrill.png,BUG,POISON,130,90,60,10,4,Poison Jab
 PIDGEY,Pidgey,/pokemon/pidgey.png,NORMAL,FLYING,80,45,38,10,3,Tackle
 RATTATA,Rattata,/pokemon/rattata.png,NORMAL,,60,56,35,10,3,Tackle
-SPEAROW,Spearow,/pokemon/spearow.png,NORMAL,FLYING,80,60,31,10,3,Peck
+SPEAROW,Spearow,/pokemon/spearow.png,NORMAL,FLYING,80,60,31,10,3,Wing Attack
+EKANS,Ekans,/pokemon/ekans.png,POISON,,70,60,49,10,3,Poison Sting
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Skip Strike
+SANDSHREW,Sandshrew,/pokemon/sandshrew.png,GROUND,,100,75,115,10,3,Bulldoze
 NIDORANF,Nidoran♀,/pokemon/nidoran♀.png,POISON,,110,47,46,10,3,Poison Sting
 NIDORANM,Nidoran♂,/pokemon/nidoran♂.png,POISON,,92,57,40,10,3,Poison Sting
 CLEFAIRY,Clefairy,/pokemon/clefairy.png,FAIRY,,140,60,57,10,3,Disarming Voice
 JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,10,3,Disarming Voice
 ZUBAT,Zubat,/pokemon/zubat.png,POISON,FLYING,80,45,38,10,4,Wing Attack
 PARAS,Paras,/pokemon/paras.png,BUG,GRASS,35,70,55,10,2,Bug Bite
+GEODUDE,Geodude,/pokemon/geodude.png,ROCK,GROUND,80,80,65,10,2,Rock Throw
 MAGIKARP,Magikarp,/pokemon/magikarp.png,WATER,,40,10,38,10,3,Splash
 EEVEE,Eevee,/pokemon/eevee.png,NORMAL,,110,55,58,10,4,Quick Attack
 WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,10,3,Water Gun
