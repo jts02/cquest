@@ -199,6 +199,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Electro Ball',
+        power: 40,
+        type: PokemonType.ELECTRIC,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+    },
+    {
         name: 'Rock Throw',
         power: 50,
         type: PokemonType.ROCK,
@@ -227,6 +236,15 @@ export const MOVES: Move[] = [
     },
     {
         name: 'Low Kick',
+        power: 50,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Karate Chop',
         power: 50,
         type: PokemonType.FIGHTING,
         // Just one square forward

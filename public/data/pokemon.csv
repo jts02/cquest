@@ -45,11 +45,14 @@ MANKEY,Mankey,/pokemon/mankey.png,FIGHTING,,80,80,40,10,3,Low Kick
 ABRA,Abra,/pokemon/abra.png,PSYCHIC,,50,105,30,10,13,Splash
 KADABRA,Kadabra,/pokemon/kadabra.png,PSYCHIC,,80,120,50,10,3,Psybeam
 ALAKAZAM,Alakazam,/pokemon/alakazam.png,PSYCHIC,,110,135,70,10,3,Psychic
+MACHOP,Machop,/pokemon/machop.png,FIGHTING,,140,80,43,10,3,Karate Chop
 BELLSPROUT,Bellsprout,/pokemon/bellsprout.png,GRASS,POISON,100,75,33,10,3,Vine Whip
 WEEPINBELL,Weepinbell,/pokemon/weepinbell.png,GRASS,POISON,130,90,48,10,3,Razor Leaf
 GEODUDE,Geodude,/pokemon/geodude.png,ROCK,GROUND,80,80,65,10,2,Rock Throw
 FARFETCHD,Farfetch'd,/pokemon/farfetchd.png,NORMAL,FLYING,104,90,59,10,3,Slash
 DROWZEE,Drowzee,/pokemon/drowzee.png,PSYCHIC,,120,48,68,10,3,Psybeam
+VOLTORB,Voltorb,/pokemon/voltorb.png,ELECTRIC,,80,55,53,10,4,Electro Ball
+MRMIME,Mr. Mime,/pokemon/mrmime.png,PSYCHIC,FAIRY,80,100,93,10,3,Psychic
 MAGIKARP,Magikarp,/pokemon/magikarp.png,WATER,,40,10,38,10,3,Splash
 GYARADOS,Gyarados,/pokemon/gyarados.png,WATER,FLYING,190,125,90,10,3,Aqua Tail
 EEVEE,Eevee,/pokemon/eevee.png,NORMAL,,110,55,58,10,4,Quick Attack
