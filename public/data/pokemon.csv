@@ -1,6 +1,6 @@
 id,name,image,primaryType,secondaryType,maxHp,baseAttack,baseDefense,baseSpeed,movementRange,move
 BULBASAUR,Bulbasaur,/pokemon/bulbasaur.png,GRASS,POISON,90,65,57,10,3,Vine Whip
-IVYSAUR,Ivysaur,/pokemon/ivysaur.png,GRASS,POISON,120,80,72,10,3,Seed Bomb
+IVYSAUR,Ivysaur,/pokemon/ivysaur.png,GRASS,POISON,120,80,72,10,3,Razor Leaf
 CHARMANDER,Charmander,/pokemon/charmander.png,FIRE,,78,60,47,10,3,Ember
 CHARMELEON,Charmeleon,/pokemon/charmeleon.png,FIRE,,116,80,62,10,3,Fire Fang
 SQUIRTLE,Squirtle,/pokemon/squirtle.png,WATER,,88,49,65,10,3,Water Gun
@@ -11,23 +11,31 @@ BUTTERFREE,Butterfree,/pokemon/butterfree.png,BUG,FLYING,120,90,65,10,4,Bug Buzz
 WEEDLE,Weedle,/pokemon/weedle.png,BUG,POISON,80,35,25,10,1,Poison Sting
 KAKUNA,Kakuna,/pokemon/kakuna.png,BUG,POISON,90,25,38,10,1,Poison Sting
 BEEDRILL,Beedrill,/pokemon/beedrill.png,BUG,POISON,130,90,60,10,4,Poison Jab
-PIDGEY,Pidgey,/pokemon/pidgey.png,NORMAL,FLYING,80,45,38,10,3,Tackle
+PIDGEY,Pidgey,/pokemon/pidgey.png,NORMAL,FLYING,80,45,38,10,4,Tackle
+PIDGEOTTO,Pidgeotto,/pokemon/pidgeotto.png,NORMAL,FLYING,126,60,53,10,4,Wing Attack
 RATTATA,Rattata,/pokemon/rattata.png,NORMAL,,60,56,35,10,3,Tackle
-SPEAROW,Spearow,/pokemon/spearow.png,NORMAL,FLYING,80,60,31,10,3,Wing Attack
+RATICATE,Raticate,/pokemon/raticate.png,NORMAL,,110,81,65,10,3,Hyper Fang
+SPEAROW,Spearow,/pokemon/spearow.png,NORMAL,FLYING,80,60,31,10,4,Wing Attack
+FEAROW,Fearow,/pokemon/fearow.png,NORMAL,FLYING,130,90,63,10,4,Drill Peck
 EKANS,Ekans,/pokemon/ekans.png,POISON,,70,60,49,10,3,Poison Sting
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Thunderbolt
 SANDSHREW,Sandshrew,/pokemon/sandshrew.png,GROUND,,100,75,115,10,3,Bulldoze
 NIDORANF,Nidoran♀,/pokemon/nidoran♀.png,POISON,,110,47,46,10,3,Poison Sting
+NIDORINA,Nidorina,/pokemon/nidorina.png,POISON,,140,62,61,10,3,Poison Tail
 NIDORANM,Nidoran♂,/pokemon/nidoran♂.png,POISON,,92,57,40,10,3,Poison Sting
+NIDORINO,Nidorino,/pokemon/nidorino.png,POISON,,122,72,56,10,3,Poison Tail
 CLEFAIRY,Clefairy,/pokemon/clefairy.png,FAIRY,,140,60,57,10,3,Disarming Voice
 JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,10,3,Disarming Voice
 WIGGLYTUFF,Wigglytuff,/pokemon/wigglytuff.png,NORMAL,FAIRY,280,75,48,10,3,Hyper Voice
 ZUBAT,Zubat,/pokemon/zubat.png,POISON,FLYING,80,45,38,10,4,Wing Attack
 ODDISH,Oddish,/pokemon/oddish.png,GRASS,POISON,90,75,63,10,2,Acid
+GLOOM,Gloom,/pokemon/gloom.png,GRASS,POISON,120,85,73,10,2,Magical Leaf
 PARAS,Paras,/pokemon/paras.png,BUG,GRASS,35,70,55,10,2,Bug Bite
 MEOWTH,Meowth,/pokemon/meowth.png,NORMAL,,80,45,38,10,3,Pay Day
 MANKEY,Mankey,/pokemon/mankey.png,FIGHTING,,80,80,40,10,3,Low Kick
 ABRA,Abra,/pokemon/abra.png,PSYCHIC,,50,105,30,10,13,Splash
+KADABRA,Kadabra,/pokemon/kadabra.png,PSYCHIC,,80,120,50,10,3,Psybeam
+ALAKAZAM,Alakazam,/pokemon/alakazam.png,PSYCHIC,,110,135,70,10,3,Psychic
 BELLSPROUT,Bellsprout,/pokemon/bellsprout.png,GRASS,POISON,100,75,33,10,3,Vine Whip
 GEODUDE,Geodude,/pokemon/geodude.png,ROCK,GROUND,80,80,65,10,2,Rock Throw
 MAGIKARP,Magikarp,/pokemon/magikarp.png,WATER,,40,10,38,10,3,Splash

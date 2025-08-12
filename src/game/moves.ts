@@ -83,6 +83,18 @@ export const MOVES: Move[] = [
     ],
   },
   {
+    name: 'Psychic',
+    power: 90,
+    type: PokemonType.PSYCHIC,
+    // Three squares horizontally in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+  },
+  {
     name: 'Skip Strike',
     power: 25,
     type: PokemonType.FIRE,
@@ -106,6 +118,36 @@ export const MOVES: Move[] = [
         name: 'Flamethrower',
         power: 90,
         type: PokemonType.FIRE,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
+        name: 'Razor Leaf',
+        power: 55,
+        type: PokemonType.GRASS,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
+        name: 'Magical Leaf',
+        power: 60,
+        type: PokemonType.GRASS,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
+        name: 'Psybeam',
+        power: 65,
+        type: PokemonType.PSYCHIC,
         shape: [
             { x: 0, y: -1 },
             { x: 0, y: -2 },
@@ -158,6 +200,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Hyper Fang',
+        power: 80,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Pay Day',
         power: 40,
         type: PokemonType.NORMAL,
@@ -166,6 +217,26 @@ export const MOVES: Move[] = [
             { x: -1, y: -1 },
             { x: 0, y: -1 },
             { x: 1, y: -1 },
+        ],
+    },
+    {
+        name: 'Poison Tail',
+        power: 50,
+        type: PokemonType.POISON,
+        // Horizontal line in front of user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+        ],
+    },
+    {
+        name: 'Poison Fang',
+        power: 50,
+        type: PokemonType.POISON,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
         ],
     },
     {
@@ -189,6 +260,15 @@ export const MOVES: Move[] = [
     {
         name: 'Wing Attack',
         power: 60,
+        type: PokemonType.FLYING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Drill Peck',
+        power: 80,
         type: PokemonType.FLYING,
         // Just one square forward
         shape: [
