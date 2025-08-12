@@ -24,9 +24,12 @@ SANDSHREW,Sandshrew,/pokemon/sandshrew.png,GROUND,,100,75,115,10,3,Bulldoze
 SANDSLASH,Sandslash,/pokemon/sandslash.png,GROUND,,150,100,93,10,3,Dig
 NIDORANF,Nidoran♀,/pokemon/nidoran♀.png,POISON,,110,47,46,10,3,Poison Sting
 NIDORINA,Nidorina,/pokemon/nidorina.png,POISON,,140,62,61,10,3,Poison Tail
+NIDOQUEEN,Nidoqueen,/pokemon/nidoqueen.png,POISON,GROUND,180,92,86,10,3,Poison Jab
 NIDORANM,Nidoran♂,/pokemon/nidoran♂.png,POISON,,92,57,40,10,3,Poison Sting
 NIDORINO,Nidorino,/pokemon/nidorino.png,POISON,,122,72,56,10,3,Poison Tail
+NIDOKING,Nidoking,/pokemon/nidoking.png,POISON,GROUND,162,102,76,10,3,Poison Jab
 CLEFAIRY,Clefairy,/pokemon/clefairy.png,FAIRY,,140,60,57,10,3,Disarming Voice
+CLEFABLE,Clefable,/pokemon/clefable.png,FAIRY,,190,95,82,10,3,Moonblast
 JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,10,3,Disarming Voice
 WIGGLYTUFF,Wigglytuff,/pokemon/wigglytuff.png,NORMAL,FAIRY,280,75,48,10,3,Hyper Voice
 ZUBAT,Zubat,/pokemon/zubat.png,POISON,FLYING,80,45,38,10,4,Wing Attack
@@ -35,6 +38,8 @@ ODDISH,Oddish,/pokemon/oddish.png,GRASS,POISON,90,75,63,10,2,Acid
 GLOOM,Gloom,/pokemon/gloom.png,GRASS,POISON,120,85,73,10,2,Magical Leaf
 PARAS,Paras,/pokemon/paras.png,BUG,GRASS,35,70,55,10,2,Bug Bite
 PARASECT,Parasect,/pokemon/parasect.png,BUG,GRASS,120,95,80,10,2,X-Scissor
+DIGLETT,Diglett,/pokemon/diglett.png,GROUND,,20,55,35,10,4,Bulldoze
+DUGTRIO,Dugtrio,/pokemon/dugtrio/png,GROUND,,70,100,60,10,4,Dig
 MEOWTH,Meowth,/pokemon/meowth.png,NORMAL,,80,45,38,10,3,Pay Day
 MANKEY,Mankey,/pokemon/mankey.png,FIGHTING,,80,80,40,10,3,Low Kick
 ABRA,Abra,/pokemon/abra.png,PSYCHIC,,50,105,30,10,13,Splash
@@ -44,6 +49,7 @@ BELLSPROUT,Bellsprout,/pokemon/bellsprout.png,GRASS,POISON,100,75,33,10,3,Vine W
 WEEPINBELL,Weepinbell,/pokemon/weepinbell.png,GRASS,POISON,130,90,48,10,3,Razor Leaf
 GEODUDE,Geodude,/pokemon/geodude.png,ROCK,GROUND,80,80,65,10,2,Rock Throw
 FARFETCHD,Farfetch'd,/pokemon/farfetchd.png,NORMAL,FLYING,104,90,59,10,3,Slash
+DROWZEE,Drowzee,/pokemon/drowzee.png,PSYCHIC,,120,48,68,10,3,Psybeam
 MAGIKARP,Magikarp,/pokemon/magikarp.png,WATER,,40,10,38,10,3,Splash
 GYARADOS,Gyarados,/pokemon/gyarados.png,WATER,FLYING,190,125,90,10,3,Aqua Tail
 EEVEE,Eevee,/pokemon/eevee.png,NORMAL,,110,55,58,10,4,Quick Attack

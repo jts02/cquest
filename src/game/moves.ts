@@ -150,6 +150,16 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Moonblast',
+        power: 95,
+        type: PokemonType.FAIRY,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
         name: 'Razor Leaf',
         power: 55,
         type: PokemonType.GRASS,
