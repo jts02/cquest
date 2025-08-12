@@ -29,6 +29,16 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Drill Run',
+        power: 80,
+        type: PokemonType.GROUND,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+    },
+    {
         name: 'Vine Whip',
         power: 45,
         type: PokemonType.GRASS,
@@ -43,6 +53,20 @@ export const MOVES: Move[] = [
         name: 'Aqua Tail',
         power: 90,
         type: PokemonType.WATER,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+      ],
+    },
+    {
+        name: 'Dragon Tail',
+        power: 60,
+        type: PokemonType.DRAGON,
         // Horizontally in front of user
         shape: [
           { x: -1, y: -1 },
@@ -74,6 +98,16 @@ export const MOVES: Move[] = [
     ],
   },
   {
+    name: 'Jump Kick',
+    power: 100,
+    type: PokemonType.FIGHTING,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+  },
+  {
     name: 'High Jump Kick',
     power: 120,
     type: PokemonType.FIGHTING,
@@ -94,6 +128,16 @@ export const MOVES: Move[] = [
     ],
   },
   {
+    name: 'Body Slam',
+    power: 85,
+    type: PokemonType.NORMAL,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+  },
+  {
     name: 'Flame Wheel',
     power: 60,
     type: PokemonType.FIRE,
@@ -101,6 +145,16 @@ export const MOVES: Move[] = [
     shape: [
       { x: 0, y: -1 },
       { x: 0, y: -2 },
+    ],
+  },
+  {
+    name: 'Bubble Beam',
+    power: 65,
+    type: PokemonType.WATER,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -2 },
+      { x: 0, y: -3 },
     ],
   },
   {
@@ -215,6 +269,16 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Waterfall',
+        power: 80,
+        type: PokemonType.WATER,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
         name: 'Moonblast',
         power: 95,
         type: PokemonType.FAIRY,
@@ -304,6 +368,24 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Fly',
+        power: 90,
+        type: PokemonType.FLYING,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+    },
+    {
+        name: 'Confusion',
+        power: 50,
+        type: PokemonType.PSYCHIC,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+    },
+    {
         name: 'Electro Ball',
         power: 40,
         type: PokemonType.ELECTRIC,
@@ -316,6 +398,15 @@ export const MOVES: Move[] = [
         name: 'Rock Throw',
         power: 50,
         type: PokemonType.ROCK,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+    },
+    {
+        name: 'Lunge',
+        power: 80,
+        type: PokemonType.BUG,
         // Just two squares forward
         shape: [
             { x: 0, y: -2 },
@@ -369,6 +460,15 @@ export const MOVES: Move[] = [
     {
         name: 'Karate Chop',
         power: 50,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Dynamic Punch',
+        power: 100,
         type: PokemonType.FIGHTING,
         // Just one square forward
         shape: [
@@ -502,6 +602,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Pluck',
+        power: 60,
+        type: PokemonType.FLYING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Wing Attack',
         power: 60,
         type: PokemonType.FLYING,
@@ -604,6 +713,22 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Discharge',
+        power: 80,
+        type: PokemonType.ELECTRIC,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+    },
+    {
         name: 'Bug Buzz',
         power: 90,
         type: PokemonType.BUG,
@@ -636,6 +761,22 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Extrasensory',
+        power: 80,
+        type: PokemonType.PSYCHIC,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+    },
+    {
         name: 'Bonemerang',
         power: 100,
         type: PokemonType.GROUND,
@@ -655,7 +796,7 @@ export const MOVES: Move[] = [
         name: 'X-Scissor',
         power: 80,
         type: PokemonType.BUG,
-        // All Around user
+        // X Around user
         shape: [
             { x: -1, y: -2 },
             { x: 1, y: -2 },
