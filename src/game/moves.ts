@@ -74,6 +74,26 @@ export const MOVES: Move[] = [
     ],
   },
   {
+    name: 'High Jump Kick',
+    power: 120,
+    type: PokemonType.FIGHTING,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+  },
+  {
+    name: 'Bone Rush',
+    power: 50,
+    type: PokemonType.GROUND,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+  },
+  {
     name: 'Flame Wheel',
     power: 60,
     type: PokemonType.FIRE,
@@ -149,6 +169,19 @@ export const MOVES: Move[] = [
       { x: -1, y: -2 },
       { x: 0, y: -2 },
       { x: 1, y: -2 },
+    ],
+  },
+  {
+    name: 'Stone Edge',
+    power: 100,
+    type: PokemonType.ROCK,
+    // Filled cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
     ],
   },
   {
@@ -242,6 +275,26 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Rock Slide',
+        power: 75,
+        type: PokemonType.ROCK,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
+        name: 'Ice Beam',
+        power: 90,
+        type: PokemonType.ICE,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
         name: 'Ember',
         power: 40,
         type: PokemonType.FIRE,
@@ -316,6 +369,15 @@ export const MOVES: Move[] = [
     {
         name: 'Karate Chop',
         power: 50,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Close Combat',
+        power: 120,
         type: PokemonType.FIGHTING,
         // Just one square forward
         shape: [
@@ -467,6 +529,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Wake-Up Slap',
+        power: 70,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Fire Fang',
         power: 65,
         type: PokemonType.FIRE,
@@ -565,10 +636,39 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Bonemerang',
+        power: 100,
+        type: PokemonType.GROUND,
+        // Ring in front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 0, y: -3 },
+            { x: 1, y: -3 },
+            { x: -1, y: -2 },
+            { x: 1, y: -2 },
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+        ],
+    },
+    {
         name: 'X-Scissor',
         power: 80,
         type: PokemonType.BUG,
         // All Around user
+        shape: [
+            { x: -1, y: -2 },
+            { x: 1, y: -2 },
+            { x: 0, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+        ],
+    },
+    {
+        name: 'Cross Chop',
+        power: 100,
+        type: PokemonType.BUG,
+        // Cross Around user
         shape: [
             { x: -1, y: -2 },
             { x: 1, y: -2 },
