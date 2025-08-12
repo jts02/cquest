@@ -19,6 +19,16 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Water Pulse',
+        power: 60,
+        type: PokemonType.WATER,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+    },
+    {
         name: 'Vine Whip',
         power: 45,
         type: PokemonType.GRASS,
@@ -195,6 +205,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Fire Fang',
+        power: 65,
+        type: PokemonType.FIRE,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Bug Bite',
         power: 60,
         type: PokemonType.BUG,
@@ -223,6 +242,22 @@ export const MOVES: Move[] = [
         name: 'Hyper Voice',
         power: 80,
         type: PokemonType.NORMAL,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+    },
+    {
+        name: 'Seed Bomb',
+        power: 80,
+        type: PokemonType.GRASS,
         // All Around user
         shape: [
             { x: -1, y: -1 },

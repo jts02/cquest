@@ -1,7 +1,10 @@
 id,name,image,primaryType,secondaryType,maxHp,baseAttack,baseDefense,baseSpeed,movementRange,move
 BULBASAUR,Bulbasaur,/pokemon/bulbasaur.png,GRASS,POISON,90,65,57,10,3,Vine Whip
+IVYSAUR,Ivysaur,/pokemon/ivysaur.png,GRASS,POISON,120,80,72,10,3,Seed Bomb
 CHARMANDER,Charmander,/pokemon/charmander.png,FIRE,,78,60,47,10,3,Ember
+CHARMELEON,Charmeleon,/pokemon/charmeleon.png,FIRE,,116,80,62,10,3,Fire Fang
 SQUIRTLE,Squirtle,/pokemon/squirtle.png,WATER,,88,49,65,10,3,Water Gun
+WARTORTLE,Wartortle,/pokemon/wartortle.png,WATER,,118,65,80,10,3,Water Pulse
 CATERPIE,Caterpie,/pokemon/caterpie.png,BUG,,90,30,28,10,1,Tackle
 METAPOD,Metapod,/pokemon/metapod.png,BUG,,100,20,40,10,1,Tackle
 BUTTERFREE,Butterfree,/pokemon/butterfree.png,BUG,FLYING,120,90,65,10,4,Bug Buzz
