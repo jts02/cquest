@@ -359,7 +359,7 @@ export const MOVES: Move[] = [
         ],
     },
     {
-        name: 'Gastly',
+        name: 'Lick',
         power: 30,
         type: PokemonType.GHOST,
         // Just one square forward
