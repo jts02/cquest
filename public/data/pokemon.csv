@@ -18,8 +18,10 @@ RATICATE,Raticate,/pokemon/raticate.png,NORMAL,,110,81,65,10,3,Hyper Fang
 SPEAROW,Spearow,/pokemon/spearow.png,NORMAL,FLYING,80,60,31,10,4,Wing Attack
 FEAROW,Fearow,/pokemon/fearow.png,NORMAL,FLYING,130,90,63,10,4,Drill Peck
 EKANS,Ekans,/pokemon/ekans.png,POISON,,70,60,49,10,3,Poison Sting
+ARBOK,Arbok,/pokemon/arbok.png,POISON,,120,95,74,10,3,Venoshock
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Thunderbolt
 SANDSHREW,Sandshrew,/pokemon/sandshrew.png,GROUND,,100,75,115,10,3,Bulldoze
+SANDSLASH,Sandslash,/pokemon/sandslash.png,GROUND,,150,100,93,10,3,Dig
 NIDORANF,Nidoran♀,/pokemon/nidoran♀.png,POISON,,110,47,46,10,3,Poison Sting
 NIDORINA,Nidorina,/pokemon/nidorina.png,POISON,,140,62,61,10,3,Poison Tail
 NIDORANM,Nidoran♂,/pokemon/nidoran♂.png,POISON,,92,57,40,10,3,Poison Sting
@@ -28,17 +30,22 @@ CLEFAIRY,Clefairy,/pokemon/clefairy.png,FAIRY,,140,60,57,10,3,Disarming Voice
 JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,10,3,Disarming Voice
 WIGGLYTUFF,Wigglytuff,/pokemon/wigglytuff.png,NORMAL,FAIRY,280,75,48,10,3,Hyper Voice
 ZUBAT,Zubat,/pokemon/zubat.png,POISON,FLYING,80,45,38,10,4,Wing Attack
+GOLBAT,Golbat,/pokemon/golbat.png,POISON,FLYING,150,80,73,10,4,Poison Fang
 ODDISH,Oddish,/pokemon/oddish.png,GRASS,POISON,90,75,63,10,2,Acid
 GLOOM,Gloom,/pokemon/gloom.png,GRASS,POISON,120,85,73,10,2,Magical Leaf
 PARAS,Paras,/pokemon/paras.png,BUG,GRASS,35,70,55,10,2,Bug Bite
+PARASECT,Parasect,/pokemon/parasect.png,BUG,GRASS,120,95,80,10,2,X-Scissor
 MEOWTH,Meowth,/pokemon/meowth.png,NORMAL,,80,45,38,10,3,Pay Day
 MANKEY,Mankey,/pokemon/mankey.png,FIGHTING,,80,80,40,10,3,Low Kick
 ABRA,Abra,/pokemon/abra.png,PSYCHIC,,50,105,30,10,13,Splash
 KADABRA,Kadabra,/pokemon/kadabra.png,PSYCHIC,,80,120,50,10,3,Psybeam
 ALAKAZAM,Alakazam,/pokemon/alakazam.png,PSYCHIC,,110,135,70,10,3,Psychic
 BELLSPROUT,Bellsprout,/pokemon/bellsprout.png,GRASS,POISON,100,75,33,10,3,Vine Whip
+WEEPINBELL,Weepinbell,/pokemon/weepinbell.png,GRASS,POISON,130,90,48,10,3,Razor Leaf
 GEODUDE,Geodude,/pokemon/geodude.png,ROCK,GROUND,80,80,65,10,2,Rock Throw
+FARFETCHD,Farfetch'd,/pokemon/farfetchd.png,NORMAL,FLYING,104,90,59,10,3,Slash
 MAGIKARP,Magikarp,/pokemon/magikarp.png,WATER,,40,10,38,10,3,Splash
+GYARADOS,Gyarados,/pokemon/gyarados.png,WATER,FLYING,190,125,90,10,3,Aqua Tail
 EEVEE,Eevee,/pokemon/eevee.png,NORMAL,,110,55,58,10,4,Quick Attack
 WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,10,3,Water Gun
 LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,10,3,Forward Strike

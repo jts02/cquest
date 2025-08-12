@@ -39,6 +39,20 @@ export const MOVES: Move[] = [
           { x: 1, y: -1 },
       ],
     },
+    {
+        name: 'Aqua Tail',
+        power: 90,
+        type: PokemonType.WATER,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+      ],
+    },
   {
     name: 'Forward Strike',
     power: 20,
@@ -83,10 +97,21 @@ export const MOVES: Move[] = [
     ],
   },
   {
+    name: 'Venoshock',
+    power: 65,
+    type: PokemonType.POISON,
+    // Three squares horizontally in front
+    shape: [
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+    ],
+  },
+  {
     name: 'Psychic',
     power: 90,
     type: PokemonType.PSYCHIC,
-    // Three squares horizontally in front
+    // Hollow cross in front
     shape: [
       { x: 0, y: -1 },
       { x: -1, y: -2 },
@@ -173,6 +198,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Dig',
+        power: 80,
+        type: PokemonType.GROUND,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+    },
+    {
         name: 'Quick Attack',
         power: 40,
         type: PokemonType.NORMAL,
@@ -193,6 +227,15 @@ export const MOVES: Move[] = [
     {
         name: 'Tackle',
         power: 40,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Slash',
+        power: 70,
         type: PokemonType.NORMAL,
         // Just one square forward
         shape: [
@@ -364,6 +407,19 @@ export const MOVES: Move[] = [
             { x: -1, y: 1 },
             { x: 0, y: 1 },
             { x: 1, y: 1 },
+        ],
+    },
+    {
+        name: 'X-Scissor',
+        power: 80,
+        type: PokemonType.BUG,
+        // All Around user
+        shape: [
+            { x: -1, y: -2 },
+            { x: 1, y: -2 },
+            { x: 0, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
         ],
     },
     {
