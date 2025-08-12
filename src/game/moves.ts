@@ -64,6 +64,16 @@ export const MOVES: Move[] = [
     ],
   },
   {
+    name: 'Dragon Rage',
+    power: 40,
+    type: PokemonType.DRAGON,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+  },
+  {
     name: 'Flame Wheel',
     power: 60,
     type: PokemonType.FIRE,
@@ -222,6 +232,16 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Hydro Pump',
+        power: 110,
+        type: PokemonType.WATER,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
         name: 'Ember',
         power: 40,
         type: PokemonType.FIRE,
@@ -267,6 +287,15 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Shadow Ball',
+        power: 80,
+        type: PokemonType.GHOST,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+    },
+    {
         name: 'Quick Attack',
         power: 40,
         type: PokemonType.NORMAL,
@@ -288,6 +317,15 @@ export const MOVES: Move[] = [
         name: 'Karate Chop',
         power: 50,
         type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Flare Blitz',
+        power: 120,
+        type: PokemonType.FIRE,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
@@ -321,6 +359,24 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Gastly',
+        power: 30,
+        type: PokemonType.GHOST,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
+        name: 'Hex',
+        power: 65,
+        type: PokemonType.GHOST,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+    },
+    {
         name: 'Pay Day',
         power: 40,
         type: PokemonType.NORMAL,
@@ -340,6 +396,20 @@ export const MOVES: Move[] = [
             { x: -1, y: -1 },
             { x: 0, y: -1 },
             { x: 1, y: -1 },
+        ],
+    },
+    {
+        name: 'Swift',
+        power: 60,
+        type: PokemonType.NORMAL,
+        // 2 Horizontal lines in front of user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: -2 },
+            { x: 0, y: -2 },
+            { x: 1, y: -2 },
         ],
     },
     {
@@ -479,6 +549,22 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Leaf Storm',
+        power: 130,
+        type: PokemonType.GRASS,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+    },
+    {
         name: 'X-Scissor',
         power: 80,
         type: PokemonType.BUG,
@@ -495,6 +581,18 @@ export const MOVES: Move[] = [
         name: 'Bulldoze',
         power: 60,
         type: PokemonType.GROUND,
+        // Cross around user
+        shape: [
+            { x: 0, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: 0, y: 1 },
+        ],
+    },
+    {
+        name: 'Petal Dance',
+        power: 120,
+        type: PokemonType.GRASS,
         // Cross around user
         shape: [
             { x: 0, y: -1 },
