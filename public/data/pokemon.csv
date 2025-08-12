@@ -20,6 +20,7 @@ FEAROW,Fearow,/pokemon/fearow.png,NORMAL,FLYING,130,90,63,10,4,Drill Peck
 EKANS,Ekans,/pokemon/ekans.png,POISON,,70,60,49,10,3,Poison Sting
 ARBOK,Arbok,/pokemon/arbok.png,POISON,,120,95,74,10,3,Venoshock
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,10,3,Thunderbolt
+RAICHU,Raichu,/pokemon/raichu.png,ELECTRIC,,120,90,68,10,3,Volt Tackle
 SANDSHREW,Sandshrew,/pokemon/sandshrew.png,GROUND,,100,75,115,10,3,Bulldoze
 SANDSLASH,Sandslash,/pokemon/sandslash.png,GROUND,,150,100,93,10,3,Dig
 NIDORANF,Nidoran♀,/pokemon/nidoran♀.png,POISON,,110,47,46,10,3,Poison Sting
@@ -30,6 +31,7 @@ NIDORINO,Nidorino,/pokemon/nidorino.png,POISON,,122,72,56,10,3,Poison Tail
 NIDOKING,Nidoking,/pokemon/nidoking.png,POISON,GROUND,162,102,76,10,3,Poison Jab
 CLEFAIRY,Clefairy,/pokemon/clefairy.png,FAIRY,,140,60,57,10,3,Disarming Voice
 CLEFABLE,Clefable,/pokemon/clefable.png,FAIRY,,190,95,82,10,3,Moonblast
+VULPIX,Vulpix,/pokemon/vulpix.png,FIRE,,76,50,53,10,3,Incinerate
 JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,10,3,Disarming Voice
 WIGGLYTUFF,Wigglytuff,/pokemon/wigglytuff.png,NORMAL,FAIRY,280,75,48,10,3,Hyper Voice
 ZUBAT,Zubat,/pokemon/zubat.png,POISON,FLYING,80,45,38,10,4,Wing Attack
@@ -42,6 +44,7 @@ DIGLETT,Diglett,/pokemon/diglett.png,GROUND,,20,55,35,10,4,Bulldoze
 DUGTRIO,Dugtrio,/pokemon/dugtrio/png,GROUND,,70,100,60,10,4,Dig
 MEOWTH,Meowth,/pokemon/meowth.png,NORMAL,,80,45,38,10,3,Pay Day
 MANKEY,Mankey,/pokemon/mankey.png,FIGHTING,,80,80,40,10,3,Low Kick
+GROWLITHE,Growlithe,/pokemon/growlithe.png,FIRE,,110,70,48,10,3,Flame Wheel
 ABRA,Abra,/pokemon/abra.png,PSYCHIC,,50,105,30,10,13,Splash
 KADABRA,Kadabra,/pokemon/kadabra.png,PSYCHIC,,80,120,50,10,3,Psybeam
 ALAKAZAM,Alakazam,/pokemon/alakazam.png,PSYCHIC,,110,135,70,10,3,Psychic
@@ -50,6 +53,7 @@ BELLSPROUT,Bellsprout,/pokemon/bellsprout.png,GRASS,POISON,100,75,33,10,3,Vine W
 WEEPINBELL,Weepinbell,/pokemon/weepinbell.png,GRASS,POISON,130,90,48,10,3,Razor Leaf
 GEODUDE,Geodude,/pokemon/geodude.png,ROCK,GROUND,80,80,65,10,2,Rock Throw
 FARFETCHD,Farfetch'd,/pokemon/farfetchd.png,NORMAL,FLYING,104,90,59,10,3,Slash
+ONIX,Onix,/pokemon/onix.png,ROCK,GROUND,70,45,103,10,2,Rock Tomb
 DROWZEE,Drowzee,/pokemon/drowzee.png,PSYCHIC,,120,48,68,10,3,Psybeam
 VOLTORB,Voltorb,/pokemon/voltorb.png,ELECTRIC,,80,55,53,10,4,Electro Ball
 MRMIME,Mr. Mime,/pokemon/mrmime.png,PSYCHIC,FAIRY,80,100,93,10,3,Psychic

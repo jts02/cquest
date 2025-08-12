@@ -64,6 +64,16 @@ export const MOVES: Move[] = [
     ],
   },
   {
+    name: 'Flame Wheel',
+    power: 60,
+    type: PokemonType.FIRE,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+  },
+  {
     name: 'Wide Swipe',
     power: 15,
     type: PokemonType.WATER,
@@ -117,6 +127,18 @@ export const MOVES: Move[] = [
       { x: -1, y: -2 },
       { x: 1, y: -2 },
       { x: 0, y: -3 },
+    ],
+  },
+  {
+    name: 'Volt Tackle',
+    power: 120,
+    type: PokemonType.ELECTRIC,
+    // Hollow cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
     ],
   },
   {
@@ -190,6 +212,16 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Incinerate',
+        power: 60,
+        type: PokemonType.FIRE,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+    },
+    {
         name: 'Ember',
         power: 40,
         type: PokemonType.FIRE,
@@ -210,6 +242,15 @@ export const MOVES: Move[] = [
     {
         name: 'Rock Throw',
         power: 50,
+        type: PokemonType.ROCK,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+    },
+    {
+        name: 'Rock Tomb',
+        power: 60,
         type: PokemonType.ROCK,
         // Just two squares forward
         shape: [
