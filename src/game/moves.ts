@@ -397,6 +397,15 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Razor Shell',
+        power: 75,
+        type: PokemonType.WATER,
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Magical Leaf',
         power: 60,
         type: PokemonType.GRASS,
@@ -466,6 +475,16 @@ export const MOVES: Move[] = [
         name: 'Ember',
         power: 40,
         type: PokemonType.FIRE,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Icicle Crash',
+        power: 85,
+        type: PokemonType.ICE,
         // Just two squares forward
         shape: [
             { x: 0, y: -2 },
@@ -615,6 +634,16 @@ export const MOVES: Move[] = [
     {
         name: 'Tackle',
         power: 40,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Stomp',
+        power: 65,
         type: PokemonType.NORMAL,
         // Just one square forward
         shape: [

@@ -52,6 +52,8 @@ DIGLETT,Diglett,/pokemon/diglett.png,GROUND,,20,55,35,10,4,Bulldoze
 DUGTRIO,Dugtrio,/pokemon/dugtrio/png,GROUND,,70,100,60,10,4,Dig
 MEOWTH,Meowth,/pokemon/meowth.png,NORMAL,,80,45,38,10,3,Pay Day
 PERSIAN,Persian,/pokemon/persian.png,NORMAL,,130,70,63,10,3,Slash
+PSYDUCK,Psyduck,/pokemon/psyduck.png,WATER,,100,65,49,10,2,Water Gun
+GOLDUCK,Golduck,/pokemon/golduck.png,WATER,,160,95,79,10,3,Surf
 MANKEY,Mankey,/pokemon/mankey.png,FIGHTING,,80,80,40,10,3,Low Kick
 PRIMEAPE,Primeape,/pokemon/primeape.png,FIGHTING,,130,105,65,10,3,Cross Chop
 POLIWAG,Poliwag,/pokemon/poliwag.png,WATER,,80,50,40,10,3,Water Gun
@@ -73,9 +75,13 @@ TENTACRUEL,Tentacruel,/pokemon/tentacruel.png,WATER,POISON,160,80,93,10,3,Surf
 GEODUDE,Geodude,/pokemon/geodude.png,ROCK,GROUND,80,80,65,10,2,Rock Throw
 GRAVELER,Graveler,/pokemon/graveler.png,ROCK,GROUND,110,95,80,10,2,Rock Slide
 GOLEM,Golem,/pokemon/golem.png,ROCK,GROUND,160,120,98,10,2,Stone Edge
+SLOWPOKE,Slowpoke,/pokemon/slowpoke.png,WATER,PSYCHIC,180,65,53,10,1,Confusion
+SLOWBRO,Slowbro,/pokemon/slowbro.png,WATER,PSYCHIC,190,100,95,10,1,Surf
 FARFETCHD,Farfetch'd,/pokemon/farfetchd.png,NORMAL,FLYING,104,90,59,10,3,Slash
 DODUO,Doduo,/pokemon/doduo.png,NORMAL,FLYING,70,85,40,10,3,Pluck
 DODRIO,Dodrio,/pokemon/dodrio.png,NORMAL,FLYING,120,110,65,10,3,Drill Peck
+SHELLDER,Shellder,/pokemon/shellder.png,WATER,,60,65,63,10,3,Razor Shell
+CLOYSTER,Cloyster,/pokemon/cloyster.png,WATER,ICE,100,95,103,10,3,Icicle Crash
 GASTLY,Gastly,/pokemon/gastly.png,GHOST,POISON,60,100,33,10,4,Lick
 HAUNTER,Haunter,/pokemon/haunter.png,GHOST,POISON,90,115,50,10,3,Hex
 GENGAR,Gengar,/pokemon/gengar.png,GHOST,POISON,120,130,68,10,3,Shadow Ball
@@ -87,15 +93,18 @@ KINGLER,Kingler,/pokemon/kingler.png,WATER,,110,130,83,10,2,Crabhammer
 VOLTORB,Voltorb,/pokemon/voltorb.png,ELECTRIC,,80,55,53,10,4,Electro Ball
 ELECTRODE,Electrode,/pokemon/electrode.png,ELECTRIC,,120,80,75,10,4,Discharge
 EXEGGCUTE,Exeggcute,/pokemon/exeggcute.png,GRASS,PSYCHIC,120,60,63,10,2,Mega Drain
-EXEGGUTOR,Exeggutor,/pokemon/exeggutor.png,GRASS,PSYCHIC,190,125,80,10,2,Giga Drain
+EXEGGUTOR,Exeggutor,/pokemon/exeggutor.png,GRASS,PSYCHIC,190,125,80,10,2,Extrasensory
 CUBONE,Cubone,/pokemon/cubone.png,GROUND,,100,50,73,10,3,Bone Rush
 MAROWAK,Marowak,/pokemon/marowak.png,GROUND,,120,80,95,10,3,Bonemerang
 HITMONLEE,Hitmonlee,/pokemon/hitmonlee.png,FIGHTING,,100,120,82,10,3,Jump Kick
 HITMONCHAN,Hitmonchan,/pokemon/hitmonchan.png,FIGHTING,,100,105,90,10,3,Dynamic Punch
+LICKITUNG,Lickitung,/pokemon/lickitung.png,NORMAL,,180,58,75,10,2,Stomp
 RHYHORN,Rhyhorn,/pokemon/rhyhorn.png,GROUND,ROCK,160,85,63,10,3,Bulldoze
 RHYDON,Rhydon,/pokemon/rhydon.png,GROUND,ROCK,210,130,83,10,2,Drill Run
 CHANSEY,Chansey,/pokemon/chansey.png,NORMAL,,500,35,55,10,3,Echoed Voice
 KANGASKHAN,Kangaskhan,/pokemon/kangaskhan.png,NORMAL,,210,95,80,10,3,Headbutt
+HORSEA,Horsea,/pokemon/horsea.png,WATER,,60,70,48,10,3,Water Gun
+SEADRA,Seadra,/pokemon/seadra.png,WATER,,110,95,70,10,3,Bubble Beam
 GOLDEEN,Goldeen,/pokemon/goldeen.png,WATER,,90,67,55,10,3,Peck
 SEAKING,Seaking,/pokemon/seaking.png,WATER,,160,92,73,10,3,Waterfall
 MRMIME,Mr. Mime,/pokemon/mrmime.png,PSYCHIC,FAIRY,80,100,93,10,3,Psychic
