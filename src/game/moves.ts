@@ -206,6 +206,28 @@ export const MOVES: Move[] = [
         { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
     ],
 },
+{
+    name: 'Mega Drain',
+    power: 40,
+    type: PokemonType.GRASS,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [
+        { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
+    ],
+},
+{
+    name: 'Giga Drain',
+    power: 75,
+    type: PokemonType.GRASS,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [
+        { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
+    ],
+},
   {
     name: 'Acid',
     power: 40,

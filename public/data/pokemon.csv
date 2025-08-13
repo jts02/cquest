@@ -42,8 +42,8 @@ WIGGLYTUFF,Wigglytuff,/pokemon/wigglytuff.png,NORMAL,FAIRY,280,75,48,10,3,Hyper 
 ZUBAT,Zubat,/pokemon/zubat.png,POISON,FLYING,80,45,38,10,4,Wing Attack
 GOLBAT,Golbat,/pokemon/golbat.png,POISON,FLYING,150,80,73,10,4,Poison Fang
 ODDISH,Oddish,/pokemon/oddish.png,GRASS,POISON,90,75,63,10,2,Absorb
-GLOOM,Gloom,/pokemon/gloom.png,GRASS,POISON,120,85,73,10,2,Magical Leaf
-VILEPLUME,Vileplume,/pokemon/vileplume.png,GRASS,POISON,150,110,88,10,2,Petal Dance
+GLOOM,Gloom,/pokemon/gloom.png,GRASS,POISON,120,85,73,10,2,Mega Drain
+VILEPLUME,Vileplume,/pokemon/vileplume.png,GRASS,POISON,150,110,88,10,2,Giga Drain
 PARAS,Paras,/pokemon/paras.png,BUG,GRASS,35,70,55,10,2,Bug Bite
 PARASECT,Parasect,/pokemon/parasect.png,BUG,GRASS,120,95,80,10,2,X-Scissor
 VENONAT,Venonat,/pokemon/venonat.png,BUG,POISON,120,55,53,10,3,Bug Bite
