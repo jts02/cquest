@@ -41,7 +41,7 @@ JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,10,3,Disarm
 WIGGLYTUFF,Wigglytuff,/pokemon/wigglytuff.png,NORMAL,FAIRY,280,75,48,10,3,Hyper Voice
 ZUBAT,Zubat,/pokemon/zubat.png,POISON,FLYING,80,45,38,10,4,Wing Attack
 GOLBAT,Golbat,/pokemon/golbat.png,POISON,FLYING,150,80,73,10,4,Poison Fang
-ODDISH,Oddish,/pokemon/oddish.png,GRASS,POISON,90,75,63,10,2,Acid
+ODDISH,Oddish,/pokemon/oddish.png,GRASS,POISON,90,75,63,10,2,Absorb
 GLOOM,Gloom,/pokemon/gloom.png,GRASS,POISON,120,85,73,10,2,Magical Leaf
 VILEPLUME,Vileplume,/pokemon/vileplume.png,GRASS,POISON,150,110,88,10,2,Petal Dance
 PARAS,Paras,/pokemon/paras.png,BUG,GRASS,35,70,55,10,2,Bug Bite
@@ -107,7 +107,7 @@ SNORLAX,Snorlax,/pokemon/snorlax.png,NORMAL,,320,110,88,10,2,Body Slam
 DRATINI,Dratini,/pokemon/dratini.png,DRAGON,,82,64,48,10,3,Dragon Rage
 DRAGONAIR,Dragonair,/pokemon/dragonair/png,DRAGON,,122,84,68,10,3,Dragon Tail
 WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,10,3,Water Gun
-LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,10,3,Forward Strike
+LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,10,3,Water Gun
 RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,10,4,Dragon Pulse
 INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,10,3,Flamethrower
 GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,10,3,Dragon Rush

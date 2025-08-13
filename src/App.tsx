@@ -183,6 +183,41 @@ function App() {
     setPokemons((prev) => prev.map((p) => (p.id === activePokemon.id ? new Pokemon({ ...p, facing: f }) : p)))
   }
 
+  function ProcessAddtionalAttacks(activePokemon: Pokemon, targetPokemon: Pokemon, rawDamage: number) {
+    for (const effect of activePokemon.move.additionalEffects) {
+      switch (effect.kind) {
+        case 'heal':
+          let healAmount = rawDamage * effect.healPercentage;
+          activePokemon.hp += healAmount;
+          if (activePokemon.hp + healAmount >= activePokemon.maxHp) {
+            healAmount = activePokemon.maxHp - activePokemon.hp;
+          }
+          activePokemon.hp += healAmount;
+          console.log(`${activePokemon.name} healed for ${healAmount}`);
+          break;
+  
+        case 'statChange':
+          // // effect.stat and effect.increase
+          // console.log(
+          //   `${activePokemon.name} ${
+          //     effect.increase ? 'increases' : 'decreases'
+          //   } ${effect.stat}`
+          // );
+          // // Apply stat changes to targetPokemon or activePokemon depending on design
+          break;
+  
+        case 'status':
+          // console.log(`${targetPokemon.name} is inflicted with ${effect.status}`);
+          // // Apply status effect to targetPokemon
+          break;
+  
+        default:
+          // const _exhaustiveCheck: never = effect;
+          break;
+      }
+    }
+  }
+
   function applyAttack() {
     if (!activePokemon || winner) return
     // Deal damage to enemies inside attackHighlights
@@ -192,7 +227,9 @@ function App() {
         if (p.team === activePokemon.team) return p
         const key = `${p.position.x},${p.position.y}`
         if (targets.has(key)) {
-          const newHp = p.hp - getDamage(activePokemon, p);
+          const rawDamage = getDamage(activePokemon, p);
+          const newHp = p.hp - rawDamage;
+          ProcessAddtionalAttacks(activePokemon, p, rawDamage);
           return new Pokemon({ ...p, hp: newHp })
         }
         return p

@@ -1,10 +1,33 @@
 import { Facing, Position, PokemonType } from './types'
 
+export type Stat = 'attack' | 'defense' | 'speed' | 'special'; // example stats
+export type Status = 'paralysis' | 'sleep' | 'burn' | 'freeze'; // example statuses
+
+export interface HealEffect {
+  kind: 'heal';
+  healPercentage: number;
+}
+
+export interface StatChangeEffect {
+  kind: 'statChange';
+  stat: Stat;
+  increase: boolean; // true for increase, false for decrease
+}
+
+export interface StatusEffect {
+  kind: 'status';
+  status: Status;
+  chance: number; // 0.00 to 1.00, for probability
+}
+
+export type AdditionalEffect = HealEffect | StatChangeEffect | StatusEffect;
+
 export interface Move {
   name: string
   power: number
   type: PokemonType
   shape: Position[] // Relative coordinates from attacker facing "north"
+  additionalEffects: AdditionalEffect[]
 }
 
 export const MOVES: Move[] = [
@@ -17,6 +40,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Water Pulse',
@@ -27,6 +51,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Drill Run',
@@ -37,6 +62,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Vine Whip',
@@ -48,6 +74,7 @@ export const MOVES: Move[] = [
           { x: 0, y: -1 },
           { x: 1, y: -1 },
       ],
+      additionalEffects: [],
     },
     {
         name: 'Aqua Tail',
@@ -62,6 +89,7 @@ export const MOVES: Move[] = [
           { x: 0, y: -2 },
           { x: 1, y: -2 },
       ],
+      additionalEffects: [],
     },
     {
         name: 'Dragon Tail',
@@ -76,17 +104,8 @@ export const MOVES: Move[] = [
           { x: 0, y: -2 },
           { x: 1, y: -2 },
       ],
+      additionalEffects: [],
     },
-  {
-    name: 'Forward Strike',
-    power: 20,
-    type: PokemonType.NORMAL,
-    // Two squares forward
-    shape: [
-      { x: 0, y: -1 },
-      { x: 0, y: -2 },
-    ],
-  },
   {
     name: 'Dragon Rage',
     power: 40,
@@ -96,7 +115,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -1 },
       { x: 0, y: -2 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Jump Kick',
     power: 100,
@@ -106,7 +126,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -1 },
       { x: 0, y: -2 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'High Jump Kick',
     power: 120,
@@ -116,7 +137,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -1 },
       { x: 0, y: -2 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Bone Rush',
     power: 50,
@@ -126,7 +148,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -1 },
       { x: 0, y: -2 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Body Slam',
     power: 85,
@@ -136,7 +159,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -1 },
       { x: 0, y: -2 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Flame Wheel',
     power: 60,
@@ -146,7 +170,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -1 },
       { x: 0, y: -2 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Bubble Beam',
     power: 65,
@@ -156,7 +181,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -2 },
       { x: 0, y: -3 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Wide Swipe',
     power: 15,
@@ -167,7 +193,19 @@ export const MOVES: Move[] = [
       { x: 0, y: -1 },
       { x: 1, y: -1 },
     ],
-  },
+    additionalEffects: [],
+},
+{
+    name: 'Absorb',
+    power: 20,
+    type: PokemonType.GRASS,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [
+        { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
+    ],
+},
   {
     name: 'Acid',
     power: 40,
@@ -178,7 +216,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -1 },
       { x: 1, y: -1 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Thunderbolt',
     power: 90,
@@ -189,7 +228,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -2 },
       { x: 1, y: -2 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Venoshock',
     power: 65,
@@ -200,7 +240,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -2 },
       { x: 1, y: -2 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Psychic',
     power: 90,
@@ -212,7 +253,8 @@ export const MOVES: Move[] = [
       { x: 1, y: -2 },
       { x: 0, y: -3 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Volt Tackle',
     power: 120,
@@ -224,7 +266,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -2 },
       { x: 1, y: -2 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Stone Edge',
     power: 100,
@@ -237,7 +280,8 @@ export const MOVES: Move[] = [
       { x: 1, y: -2 },
       { x: 0, y: -3 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Skip Strike',
     power: 25,
@@ -247,7 +291,8 @@ export const MOVES: Move[] = [
       { x: 0, y: -1 },
       { x: 0, y: -3 },
     ],
-  },
+    additionalEffects: [],
+},
   {
     name: 'Dragon Pulse',
     power: 90,
@@ -257,7 +302,8 @@ export const MOVES: Move[] = [
         { x: 0, y: -2 },
         { x: 0, y: -3 },
     ],
-    },
+    additionalEffects: [],
+},
     {
         name: 'Flamethrower',
         power: 90,
@@ -267,6 +313,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Waterfall',
@@ -277,6 +324,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Moonblast',
@@ -287,6 +335,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Razor Leaf',
@@ -297,6 +346,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Magical Leaf',
@@ -307,6 +357,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Psybeam',
@@ -317,6 +368,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Incinerate',
@@ -327,6 +379,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Hydro Pump',
@@ -337,6 +390,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Rock Slide',
@@ -347,6 +401,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Ice Beam',
@@ -357,6 +412,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Ember',
@@ -366,6 +422,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Fly',
@@ -375,6 +432,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Confusion',
@@ -384,6 +442,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -3 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Electro Ball',
@@ -393,6 +452,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Rock Throw',
@@ -402,6 +462,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Lunge',
@@ -411,6 +472,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Rock Tomb',
@@ -420,6 +482,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Dig',
@@ -429,6 +492,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Shadow Ball',
@@ -438,6 +502,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Quick Attack',
@@ -447,6 +512,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Low Kick',
@@ -456,6 +522,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Karate Chop',
@@ -465,6 +532,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Dynamic Punch',
@@ -474,6 +542,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Close Combat',
@@ -483,6 +552,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Flare Blitz',
@@ -492,6 +562,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Tackle',
@@ -501,6 +572,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Slash',
@@ -510,6 +582,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Hyper Fang',
@@ -519,6 +592,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Lick',
@@ -528,6 +602,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Hex',
@@ -537,6 +612,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Pay Day',
@@ -548,6 +624,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
             { x: 1, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Poison Tail',
@@ -559,6 +636,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
             { x: 1, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Swift',
@@ -573,6 +651,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -2 },
             { x: 1, y: -2 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Poison Fang',
@@ -582,6 +661,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Poison Jab',
@@ -591,6 +671,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Peck',
@@ -600,6 +681,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Pluck',
@@ -609,6 +691,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Wing Attack',
@@ -618,6 +701,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Drill Peck',
@@ -627,6 +711,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Poison Sting',
@@ -636,6 +721,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Wake-Up Slap',
@@ -645,6 +731,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Fire Fang',
@@ -654,6 +741,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Bug Bite',
@@ -663,6 +751,7 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Disarming Voice',
@@ -679,6 +768,7 @@ export const MOVES: Move[] = [
             { x: 0, y: 1 },
             { x: 1, y: 1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Hyper Voice',
@@ -695,6 +785,7 @@ export const MOVES: Move[] = [
             { x: 0, y: 1 },
             { x: 1, y: 1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Seed Bomb',
@@ -711,6 +802,7 @@ export const MOVES: Move[] = [
             { x: 0, y: 1 },
             { x: 1, y: 1 },
         ],
+      additionalEffects: [],
     },
     {
         name: 'Discharge',
@@ -727,6 +819,7 @@ export const MOVES: Move[] = [
             { x: 0, y: 1 },
             { x: 1, y: 1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Bug Buzz',
@@ -743,6 +836,7 @@ export const MOVES: Move[] = [
             { x: 0, y: 1 },
             { x: 1, y: 1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Leaf Storm',
@@ -759,6 +853,7 @@ export const MOVES: Move[] = [
             { x: 0, y: 1 },
             { x: 1, y: 1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Extrasensory',
@@ -775,6 +870,7 @@ export const MOVES: Move[] = [
             { x: 0, y: 1 },
             { x: 1, y: 1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Bonemerang',
@@ -791,6 +887,7 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
             { x: 1, y: -1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'X-Scissor',
@@ -804,6 +901,7 @@ export const MOVES: Move[] = [
             { x: -1, y: 0 },
             { x: 1, y: 0 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Cross Chop',
@@ -817,6 +915,7 @@ export const MOVES: Move[] = [
             { x: -1, y: 0 },
             { x: 1, y: 0 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Bulldoze',
@@ -829,6 +928,7 @@ export const MOVES: Move[] = [
             { x: 1, y: 0 },
             { x: 0, y: 1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Petal Dance',
@@ -841,6 +941,7 @@ export const MOVES: Move[] = [
             { x: 1, y: 0 },
             { x: 0, y: 1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Splash',
@@ -857,6 +958,7 @@ export const MOVES: Move[] = [
             { x: 0, y: 1 },
             { x: 1, y: 1 },
         ],
+        additionalEffects: [],
     },
     {
         name: 'Dragon Rush',
@@ -867,7 +969,8 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
             { x: 1, y: -1 },
           ],
-    },
+          additionalEffects: [],
+        },
 ]
 
 export const  rotatePosition = (pos: Position, facing: Facing): Position => {
