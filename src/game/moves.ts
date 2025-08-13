@@ -92,6 +92,21 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Surf',
+        power: 90,
+        type: PokemonType.WATER,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+      ],
+      additionalEffects: [],
+    },
+    {
         name: 'Dragon Tail',
         power: 60,
         type: PokemonType.DRAGON,
@@ -330,6 +345,17 @@ export const MOVES: Move[] = [
         name: 'Flamethrower',
         power: 90,
         type: PokemonType.FIRE,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Raging Bull',
+        power: 90,
+        type: PokemonType.NORMAL,
         shape: [
             { x: 0, y: -1 },
             { x: 0, y: -2 },
@@ -607,6 +633,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Headbutt',
+        power: 70,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Hyper Fang',
         power: 80,
         type: PokemonType.NORMAL,
@@ -726,6 +762,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Crabhammer',
+        power: 100,
+        type: PokemonType.WATER,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Drill Peck',
         power: 80,
         type: PokemonType.FLYING,
@@ -779,6 +825,23 @@ export const MOVES: Move[] = [
         name: 'Disarming Voice',
         power: 40,
         type: PokemonType.FAIRY,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Echoed Voice',
+        power: 40,
+        type: PokemonType.NORMAL,
         // All Around user
         shape: [
             { x: -1, y: -1 },
