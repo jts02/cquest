@@ -123,7 +123,7 @@ STARMIE,Starmie,/pokemon/starmine.png,WATER,PSYCHIC,120,100,85,10,3,Surf
 MRMIME,Mr. Mime,/pokemon/mrmime.png,PSYCHIC,FAIRY,80,100,93,10,3,Psychic
 SCYTHER,Scyther,/pokemon/scyther.png,BUG,FLYING,140,110,80,10,3,X-Scissor
 JYNX,Jynx,/pokemon/jynx.png,ICE,PSYCHIC,130,115,65,10,3,Ice Beam
-ELECTABUZZ,Electabuzz,/pokemon/electabuzz.png,130,95,10,3,Discharge
+ELECTABUZZ,Electabuzz,/pokemon/electabuzz.png,130,95,71,10,3,Discharge
 MAGMAR,Magmar,/pokemon/magmar.png,FIRE,,130,100,71,10,3,Lava Plume
 PINSIR,Pinsir,/pokemon/pinsir.png,BUG,,130,125,85,10,3,X-Scissor
 TAUROS,Tauros,/pokemon/tauros.png,NORMAL,,150,100,165,10,3,Raging Bull
