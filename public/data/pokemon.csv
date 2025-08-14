@@ -108,7 +108,7 @@ HITMONLEE,Hitmonlee,/pokemon/hitmonlee.png,FIGHTING,,100,120,82,10,3,Jump Kick
 HITMONCHAN,Hitmonchan,/pokemon/hitmonchan.png,FIGHTING,,100,105,90,10,3,Dynamic Punch
 LICKITUNG,Lickitung,/pokemon/lickitung.png,NORMAL,,180,58,75,10,2,Stomp
 KOFFING,Koffing,/pokemon/koffing.png,POISON,,80,65,70,10,3,Clear Smog
-WEEZING,Weezing,/pokemon/weezing.png,POISON,,130,95,10,3,Sludge Bomb
+WEEZING,Weezing,/pokemon/weezing.png,POISON,,130,90,95,10,3,Sludge Bomb
 RHYHORN,Rhyhorn,/pokemon/rhyhorn.png,GROUND,ROCK,160,85,63,10,3,Bulldoze
 RHYDON,Rhydon,/pokemon/rhydon.png,GROUND,ROCK,210,130,83,10,2,Drill Run
 CHANSEY,Chansey,/pokemon/chansey.png,NORMAL,,500,35,55,10,3,Echoed Voice
