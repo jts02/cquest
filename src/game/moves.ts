@@ -796,6 +796,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Assurance',
+        power: 60,
+        type: PokemonType.DARK,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Lick',
         power: 30,
         type: PokemonType.GHOST,
@@ -1166,10 +1176,24 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Cross Poison',
+        power: 70,
+        type: PokemonType.POISON,
+        // X Around user
+        shape: [
+            { x: -1, y: -2 },
+            { x: 1, y: -2 },
+            { x: 0, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Sludge Bomb',
         power: 90,
         type: PokemonType.POISON,
-        // X Around user
+        // X In front of user
         shape: [
             { x: -1, y: -3 },
             { x: 1, y: -3 },

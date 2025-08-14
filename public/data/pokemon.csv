@@ -150,8 +150,15 @@ DRAGONAIR,Dragonair,/pokemon/dragonair.png,DRAGON,,122,84,68,70,3,Dragon Tail
 DRAGONITE,Dragonite,/pokemon/dragonite.png,DRAGON,FLYING,182,134,98,80,2,Dragon Rush
 MEWTWO,Mewtwo,/pokemon/mewtwo.png,PSYCHIC,,212,154,90,130,4,Psystrike
 MEW,Mew,/pokemon/mew.png,PSYCHIC,,200,100,100,100,4,Psychic
-WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,10,3,Water Gun
-LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,10,3,Water Gun
-RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,10,4,Dragon Pulse
-INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,10,3,Flamethrower
-GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,10,3,Dragon Rush
+CHIKORITA,Chikorita,/pokemon/chikorita.png,GRASS,,90,49,65,45,3,Vine Whip
+CYNDAQUIL,Cyndaquil,/pokemon/cyndaquil.png,FIRE,,78,60,47,65,3,Ember
+TOTODILE,Totodile,/pokemon/totodile.png,WATER,,100,65,56,43,3,Water Gun
+CROBAT,Crobat,/pokemon/crobat.png,POISON,FLYING,170,90,80,130,4,Cross Poison
+WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,15,3,Water Gun
+ESPEON,Espeon,/pokemon/espeon.png,PSYCHIC,,130,130,88,110,4,Psybeam
+UMBREON,Umbreon,/pokemon/umbreon.png,DARK,,190,65,120,65,4,Assurance
+BLISSEY,Blissey,/pokemon/blissey.png,NORMAL,,510,75,73,55,3,Swift
+LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,30,3,Water Gun
+RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,95,4,Dragon Pulse
+INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,108,3,Flamethrower
+GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,102,3,Dragon Rush
