@@ -121,6 +121,21 @@ export const MOVES: Move[] = [
       ],
       additionalEffects: [],
     },
+    {
+        name: 'Blizzard',
+        power: 110,
+        type: PokemonType.ICE,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+          { x: -1, y: -3 },
+          { x: 0, y: -3 },
+          { x: 1, y: -3 },
+      ],
+      additionalEffects: [],
+    },
   {
     name: 'Dragon Rage',
     power: 40,
@@ -169,6 +184,17 @@ export const MOVES: Move[] = [
     name: 'Body Slam',
     power: 85,
     type: PokemonType.NORMAL,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Brine',
+    power: 65,
+    type: PokemonType.WATER,
     // Two squares forward
     shape: [
       { x: 0, y: -1 },
