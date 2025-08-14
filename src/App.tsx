@@ -5,7 +5,7 @@ import { Controls } from './components/Controls'
 import { getDamage, getMultiplier, Pokemon } from './game/Pokemon'
 import { BOARD_SIZE, loadSpeciesFromCsv, defaultFacingForTeam, makePositionsForTeam } from './game/data'
 import { Facing, PlayerId, Position, PokemonSpecies } from './game/types'
-import { getMoveSquares } from './game/moves'
+import { getMoveSquares, StatChangeEffect } from './game/moves'
 
 type WinnerState = 'A' | 'B' | 'Draw' | null
 
@@ -183,7 +183,30 @@ function App() {
     setPokemons((prev) => prev.map((p) => (p.id === activePokemon.id ? new Pokemon({ ...p, facing: f }) : p)))
   }
 
-  function ProcessAddtionalAttacks(activePokemon: Pokemon, targetPokemon: Pokemon, rawDamage: number) {
+  function handleStatChange(pokemon: Pokemon, statChangeEffect: StatChangeEffect) {
+    console.log('pokemon: ', pokemon)
+    const multiplier = statChangeEffect.increase ? 
+    1.0 + (statChangeEffect.stages * 0.5)
+    :  2.0 / (statChangeEffect.stages + 1.0);
+    switch (statChangeEffect.stat) {
+      case 'attack':
+        pokemon.attack *= multiplier
+        break;
+      case 'defense':
+        pokemon.defense *= multiplier
+        break;
+      case 'speed':
+        pokemon.speed *= multiplier
+        break;
+      case 'range':
+        console.error('Range change not implemented yet.');
+        break;
+      default:
+        break;
+      }
+      console.log(`${pokemon.name}'s ${statChangeEffect.stat} went ${statChangeEffect.increase ? 'up' : 'down'} by ${statChangeEffect.stages} stages!`);
+    }
+  function ProcessAddtionalEffects(activePokemon: Pokemon, targetPokemon: any[]) {
     for (const effect of activePokemon.move.additionalEffects) {
       switch (effect.kind) {
         case 'heal':
@@ -198,6 +221,14 @@ function App() {
   
         case 'statChange':
           // // effect.stat and effect.increase
+          if (Math.random() < effect.chance) {
+            if (effect.self) {
+              handleStatChange(activePokemon, effect);
+            }
+            for (const target of targetPokemon) {
+              handleStatChange(target[0], effect);
+              }
+            }
           // console.log(
           //   `${activePokemon.name} ${
           //     effect.increase ? 'increases' : 'decreases'
@@ -209,6 +240,7 @@ function App() {
         case 'status':
           // console.log(`${targetPokemon.name} is inflicted with ${effect.status}`);
           // // Apply status effect to targetPokemon
+          console.log('Status not implemented yet');
           break;
   
         default:
@@ -222,18 +254,22 @@ function App() {
     if (!activePokemon || winner) return
     // Deal damage to enemies inside attackHighlights
     const targets = new Set(attackHighlights)
+    const targetPokemon = [];
     setPokemons((prev) => {
       const updated = prev.map((p) => {
         if (p.team === activePokemon.team) return p
         const key = `${p.position.x},${p.position.y}`
         if (targets.has(key)) {
           const rawDamage = getDamage(activePokemon, p);
+          const pokemonDamage = [p, rawDamage];
+          targetPokemon.push(pokemonDamage);
           const newHp = p.hp - rawDamage;
-          ProcessAddtionalAttacks(activePokemon, p, rawDamage);
           return new Pokemon({ ...p, hp: newHp })
         }
         return p
       })
+      ProcessAddtionalEffects(activePokemon, targetPokemon);
+
       return updated.filter((p) => !p.isFainted)
     })
     endStep()
@@ -342,7 +378,6 @@ function App() {
       </div>
     )
   }
-  console.log("winner: ", winner);
   return (
     <div className="app">
       <div className="left">

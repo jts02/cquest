@@ -9,10 +9,10 @@ SQUIRTLE,Squirtle,/pokemon/squirtle.png,WATER,,88,49,65,10,3,Water Gun
 WARTORTLE,Wartortle,/pokemon/wartortle.png,WATER,,118,65,80,10,3,Water Pulse
 BLASTOISE,Blastoise,/pokemon/blastoise.png,WATER,,158,85,103,10,2,Hydro Pump
 CATERPIE,Caterpie,/pokemon/caterpie.png,BUG,,90,30,28,10,1,Tackle
-METAPOD,Metapod,/pokemon/metapod.png,BUG,,100,20,40,10,1,Tackle
+METAPOD,Metapod,/pokemon/metapod.png,BUG,,100,20,40,10,1,Harden
 BUTTERFREE,Butterfree,/pokemon/butterfree.png,BUG,FLYING,120,90,65,10,4,Bug Buzz
 WEEDLE,Weedle,/pokemon/weedle.png,BUG,POISON,80,35,25,10,1,Poison Sting
-KAKUNA,Kakuna,/pokemon/kakuna.png,BUG,POISON,90,25,38,10,1,Poison Sting
+KAKUNA,Kakuna,/pokemon/kakuna.png,BUG,POISON,90,25,38,10,1,Harden
 BEEDRILL,Beedrill,/pokemon/beedrill.png,BUG,POISON,130,90,60,10,4,Poison Jab
 PIDGEY,Pidgey,/pokemon/pidgey.png,NORMAL,FLYING,80,45,38,10,4,Tackle
 PIDGEOTTO,Pidgeotto,/pokemon/pidgeotto.png,NORMAL,FLYING,126,60,53,10,4,Wing Attack

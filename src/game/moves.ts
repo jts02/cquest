@@ -1,6 +1,6 @@
 import { Facing, Position, PokemonType } from './types'
 
-export type Stat = 'attack' | 'defense' | 'speed' | 'special'; // example stats
+export type Stat = 'attack' | 'defense' | 'speed' | 'range'; // example stats
 export type Status = 'paralysis' | 'sleep' | 'burn' | 'freeze'; // example statuses
 
 export interface HealEffect {
@@ -11,7 +11,10 @@ export interface HealEffect {
 export interface StatChangeEffect {
   kind: 'statChange';
   stat: Stat;
+  chance: number;
   increase: boolean; // true for increase, false for decrease
+  self: boolean;
+  stages: number;
 }
 
 export interface StatusEffect {
@@ -339,7 +342,9 @@ export const MOVES: Move[] = [
       { x: 1, y: -2 },
       { x: 0, y: -3 },
     ],
-    additionalEffects: [],
+    additionalEffects: [
+        { kind: 'statChange', chance: .1, increase: false, self: false, stat: 'defense', stages: 1}
+    ],
 },
   {
     name: 'Volt Tackle',
@@ -1230,6 +1235,17 @@ export const MOVES: Move[] = [
             { x: 1, y: 1 },
         ],
         additionalEffects: [],
+    },
+    {
+        name: 'Harden',
+        power: 0,
+        type: PokemonType.NORMAL,
+        shape: [
+            { x:0, y: 0},
+        ],
+        additionalEffects: [
+            { kind: 'statChange', chance: 1, increase: true, self: true, stat: 'defense', stages: 1}
+        ]
     },
     {
         name: 'Dragon Rush',
