@@ -65,6 +65,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Thunder Shock',
+        power: 40,
+        type: PokemonType.ELECTRIC,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Vine Whip',
         power: 45,
         type: PokemonType.GRASS,
@@ -293,6 +304,18 @@ export const MOVES: Move[] = [
     ],
     additionalEffects: [],
 },
+{
+    name: 'Zap Cannon',
+    power: 120,
+    type: PokemonType.ELECTRIC,
+    // Three squares horizontally in front
+    shape: [
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+    ],
+    additionalEffects: [],
+},
   {
     name: 'Venoshock',
     power: 65,
@@ -337,6 +360,36 @@ export const MOVES: Move[] = [
     type: PokemonType.ROCK,
     // Filled cross in front
     shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Psystrike',
+    power: 100,
+    type: PokemonType.PSYCHIC,
+    // Filled cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Fire Blast',
+    power: 110,
+    type: PokemonType.FIRE,
+    // Filled cross in front, sides
+    shape: [
+      { x: -1, y: 0 },
+      { x: 1, y: 0 },
       { x: 0, y: -1 },
       { x: -1, y: -2 },
       { x: 0, y: -2 },
@@ -518,6 +571,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Ancient Power',
+        power: 60,
+        type: PokemonType.ROCK,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Fly',
         power: 90,
         type: PokemonType.FLYING,
@@ -551,6 +614,16 @@ export const MOVES: Move[] = [
         name: 'Rock Throw',
         power: 50,
         type: PokemonType.ROCK,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Sludge',
+        power: 65,
+        type: PokemonType.POISON,
         // Just two squares forward
         shape: [
             { x: 0, y: -2 },
@@ -641,6 +714,16 @@ export const MOVES: Move[] = [
         name: 'Close Combat',
         power: 120,
         type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Liquidation',
+        power: 85,
+        type: PokemonType.WATER,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
@@ -1013,6 +1096,40 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Clear Smog',
+        power: 50,
+        type: PokemonType.POISON,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Lava Plume',
+        power: 80,
+        type: PokemonType.FIRE,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Bonemerang',
         power: 100,
         type: PokemonType.GROUND,
@@ -1040,6 +1157,20 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
             { x: -1, y: 0 },
             { x: 1, y: 0 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Sludge Bomb',
+        power: 90,
+        type: PokemonType.POISON,
+        // X Around user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
+            { x: -1, y: -1 },
+            { x: 1, y: -1 },
         ],
         additionalEffects: [],
     },
