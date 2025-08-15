@@ -227,6 +227,17 @@ export const MOVES: Move[] = [
     ],
     additionalEffects: [],
 },
+{
+    name: 'Powder Snow',
+    power: 40,
+    type: PokemonType.ICE,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+    additionalEffects: [],
+},
   {
     name: 'Bubble Beam',
     power: 65,
@@ -790,6 +801,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Pound',
+        power: 40,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Stomp',
         power: 65,
         type: PokemonType.NORMAL,
@@ -1028,6 +1049,23 @@ export const MOVES: Move[] = [
     {
         name: 'Echoed Voice',
         power: 40,
+        type: PokemonType.NORMAL,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Round',
+        power: 60,
         type: PokemonType.NORMAL,
         // All Around user
         shape: [
