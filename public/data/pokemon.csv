@@ -159,9 +159,18 @@ LEDYBA,Ledyba,/pokemon/ledyba.png,BUG,FLYING,80,40,55,55,3,Struggle Bug
 SPINARAK,Spinarak,/pokemon/spinarak.png,BUG,POISON,80,50,30,3,Poison Sting
 CROBAT,Crobat,/pokemon/crobat.png,POISON,FLYING,170,90,80,130,4,Cross Poison
 TOGEPI,Togepi,/pokemon/togepi.png,FAIRY,,70,40,65,20,2,Fairy Wind
+TOGETIC,Togetic,/pokemon/togetic.png,FAIRY,FLYING,110,80,95,40,2,Draining Kiss
+NATU,Natu,/pokemon/natu.png,PSYCHIC,FLYING,80,70,45,70,3,Peck
+MAREEP,Mareep,/pokemon/mareep.png,ELECTRIC,,110,65,43,35,3,Thunder Shock
+POLITOED,Politoed,/pokemon/politoed.png,WATER,,180,90,88,70,3,Surf
+HOPPIP,Hoppip,/pokemon/hoppip.png,GRASS,FLYING,70,35,48,50,3,Absorb
 WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,15,3,Water Gun
 ESPEON,Espeon,/pokemon/espeon.png,PSYCHIC,,130,130,88,110,4,Psybeam
 UMBREON,Umbreon,/pokemon/umbreon.png,DARK,,190,65,120,65,4,Assurance
+SLOWKING,Slowking,/pokemon/slowking.png,WATER,PSYCHIC,190,100,95,30,1,Surf
+UNOWN,Unown,/pokemon/unown.png,PSYCHIC,,96,72,48,48,3,Hidden Power
+QWILFISH,Qwilfish,/pokemon/qwilfish.png,WATER,POISON,130,95,65,85,3,Poison Tail
+SMEARGLE,Smeargle,/pokemon/smeargle.png,NORMAL,,110,20,40,75,3,Slash
 BLISSEY,Blissey,/pokemon/blissey.png,NORMAL,,510,75,73,55,3,Swift
 LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,30,3,Water Gun
 RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,95,4,Dragon Pulse

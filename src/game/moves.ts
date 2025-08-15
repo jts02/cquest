@@ -284,6 +284,17 @@ export const MOVES: Move[] = [
     ],
 },
 {
+    name: 'Draining Kiss',
+    power: 50,
+    type: PokemonType.FAIRY,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [
+        { kind: 'heal', healPercentage: 0.75 } // this is a HealEffect
+    ],
+},
+{
     name: 'Struggle Bug',
     power: 50,
     type: PokemonType.BUG,
@@ -1154,6 +1165,23 @@ export const MOVES: Move[] = [
         name: 'Lava Plume',
         power: 80,
         type: PokemonType.FIRE,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Hidden Power',
+        power: 60,
+        type: PokemonType.PSYCHIC,
         // All Around user
         shape: [
             { x: -1, y: -1 },
