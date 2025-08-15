@@ -153,7 +153,12 @@ MEW,Mew,/pokemon/mew.png,PSYCHIC,,200,100,100,100,4,Psychic
 CHIKORITA,Chikorita,/pokemon/chikorita.png,GRASS,,90,49,65,45,3,Vine Whip
 CYNDAQUIL,Cyndaquil,/pokemon/cyndaquil.png,FIRE,,78,60,47,65,3,Ember
 TOTODILE,Totodile,/pokemon/totodile.png,WATER,,100,65,56,43,3,Water Gun
+SENTRET,Sentret,/pokemon/sentret.png,NORMAL,,70,46,40,20,3,Quick Attack
+HOOTHOOT,Hoothoot,/pokemon/hoothoot.png,NORMAL,FLYING,120,36,48,50,3,Echoed Voice
+LEDYBA,Ledyba,/pokemon/ledyba.png,BUG,FLYING,80,40,55,55,3,Struggle Bug
+SPINARAK,Spinarak,/pokemon/spinarak.png,BUG,POISON,80,50,30,3,Poison Sting
 CROBAT,Crobat,/pokemon/crobat.png,POISON,FLYING,170,90,80,130,4,Cross Poison
+TOGEPI,Togepi,/pokemon/togepi.png,FAIRY,,70,40,65,20,2,Fairy Wind
 WOOPER,Wooper,/pokemon/wooper.png,WATER,GROUND,110,45,35,15,3,Water Gun
 ESPEON,Espeon,/pokemon/espeon.png,PSYCHIC,,130,130,88,110,4,Psybeam
 UMBREON,Umbreon,/pokemon/umbreon.png,DARK,,190,65,120,65,4,Assurance

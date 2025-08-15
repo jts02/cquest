@@ -283,10 +283,33 @@ export const MOVES: Move[] = [
         { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
     ],
 },
+{
+    name: 'Struggle Bug',
+    power: 50,
+    type: PokemonType.BUG,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [
+        { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
+    ],
+},
   {
     name: 'Acid',
     power: 40,
     type: PokemonType.POISON,
+    // Three squares horizontally in front
+    shape: [
+      { x: -1, y: -1 },
+      { x: 0, y: -1 },
+      { x: 1, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Fairy Wind',
+    power: 40,
+    type: PokemonType.FAIRY,
     // Three squares horizontally in front
     shape: [
       { x: -1, y: -1 },
