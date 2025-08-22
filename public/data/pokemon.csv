@@ -156,7 +156,7 @@ TOTODILE,Totodile,/pokemon/totodile.png,WATER,,100,65,56,43,3,Water Gun
 SENTRET,Sentret,/pokemon/sentret.png,NORMAL,,70,46,40,20,3,Quick Attack
 HOOTHOOT,Hoothoot,/pokemon/hoothoot.png,NORMAL,FLYING,120,36,48,50,3,Echoed Voice
 LEDYBA,Ledyba,/pokemon/ledyba.png,BUG,FLYING,80,40,55,55,3,Struggle Bug
-SPINARAK,Spinarak,/pokemon/spinarak.png,BUG,POISON,80,50,30,3,Poison Sting
+SPINARAK,Spinarak,/pokemon/spinarak.png,BUG,POISON,80,60,40,30,3,Poison Sting
 CROBAT,Crobat,/pokemon/crobat.png,POISON,FLYING,170,90,80,130,4,Cross Poison
 PICHU,Pichu,/pokemon/pichu.png,ELECTRIC,,40,40,20,60,4,Thunder Shock
 CLEFFA,Cleffa,/pokemon/cleffa.png,FAIRY,,100,45,42,15,2,Disarming Voice
