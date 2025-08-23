@@ -206,6 +206,17 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Slam',
+    power: 80,
+    type: PokemonType.NORMAL,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Brine',
     power: 65,
     type: PokemonType.WATER,

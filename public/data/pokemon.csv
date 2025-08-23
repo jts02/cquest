@@ -151,9 +151,13 @@ DRAGONITE,Dragonite,/pokemon/dragonite.png,DRAGON,FLYING,182,134,98,80,2,Dragon 
 MEWTWO,Mewtwo,/pokemon/mewtwo.png,PSYCHIC,,212,154,90,130,4,Psystrike
 MEW,Mew,/pokemon/mew.png,PSYCHIC,,200,100,100,100,4,Psychic
 CHIKORITA,Chikorita,/pokemon/chikorita.png,GRASS,,90,49,65,45,3,Vine Whip
+BAYLEEF,Bayleef,/pokemon/bayleef.png,GRASS,,120,63,80,60,3,Magical Leaf
 CYNDAQUIL,Cyndaquil,/pokemon/cyndaquil.png,FIRE,,78,60,47,65,3,Ember
+QUILAVA,Quilava,/pokemon/quilava.png,FIRE,,116,80,62,80,3,Lava Plume
 TOTODILE,Totodile,/pokemon/totodile.png,WATER,,100,65,56,43,3,Water Gun
+CROCONAW,Croconaw,/pokemon/croconaw.png,WATER,,130,80,72,58,3,Water Pulse
 SENTRET,Sentret,/pokemon/sentret.png,NORMAL,,70,46,40,20,3,Quick Attack
+FURRET,Furret,/pokemon/furret.png,NORMAL,,170,76,60,90,3,Slam
 HOOTHOOT,Hoothoot,/pokemon/hoothoot.png,NORMAL,FLYING,120,36,48,50,3,Echoed Voice
 LEDYBA,Ledyba,/pokemon/ledyba.png,BUG,FLYING,80,40,55,55,3,Struggle Bug
 SPINARAK,Spinarak,/pokemon/spinarak.png,BUG,POISON,80,60,40,30,3,Poison Sting
