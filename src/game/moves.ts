@@ -479,6 +479,20 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Sacred Fire',
+    power: 100,
+    type: PokemonType.FIRE,
+    // Filled cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Psystrike',
     power: 100,
     type: PokemonType.PSYCHIC,
@@ -682,6 +696,26 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Ice Shard',
+        power: 40,
+        type: PokemonType.ICE,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Octazooka',
+        power: 65,
+        type: PokemonType.WATER,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Icicle Crash',
         power: 85,
         type: PokemonType.ICE,
@@ -715,6 +749,16 @@ export const MOVES: Move[] = [
         name: 'Thunder',
         power: 110,
         type: PokemonType.ELECTRIC,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Aeroblast',
+        power: 100,
+        type: PokemonType.FLYING,
         // Just three squares forward
         shape: [
             { x: 0, y: -3 },
@@ -1014,6 +1058,16 @@ export const MOVES: Move[] = [
         name: 'Poison Fang',
         power: 50,
         type: PokemonType.POISON,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Ice Fang',
+        power: 65,
+        type: PokemonType.ICE,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
