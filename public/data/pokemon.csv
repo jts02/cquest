@@ -158,7 +158,7 @@ QUILAVA,Quilava,/pokemon/quilava.png,FIRE,,116,80,62,80,3,Lava Plume
 TYPHLOSION,Typhlosion,/pokemon/typhlosion.png,FIRE,,156,109,82,100,3,Flamethrower
 TOTODILE,Totodile,/pokemon/totodile.png,WATER,,100,65,56,43,3,Water Gun
 CROCONAW,Croconaw,/pokemon/croconaw.png,WATER,,130,80,72,58,3,Water Pulse
-FERALIGATR,Feraligatr,/pokemon/feraligatr.png,WATER,,170,105,92,3,Aqua Tail
+FERALIGATR,Feraligatr,/pokemon/feraligatr.png,WATER,,170,105,92,78,3,Aqua Tail
 SENTRET,Sentret,/pokemon/sentret.png,NORMAL,,70,46,40,20,3,Quick Attack
 FURRET,Furret,/pokemon/furret.png,NORMAL,,170,76,60,90,3,Slam
 HOOTHOOT,Hoothoot,/pokemon/hoothoot.png,NORMAL,FLYING,120,36,48,50,3,Echoed Voice
