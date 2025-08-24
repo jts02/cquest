@@ -121,6 +121,18 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Air Cutter',
+        power: 60,
+        type: PokemonType.FLYING,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+      ],
+      additionalEffects: [],
+    },
+    {
         name: 'Dragon Tail',
         power: 60,
         type: PokemonType.DRAGON,
@@ -485,6 +497,17 @@ export const MOVES: Move[] = [
         name: 'Flamethrower',
         power: 90,
         type: PokemonType.FIRE,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Air Slash',
+        power: 75,
+        type: PokemonType.FLYING,
         shape: [
             { x: 0, y: -1 },
             { x: 0, y: -2 },
@@ -1095,6 +1118,23 @@ export const MOVES: Move[] = [
         name: 'Hyper Voice',
         power: 80,
         type: PokemonType.NORMAL,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Triple Kick',
+        power: 60,
+        type: PokemonType.FIGHTING,
         // All Around user
         shape: [
             { x: -1, y: -1 },
