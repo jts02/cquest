@@ -102,6 +102,18 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Icy Wind',
+        power: 55,
+        type: PokemonType.ICE,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+      ],
+      additionalEffects: [],
+    },
+    {
         name: 'Aqua Tail',
         power: 90,
         type: PokemonType.WATER,
@@ -620,6 +632,15 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Tri Attack',
+        power: 80,
+        type: PokemonType.NORMAL,
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Magical Leaf',
         power: 60,
         type: PokemonType.GRASS,
@@ -786,6 +807,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Acrobatics',
+        power: 55,
+        type: PokemonType.FLYING,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Rock Throw',
         power: 50,
         type: PokemonType.ROCK,
@@ -876,6 +907,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Feint Attack',
+        power: 60,
+        type: PokemonType.DARK,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Dynamic Punch',
         power: 100,
         type: PokemonType.FIGHTING,
@@ -937,6 +978,16 @@ export const MOVES: Move[] = [
     },
     {
         name: 'Pound',
+        power: 40,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Scratch',
         power: 40,
         type: PokemonType.NORMAL,
         // Just one square forward
@@ -1115,6 +1166,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Steel Wing',
+        power: 75,
+        type: PokemonType.STEEL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Crabhammer',
         power: 100,
         type: PokemonType.WATER,
@@ -1243,6 +1304,42 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Snarl',
+        power: 55,
+        type: PokemonType.DARK,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'attack', stages: 1}
+        ],
+    },
+    {
+        name: 'Dark Pulse',
+        power: 80,
+        type: PokemonType.DARK,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Triple Kick',
         power: 60,
         type: PokemonType.FIGHTING,
@@ -1314,6 +1411,23 @@ export const MOVES: Move[] = [
         name: 'Leaf Storm',
         power: 130,
         type: PokemonType.GRASS,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Earthquake',
+        power: 100,
+        type: PokemonType.GROUND,
         // All Around user
         shape: [
             { x: -1, y: -1 },
