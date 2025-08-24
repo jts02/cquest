@@ -187,6 +187,7 @@ UMBREON,Umbreon,/pokemon/umbreon.png,DARK,,190,65,120,65,4,Assurance
 SLOWKING,Slowking,/pokemon/slowking.png,WATER,PSYCHIC,190,100,95,30,1,Surf
 UNOWN,Unown,/pokemon/unown.png,PSYCHIC,,96,72,48,48,3,Hidden Power
 PINECO,Pineco,/pokemon/pineco.png,BUG,,100,65,63,15,2,Bug Bite
+STEELIX,Steelix,/pokemon/steelix.png,STEEL,GROUND,150,85,133,30,2,Iron Tail
 QWILFISH,Qwilfish,/pokemon/qwilfish.png,WATER,POISON,130,95,65,85,3,Poison Tail
 STANTLER,Stantler,/pokemon/stantler.png,NORMAL,,146,95,64,85,3,Stomp
 SMEARGLE,Smeargle,/pokemon/smeargle.png,NORMAL,,110,20,40,75,3,Slash

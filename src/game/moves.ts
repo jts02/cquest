@@ -121,6 +121,23 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Iron Tail',
+        power: 100,
+        type: PokemonType.STEEL,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+      ],
+      additionalEffects: [
+        { kind: 'statChange', chance: .3, increase: false, self: false, stat: 'defense', stages: 1}
+      ],
+    },
+    {
         name: 'Air Cutter',
         power: 60,
         type: PokemonType.FLYING,
