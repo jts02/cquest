@@ -179,7 +179,7 @@ NATU,Natu,/pokemon/natu.png,PSYCHIC,FLYING,80,70,45,70,3,Peck
 XATU,Xatu,/pokemon/xatu.png,PSYCHIC,FLYING,130,95,70,95,3,Air Slash
 MAREEP,Mareep,/pokemon/mareep.png,ELECTRIC,,110,65,43,35,3,Thunder Shock
 FLAAFFY,Flaaffy,/pokemon/flaaffy.png,ELECTRIC,,140,80,58,45,3,Discharge
-AMPHAROS,Ampharos,/pokemon/ampharos.png,ELECTRIC,,180,115,88,3,Thunder
+AMPHAROS,Ampharos,/pokemon/ampharos.png,ELECTRIC,,180,115,88,55,3,Thunder
 BELLOSSOM,Bellossom,/pokemon/bellossom.png,GRASS,,150,90,93,50,3,Giga Drain
 MARILL,Marill,/pokemon/marill.png,WATER,FAIRY,140,20,50,40,3,Bubble Beam
 AZUMARILL,Azumarill,/pokemon/azumarill.png,WATER,FAIRY,200,50,80,50,3,Aqua Tail
