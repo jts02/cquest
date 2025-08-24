@@ -357,6 +357,15 @@ export const MOVES: Move[] = [
     ],
 },
 {
+    name: 'Play Rough',
+    power: 90,
+    type: PokemonType.FAIRY,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Struggle Bug',
     power: 50,
     type: PokemonType.BUG,
@@ -703,6 +712,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Thunder',
+        power: 110,
+        type: PokemonType.ELECTRIC,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Confusion',
         power: 50,
         type: PokemonType.PSYCHIC,
@@ -815,6 +834,16 @@ export const MOVES: Move[] = [
     {
         name: 'Dynamic Punch',
         power: 100,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Brick Break',
+        power: 75,
         type: PokemonType.FIGHTING,
         // Just one square forward
         shape: [
