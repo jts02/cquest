@@ -79,6 +79,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Iron Head',
+        power: 80,
+        type: PokemonType.STEEL,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Vine Whip',
         power: 45,
         type: PokemonType.GRASS,
