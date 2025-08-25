@@ -350,7 +350,7 @@ MILOTIC,Milotic,/pokemon/milotic.png,WATER,,190,100,102,81,3,Surf
 CASTFORM,Castform,/pokemon/castform.png,NORMAL,,140,70,70,70,3,Weather Ball
 KECLEON,Kecleon,/pokemon/kecleon.png,NORMAL,,120,90,95,40,3,Slash
 SHUPPET,Shuppet,/pokemon/shuppet.png,GHOST,,88,75,34,45,3,Shadow Sneak
-BANETTE,Banette,/pokemon/banette.png,GHOST,128,115,64,65,3,Shadow Claw
+BANETTE,Banette,/pokemon/banette.png,GHOST,,128,115,64,65,3,Shadow Claw
 DUSKULL,Duskull,/pokemon/duskull.png,GHOST,,40,40,90,25,3,Astonish
 DUSCLOPS,Dusclops,/pokemon/dusclops.png,GHOST,,80,70,130,25,3,Shadow Punch
 TROPIUS,Tropius,/pokemon/tropius.png,GRASS,FLYING,198,72,85,51,3,Magical Leaf
