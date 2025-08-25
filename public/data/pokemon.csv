@@ -250,7 +250,30 @@ TYRANITAR,Tyranitar,/pokemon/tyranitar.png,ROCK,DARK,200,134,105,61,2,Stone Edge
 LUGIA,Lugia,/pokemon/lugia.png,PSYCHIC,FLYING,212,90,142,110,3,Aeroblast
 HOOH,Ho-oh,/pokemon/ho-oh.png,FIRE,FLYING,212,130,122,90,3,Sacred Fire
 CELEBI,Celebi,/pokemon/celebi.png,GRASS,PSYCHIC,200,100,100,100,4,Psychic
+TREECKO,Treecko,/pokemon/treecko.png,GRASS,,80,65,45,70,4,Absorb
+TORCHIC,Torchic,/pokemon/torchic.png,FIRE,,90,70,45,45,3,Ember
+MUDKIP,Mudkip,/pokemon/mudkip.png,WATER,,100,70,50,40,3,Water Gun
+POOCHYENA,Poochyena,/pokemon/poochyena.png,DARK,,70,55,33,35,3,Bite
+ZIGZAGOON,Zigzagoon,/pokemon/zigzagoon.png,NORMAL,,76,30,41,60,3,Tackle
+WURMPLE,Wurmple,/pokemon/wurmple.png,BUG,,90,45,33,20,1,Tackle
+SILCOON,Silcoon,/pokemon/silcoon.png,BUG,,100,35,40,15,1,Harden
+BEAUTIFLY,Beautifly,/pokemon/beautifly.png,BUG,FLYING,120,100,50,65,4,Bug Buzz
+CASCOON,Cascoon,/pokemon/cascoon.png,BUG,,100,35,40,15,1,Harden
+DUSTOX,Dustox,/pokemon/dustox.png,BUG,POISON,120,50,80,65,4,Leech Life
 LOTAD,Lotad,/pokemon/lotad.png,WATER,GRASS,80,40,40,30,3,Water Gun
+LOMBRE,Lombre,/pokemon/lombre.png,WATER,GRASS,120,60,60,50,3,Bubble Beam
+SEEDOT,Seedot,/pokemon/seedot.png,GRASS,,80,40,40,30,3,Absorb
+NUZLEAF,Nuzleaf,/pokemon/nuzleaf.png,GRASS,DARK,140,70,40,60,3,Razor Leaf
+TAILLOW,Taillow,/pokemon/taillow.png,NORMAL,FLYING,80,55,30,85,4,Peck
+WINGULL,Wingull,/pokemon/wingull.png,WATER,FLYING,80,55,30,85,3,Water Gun
+RALTS,Ralts,/pokemon/ralts.png,PSYCHIC,FAIRY,56,45,30,40,3,Confusion
+SURSKIT,Surskit,/pokemon/surskit.png,BUG,WATER,80,50,42,65,3,Struggle Bug
+SHROOMISH,Shroomish,/pokemon/shroomish.png,GRASS,,120,40,60,35,2,Mega Drain
+SLAKOTH,Slakoth,/pokemon/slakoth.png,NORMAL,,120,60,48,30,1,Scratch
+NINCADA,Nincada,/pokemon/nincada.png,BUG,GROUND,62,45,60,40,2,Scratch
+WHISMUR,Whismur,/pokemon/whismur.png,NORMAL,,128,51,23,28,3,Pound
+MAKUHITA,Makuhita,/pokemon/makuhita.png,FIGHTING,,144,60,30,25,2,Force Palm
+SKITTY,Skitty,/pokemon/skitty.png,NORMAL,,100,45,40,50,3,Tackle
 RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,95,4,Dragon Pulse
 INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,108,3,Flamethrower
 GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,102,3,Dragon Rush

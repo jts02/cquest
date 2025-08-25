@@ -57,6 +57,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Force Palm',
+        power: 60,
+        type: PokemonType.FIGHTING,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Drill Run',
         power: 80,
         type: PokemonType.GROUND,
@@ -350,6 +361,17 @@ export const MOVES: Move[] = [
     name: 'Giga Drain',
     power: 75,
     type: PokemonType.GRASS,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [
+        { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
+    ],
+},
+{
+    name: 'Leech Life',
+    power: 80,
+    type: PokemonType.BUG,
     shape: [
         { x: 0, y: -1 },
     ],
@@ -1109,6 +1131,16 @@ export const MOVES: Move[] = [
         name: 'Poison Fang',
         power: 50,
         type: PokemonType.POISON,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Bite',
+        power: 60,
+        type: PokemonType.DARK,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
