@@ -307,7 +307,7 @@ AGGRON,Aggron,/pokemon/aggron.png,STEEL,ROCK,140,110,120,50,2,Iron Tail
 MEDITITE,Meditite,/pokemon/meditite.png,FIGHTING,PSYCHIC,60,40,55,60,3,Force Palm
 MEDICHAM,Medicham,/pokemon/medicham.png,FIGHTING,PSYCHIC,120,60,75,80,3,Zen Headbutt
 ELECTRIKE,Electrike,/pokemon/electrike.png,ELECTRIC,,80,55,40,65,3,Shock Wave
-MANECTRIC,Manectric,/pokemon/manectric.png,ELECTRIC,140,105,60,105,3,Thunderbolt
+MANECTRIC,Manectric,/pokemon/manectric.png,ELECTRIC,,140,105,60,105,3,Thunderbolt
 PLUSLE,Plusle,/pokemon/plusle.png,ELECTRIC,,120,85,58,95,3,Discharge
 MINUN,Minun,/pokemon/minun.png,ELECTRIC,,120,75,68,95,3,Discharge
 VOLBEAT,Volbeat,/pokemon/volbeat.png,BUG,,130,73,80,85,3,Bug Bite
