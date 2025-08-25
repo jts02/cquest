@@ -112,6 +112,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Meteor Mash',
+        power: 90,
+        type: PokemonType.STEEL,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Ice Ball',
         power: 40,
         type: PokemonType.ICE,
@@ -186,6 +197,23 @@ export const MOVES: Move[] = [
           { x: 1, y: -2 },
       ],
       additionalEffects: [],
+    },
+    {
+        name: 'Dragon Ascent',
+        power: 120,
+        type: PokemonType.FLYING,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+      ],
+      additionalEffects: [
+        { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'defense', stages: 1}
+      ],
     },
     {
         name: 'Iron Tail',
@@ -378,6 +406,32 @@ export const MOVES: Move[] = [
     ],
     additionalEffects: [],
 },
+{
+    name: 'Mist Ball',
+    power: 95,
+    type: PokemonType.PSYCHIC,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [
+      { kind: 'statChange', chance: .5, increase: false, self: false, stat: 'attack', stages: 1}
+    ],
+},
+{
+    name: 'Luster Purge',
+    power: 95,
+    type: PokemonType.PSYCHIC,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [
+      { kind: 'statChange', chance: .5, increase: false, self: false, stat: 'defense', stages: 1}
+    ],
+},
   {
     name: 'Wide Swipe',
     power: 15,
@@ -568,6 +622,34 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Flash Cannon',
+    power: 80,
+    type: PokemonType.STEEL,
+    // Filled cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Doom Desire',
+    power: 140,
+    type: PokemonType.STEEL,
+    // Filled cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Earth Power',
     power: 90,
     type: PokemonType.GROUND,
@@ -651,6 +733,17 @@ export const MOVES: Move[] = [
         name: 'Flamethrower',
         power: 90,
         type: PokemonType.FIRE,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Scald',
+        power: 80,
+        type: PokemonType.WATER,
         shape: [
             { x: 0, y: -1 },
             { x: 0, y: -2 },
@@ -1840,6 +1933,40 @@ export const MOVES: Move[] = [
         name: 'Hidden Power',
         power: 60,
         type: PokemonType.PSYCHIC,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+     {
+        name: 'Origin Pulse',
+        power: 110,
+        type: PokemonType.WATER,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Precipice Blades',
+        power: 120,
+        type: PokemonType.GROUND,
         // All Around user
         shape: [
             { x: -1, y: -1 },
