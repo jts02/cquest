@@ -339,7 +339,7 @@ BARBOACH,Barboach,/pokemon/barboach.png,WATER,GROUND,100,48,42,60,3,Water Gun
 WHISCASH,Whiscash,/pokemon/whiscash.png,WATER,GROUND,220,78,72,60,3,Aqua Tail
 CORPHISH,Corphish,/pokemon/corphish.png,WATER,,86,80,50,35,3,Water Gun
 CRAWDAUNT,Crawdaunt,/pokemon/crawdaunt.png,WATER,DARK,126,120,70,55,3,Crabhammer
-BALTOY,Baltoy,/pokemon/baltoy.png,GROUND,PSYCHIC,80,63,55,3,Confusion
+BALTOY,Baltoy,/pokemon/baltoy.png,GROUND,PSYCHIC,80,40,63,55,3,Confusion
 CLAYDOL,Claydol,/pokemon/claydol.png,GROUND,PSYCHIC,120,70,113,75,3,Earth Power
 LILEEP,Lileep,/pokemon/lileep.png,ROCK,GRASS,132,61,82,23,2,Ancient Power
 CRADILY,Cradily,/pokemon/cradily.png,ROCK,GRASS,172,81,102,43,2,Energy Ball
