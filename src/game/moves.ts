@@ -749,6 +749,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Psyshock',
+        power: 80,
+        type: PokemonType.ICE,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Octazooka',
         power: 65,
         type: PokemonType.WATER,
@@ -949,6 +959,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Double Kick',
+        power: 60,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Brick Break',
         power: 75,
         type: PokemonType.FIGHTING,
@@ -979,9 +999,49 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Metal Claw',
+        power: 50,
+        type: PokemonType.STEEL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Shadow Claw',
+        power: 75,
+        type: PokemonType.GHOST,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Knock OFF',
+        power: 65,
+        type: PokemonType.DARK,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Flare Blitz',
         power: 120,
         type: PokemonType.FIRE,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Leaf Blade',
+        power: 90,
+        type: PokemonType.GRASS,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
@@ -1148,6 +1208,18 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Crunch',
+        power: 80,
+        type: PokemonType.DARK,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: .2, increase: false, self: false, stat: 'defense', stages: 1}
+        ],
+    },
+    {
         name: 'Ice Fang',
         power: 65,
         type: PokemonType.ICE,
@@ -1189,6 +1261,16 @@ export const MOVES: Move[] = [
     },
     {
         name: 'Wing Attack',
+        power: 60,
+        type: PokemonType.FLYING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Aerial Ace',
         power: 60,
         type: PokemonType.FLYING,
         // Just one square forward
@@ -1250,6 +1332,16 @@ export const MOVES: Move[] = [
     {
         name: 'Fire Fang',
         power: 65,
+        type: PokemonType.FIRE,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Fire Punch',
+        power: 75,
         type: PokemonType.FIRE,
         // Just one square forward
         shape: [
@@ -1404,6 +1496,23 @@ export const MOVES: Move[] = [
             { x: 1, y: 1 },
         ],
       additionalEffects: [],
+    },
+     {
+        name: 'Shock Wave',
+        power: 60,
+        type: PokemonType.ELECTRIC,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
     },
     {
         name: 'Discharge',
