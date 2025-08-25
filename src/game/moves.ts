@@ -789,6 +789,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Power Gem',
+        power: 80,
+        type: PokemonType.ROCK,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Fly',
         power: 90,
         type: PokemonType.FLYING,
@@ -979,6 +989,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Arm Thrust',
+        power: 75,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Close Combat',
         power: 120,
         type: PokemonType.FIGHTING,
@@ -1097,6 +1117,28 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
         ],
         additionalEffects: [],
+    },
+    {
+        name: 'Facade',
+        power: 70,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Crush Claw',
+        power: 75,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: .5, increase: false, self: false, stat: 'defense', stages: 1}
+        ],
     },
     {
         name: 'Headbutt',
