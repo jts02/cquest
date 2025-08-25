@@ -299,6 +299,9 @@ ILLUMISE,Illumise,/pokemon/illumise.png,BUG,,130,73,80,85,3,Bug Buzz
 ROSELIA,Roselia,/pokemon/roselia.png,GRASS,POISON,100,100,63,65,3,Magical Leaf
 GULPIN,Gulpin,/pokemon/gulpin.png,POISON,,140,43,53,40,3,Sludge
 NUMEL,Numel,/pokemon/numel.png,FIRE,GROUND,120,65,43,35,2,Incinerate
+TORKOAL,Torkoal,/pokemon/torkoal.png,FIRE,,140,85,105,20,2,Lava Plume
+SPINDA,Spinda,/pokemon/spinda.png,NORMAL,,120,60,60,60,3,Body Slam
+SWABLU,Swablu,/pokemon/swablu.png,NORMAL,FLYING,90,40,68,50,3,Peck
 RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,95,4,Dragon Pulse
 INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,108,3,Flamethrower
 GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,102,3,Dragon Rush
