@@ -395,6 +395,17 @@ export const MOVES: Move[] = [
     ],
     additionalEffects: [],
 },
+{
+    name: 'Bubble',
+    power: 40,
+    type: PokemonType.WATER,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+    additionalEffects: [],
+},
   {
     name: 'Bubble Beam',
     power: 65,
@@ -1221,6 +1232,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Spark',
+        power: 65,
+        type: PokemonType.ELECTRIC,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Metal Claw',
         power: 50,
         type: PokemonType.STEEL,
@@ -1376,6 +1397,16 @@ export const MOVES: Move[] = [
         name: 'Zen Headbutt',
         power: 85,
         type: PokemonType.PSYCHIC,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Leafage',
+        power: 40,
+        type: PokemonType.GRASS,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },

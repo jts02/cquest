@@ -385,5 +385,14 @@ GROUDON,Groudon,/pokemon/groudon.png,GROUND,,200,150,115,90,2,Precipice Blades
 RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,95,4,Dragon Pulse
 JIRACHI,Jirachi,/pokemon/jirachi.png,STEEL,PSYCHIC,200,100,100,100,3,Flash Cannon
 DEOXYS,Deoxys,/pokemon/deoxys.png,PSYCHIC,,100,150,50,150,3,Psychic
+TURTWIG,Turtwig,/pokemon/turtwig.png,GRASS,,110,68,60,31,3,Leafage
+CHIMCHAR,Chimchar,/pokemon/chimchar.png,FIRE,,88,58,44,61,4,Ember
 INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,108,3,Flamethrower
+PIPLUP,Piplup,/pokemon/piplup.png,WATER,,106,56,55,40,3,Bubble
+STARLY,Starly,/pokemon/starly.png,NORMAL,FLYING,80,55,30,60,4,Quick Attack
+BIDOOF,Bidoof,/pokemon/bidoof.png,NORMAL,,118,45,40,31,3,Tackle
+KRICKETOT,Kricketot,/pokemon/kricketot.png,BUG,,74,25,41,25,2,Struggle Bug
+SHINX,Shinx,/pokemon/shinx.png,ELECTRIC,,90,65,34,45,4,Thunder Shock
+BUDEW,Budew,/pokemon/budew.png,GRASS,POISON,80,50,53,55,3,Absorb
+PACHIRISU,Pachirisu,/pokemon/pachirisu.png,ELECTRIC,,120,45,80,95,3,Spark
 GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,102,3,Dragon Rush
