@@ -228,6 +228,21 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Roar of Time',
+        power: 150,
+        type: PokemonType.DRAGON,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+      ],
+      additionalEffects: [],
+    },
+    {
         name: 'Dragon Ascent',
         power: 120,
         type: PokemonType.FLYING,
@@ -2139,6 +2154,20 @@ export const MOVES: Move[] = [
         name: 'Cross Chop',
         power: 100,
         type: PokemonType.BUG,
+        // Cross Around user
+        shape: [
+            { x: -1, y: -2 },
+            { x: 1, y: -2 },
+            { x: 0, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Spacial Rend',
+        power: 100,
+        type: PokemonType.DRAGON,
         // Cross Around user
         shape: [
             { x: -1, y: -2 },
