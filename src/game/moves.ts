@@ -123,6 +123,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Psycho Cut',
+        power: 70,
+        type: PokemonType.PSYCHIC,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Ice Ball',
         power: 40,
         type: PokemonType.ICE,
@@ -407,6 +418,16 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Mega Punch',
+    power: 80,
+    type: PokemonType.NORMAL,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Brine',
     power: 65,
     type: PokemonType.WATER,
@@ -491,6 +512,17 @@ export const MOVES: Move[] = [
     name: 'Aura Sphere',
     power: 80,
     type: PokemonType.FIGHTING,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Shadow Force',
+    power: 150,
+    type: PokemonType.GHOST,
     // Two squares forward
     shape: [
       { x: 0, y: -2 },
@@ -686,6 +718,22 @@ export const MOVES: Move[] = [
       { x: 0, y: -3 },
     ],
     additionalEffects: [],
+},
+{
+    name: 'Seed Flare',
+    power: 120,
+    type: PokemonType.GRASS,
+    // Filled cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [
+      { kind: 'statChange', chance: .4, increase: false, self: false, stat: 'defense', stages: 2}
+    ],
 },
 {
     name: 'Flash Cannon',
@@ -1894,16 +1942,13 @@ export const MOVES: Move[] = [
         name: 'Seed Bomb',
         power: 80,
         type: PokemonType.GRASS,
-        // All Around user
+        // X in front of user
         shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
             { x: -1, y: -1 },
-            { x: 0, y: -1 },
             { x: 1, y: -1 },
-            { x: -1, y: 0 },
-            { x: 1, y: 0 },
-            { x: -1, y: 1 },
-            { x: 0, y: 1 },
-            { x: 1, y: 1 },
         ],
       additionalEffects: [],
     },
