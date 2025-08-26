@@ -439,6 +439,7 @@ BRONZONG,Bronzong,/pokemon/bronzong.png,STEEL,PSYCHIC,134,89,116,33,2,Iron Head
 BONSLY,Bonsly,/pokemon/bonsly.png,ROCK,,100,80,70,10,2,Rock Throw
 MIMEJR,Mime Jr.,/pokemon/mimejr.png,PSYCHIC,FAIRY,40,70,68,60,3,Confusion
 HAPPINY,Happiny,/pokemon/happiny.png,NORMAL,,200,15,35,30,3,Pound
+CHATOT,Chatot,/pokemon/chatot.png,NORMAL,FLYING,152,92,44,91,3,Chatter
 SPIRITOMB,Spiritomb,/pokemon/spiritomb.png,GHOST,DARK,100,92,108,35,1,Shadow Ball
 GIBLE,Gible,/pokemon/gible.png,DRAGON,GROUND,116,70,45,42,3,Dragon Rage
 GABITE,Gabite,/pokemon/gabite.png,DRAGON,GROUND,136,90,60,82,3,Dragon Claw
@@ -455,8 +456,10 @@ TOXICROAK,Toxicroak,/pokemon/toxicroak.png,POISON,FIGHTING,166,106,65,85,3,Poiso
 CARNIVINE,Carnivine,/pokemon/carnivine.png,GRASS,,148,100,72,46,3,Seed Bomb
 FINNEON,Finneon,/pokemon/finneon.png,WATER,,98,49,59,66,3,Bubble
 LUMINEON,Lumineon,/pokemon/lumineon.png,WATER,,138,69,81,91,3,Waterfall
+MANTYKE,Mantyke,/pokemon/mantyke.png,WATER,FLYING,90,60,85,50,3,Water Gun
 SNOVER,Snover,/pokemon/snover.png,GRASS,ICE,120,62,55,40,3,Icy Wind
 ABOMASNOW,Abomasnow,/pokemon/abomasnow.png,GRASS,ICE,180,92,80,60,2,Blizzard
+WEAVILE,Weavile,/pokemon/weavile.png,DARK,ICE,140,120,75,125,3,Night Slash
 UXIE,Uxie,/pokemon/uxie.png,PSYCHIC,,150,75,130,95,3,Psychic
 MESPRIT,Mesprit,/pokemon/mesprit.png,PSYCHIC,,160,105,105,80,3,Psychic
 AZELF,Azelf,/pokemon/azelf.png,PSYCHIC,,150,125,70,115,3,Psychic

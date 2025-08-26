@@ -1804,6 +1804,23 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Chatter',
+        power: 65,
+        type: PokemonType.FLYING,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Hyper Voice',
         power: 80,
         type: PokemonType.NORMAL,
