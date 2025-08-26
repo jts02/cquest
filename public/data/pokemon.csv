@@ -386,19 +386,35 @@ RAYQUAZA,Rayquaza,/pokemon/rayquaza.png,DRAGON,FLYING,210,150,90,95,4,Dragon Pul
 JIRACHI,Jirachi,/pokemon/jirachi.png,STEEL,PSYCHIC,200,100,100,100,3,Flash Cannon
 DEOXYS,Deoxys,/pokemon/deoxys.png,PSYCHIC,,100,150,50,150,3,Psychic
 TURTWIG,Turtwig,/pokemon/turtwig.png,GRASS,,110,68,60,31,3,Leafage
+GROTLE,Grotle,/pokemon/grotle.png,GRASS,,150,89,75,36,3,Razor Leaf
 CHIMCHAR,Chimchar,/pokemon/chimchar.png,FIRE,,88,58,44,61,4,Ember
+MONFERNO,Monferno,/pokemon/monferno.png,FIRE,FIGHTING,128,78,52,81,3,Flame Wheel
 INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,108,3,Flamethrower
 PIPLUP,Piplup,/pokemon/piplup.png,WATER,,106,56,55,40,3,Bubble
+PRINPLUP,Prinplup,/pokemon/prinplup.png,WATER,,128,81,72,50,3,Bubble Beam
 STARLY,Starly,/pokemon/starly.png,NORMAL,FLYING,80,55,30,60,4,Quick Attack
+STARAVIA,Staravia,/pokemon/staravia.png,NORMAL,FLYING,110,75,45,80,4,Wing Attack
 BIDOOF,Bidoof,/pokemon/bidoof.png,NORMAL,,118,45,40,31,3,Tackle
+BIBAREL,Bibarel,/pokemon/bibarel.png,NORMAL,WATER,158,85,60,71,3,Hyper Fang
 KRICKETOT,Kricketot,/pokemon/kricketot.png,BUG,,74,25,41,25,2,Struggle Bug
+KRICKETUNE,Kricketune,/pokemon/kricketune.png,BUG,,154,85,51,65,2,Bug Bite
 SHINX,Shinx,/pokemon/shinx.png,ELECTRIC,,90,65,34,45,4,Thunder Shock
+LUXIO,Luxio,/pokemon/luxio.png,ELECTRIC,,120,85,49,60,3,Spark
 BUDEW,Budew,/pokemon/budew.png,GRASS,POISON,80,50,53,55,3,Absorb
+CRANIDOS,Cranidos,/pokemon/cranidos.png,ROCK,,134,125,35,58,4,Rock Tomb
+SHIELDON,Shieldon,/pokemon/shieldon.png,ROCK,STEEL,60,42,103,30,3,Ancient Power
+BURMY,Burmy,/pokemon/burmy.png,BUG,,80,29,45,36,1,Tackle
+WORMADAM,Wormadam,/pokemon/wormadam.png,BUG,GRASS,120,79,95,36,2,Energy Ball
+MOTHIM,Mothim,/pokemon/mothim.png,BUG,FLYING,140,94,50,66,3,Bug Buzz
 COMBEE,Combee,/pokemon/combee.png,BUG,FLYING,60,30,42,70,3,Struggle Bug
+VESPIQUEN,Vespiquen,/pokemon/vespiquen.png,BUG,FLYING,140,80,102,40,2,Attack Order
 PACHIRISU,Pachirisu,/pokemon/pachirisu.png,ELECTRIC,,120,45,80,95,3,Spark
 BUIZEL,Buizel,/pokemon/buizel.png,WATER,,110,65,33,85,3,Aqua Jet
 CHERUBI,Cherubi,/pokemon/cherubi.png,GRASS,,90,62,49,35,3,Leafage
 SHELLOS,Shellos,/pokemon/shellos.png,WATER,,152,57,55,34,2,Water Gun
 DRIFLOON,Drifloon,/pokemon/drifloon.png,GHOST,FLYING,180,60,39,70,4,Astonish
+BUNEARY,Buneary,/pokemon/buneary.png,NORMAL,,110,66,50,85,3,Pound
+LOPUNNY,Lopunny,/pokemon/lopunny.png,NORMAL,,130,76,90,105,4,Headbutt
+CHINGLING,Chingling,/pokemon/chingling.png,PSYCHIC,,90,65,50,45,3,Confusion
 GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,102,3,Dragon Rush
-MUNCHLAX,Munchlax,/pokemon/munchlax.png,NORMAL,,270,85,63,5,2,Tackle
+MUNCHLAX,Munchlax,/pokemon/munchlax.png,NORMAL,,270,85,63,5,3,Tackle

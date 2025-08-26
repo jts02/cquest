@@ -2081,6 +2081,20 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Attack Order',
+        power: 90,
+        type: PokemonType.BUG,
+        // X In front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
+            { x: -1, y: -1 },
+            { x: 1, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Cross Chop',
         power: 100,
         type: PokemonType.BUG,
