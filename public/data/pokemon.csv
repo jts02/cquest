@@ -462,13 +462,17 @@ ABOMASNOW,Abomasnow,/pokemon/abomasnow.png,GRASS,ICE,180,92,80,60,2,Blizzard
 WEAVILE,Weavile,/pokemon/weavile.png,DARK,ICE,140,120,75,125,3,Night Slash
 MAGNEZONE,Magnezone,/pokemon/magnezone.png,ELECTRIC,STEEL,140,130,103,60,3,Thunderbolt
 LICKILICKY,Lickilicky,/pokemon/lickilicky.png,NORMAL,,220,85,95,50,2,Slam
+RHYPERIOR,Rhyperior,/pokemon/rhyperior.png,GROUND,ROCK,230,140,93,40,2,Rock Wrecker
 TANGROWTH,Tangrowth,/pokemon/tangrowth.png,GRASS,,200,110,88,50,2,Energy Ball
 ELECTIVIRE,Electivire,/pokemon/electivire.png,ELECTRIC,,150,123,76,95,2,Thunderbolt
 MAGMORTAR,Magmortar,/pokemon/magmortar.png,FIRE,,150,125,83,83,2,Flamethrower
+TOGEKISS,Togekiss,/pokemon/togekiss.png,FAIRY,FLYING,170,120,105,80,3,Dazzling Gleam
 YANMEGA,Yanmega,/pokemon/yanmega.png,BUG,FLYING,172,116,71,95,3,Bug Buzz
 LEAFEON,Leafeon,/pokemon/leafeon.png,GRASS,,130,110,98,95,4,Leaf Blade
 GLACEON,Glaceon,/pokemon/glaceon.png,ICE,,130,130,103,65,4,Ice Beam
+GLISCOR,Gliscor,/pokemon/gliscor.png,GROUND,FLYING,150,95,100,95,3,Earthquake
 MAMOSWINE,Mamoswine,/pokemon/mamoswine.png,ICE,GROUND,220,130,70,80,2,Icicle Crash
+PORYGONZ,Porygon-Z,/pokemon/porygon-z.png,NORMAL,,170,135,73,90,3,Uproar
 GALLADE,Gallade,/pokemon/gallade.png,PSYCHIC,FIGHTING,136,125,90,80,3,Psycho Cut
 PROBOPASS,Probopass,/pokemon/probopass.png,ROCK,STEEL,120,75,148,40,2,Power Gem
 DUSKNOIR,Dusknoir,/pokemon/dusknoir.png,GHOST,,90,100,135,45,3,Shadow Punch
@@ -479,6 +483,7 @@ MESPRIT,Mesprit,/pokemon/mesprit.png,PSYCHIC,,160,105,105,80,3,Psychic
 AZELF,Azelf,/pokemon/azelf.png,PSYCHIC,,150,125,70,115,3,Psychic
 DIALGA,Dialga,/pokemon/dialga.png,STEEL,DRAGON,200,150,110,90,3,Roar of Time
 PALKIA,Palkia,/pokemon/palkia.png,WATER,DRAGON,180,150,110,100,3,Spacial Rend
+HEATRAN,Heatran,/pokemon/heatran.png,FIRE,STEEL,182,130,106,77,2,Magma Storm
 REGIGIGAS,Regigigas,/pokemon/regigigas.png,NORMAL,,220,160,110,100,1,Mega Punch
 GIRATINA,Giratina,/pokemon/giratina.png,GHOST,DRAGON,300,100,120,90,3,Shadow Force
 CRESSELIA,Cresselia,/pokemon/cresselia.png,PSYCHIC,,240,75,115,85,3,Psychic
@@ -486,3 +491,4 @@ PHIONE,Phione,/pokemon/phione.png,WATER,,160,80,80,80,3,Water Pulse
 MANAPHY,Manaphy,/pokemon/manaphy.png,WATER,,200,100,100,100,3,Surf
 DARKRAI,Darkrai,/pokemon/darkrai.png,DARK,,140,135,90,125,3,Dark Pulse
 SHAYMIN,Shaymin,/pokemon/shaymin.png,GRASS,,200,100,100,100,3,Seed Flare
+ARCEUS,Arceus,/pokemon/arceus.png,NORMAL,,240,120,120,120,4,Judgment

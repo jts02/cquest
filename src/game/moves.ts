@@ -239,6 +239,36 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Uproar',
+        power: 90,
+        type: PokemonType.NORMAL,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+      ],
+      additionalEffects: [],
+    },
+    {
+        name: 'Dazzling Gleam',
+        power: 80,
+        type: PokemonType.FAIRY,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+      ],
+      additionalEffects: [],
+    },
+    {
         name: 'Roar of Time',
         power: 150,
         type: PokemonType.DRAGON,
@@ -1108,6 +1138,16 @@ export const MOVES: Move[] = [
         name: 'Thunder',
         power: 110,
         type: PokemonType.ELECTRIC,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Rock Wrecker',
+        power: 150,
+        type: PokemonType.ROCK,
         // Just three squares forward
         shape: [
             { x: 0, y: -3 },
@@ -2199,6 +2239,20 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Magma Storm',
+        power: 100,
+        type: PokemonType.FIRE,
+        // X In front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
+            { x: -1, y: -1 },
+            { x: 1, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Attack Order',
         power: 90,
         type: PokemonType.BUG,
@@ -2263,6 +2317,23 @@ export const MOVES: Move[] = [
             { x: -1, y: 0 },
             { x: 1, y: 0 },
             { x: 0, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment',
+        power: 100,
+        type: PokemonType.NORMAL,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
         ],
         additionalEffects: [],
     },
