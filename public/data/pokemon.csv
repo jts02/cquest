@@ -396,7 +396,7 @@ SHINX,Shinx,/pokemon/shinx.png,ELECTRIC,,90,65,34,45,4,Thunder Shock
 BUDEW,Budew,/pokemon/budew.png,GRASS,POISON,80,50,53,55,3,Absorb
 COMBEE,Combee,/pokemon/combee.png,BUG,FLYING,60,30,42,70,3,Struggle Bug
 PACHIRISU,Pachirisu,/pokemon/pachirisu.png,ELECTRIC,,120,45,80,95,3,Spark
-BUIZEL,Buizel,/pokemon/buizel.png,WATER,110,65,33,85,3,Aqua Jet
+BUIZEL,Buizel,/pokemon/buizel.png,WATER,,110,65,33,85,3,Aqua Jet
 CHERUBI,Cherubi,/pokemon/cherubi.png,GRASS,,90,62,49,35,3,Leafage
 SHELLOS,Shellos,/pokemon/shellos.png,WATER,,152,57,55,34,2,Water Gun
 DRIFLOON,Drifloon,/pokemon/drifloon.png,GHOST,FLYING,180,60,39,70,4,Astonish
