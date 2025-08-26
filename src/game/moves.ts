@@ -169,6 +169,20 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Brave Bird',
+        power: 120,
+        type: PokemonType.FLYING,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+      ],
+      additionalEffects: [
+        { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'defense', stages: 1}
+      ],
+    },
+    {
         name: 'Aqua Tail',
         power: 90,
         type: PokemonType.WATER,
@@ -1376,8 +1390,9 @@ export const MOVES: Move[] = [
         ],
         additionalEffects: [],
     },
+    
     {
-        name: 'Slash',
+        name: 'Double Hit',
         power: 70,
         type: PokemonType.NORMAL,
         // Just one square forward

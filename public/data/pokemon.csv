@@ -16,7 +16,7 @@ KAKUNA,Kakuna,/pokemon/kakuna.png,BUG,POISON,90,25,38,35,1,Harden
 BEEDRILL,Beedrill,/pokemon/beedrill.png,BUG,POISON,130,90,60,75,4,Poison Jab
 PIDGEY,Pidgey,/pokemon/pidgey.png,NORMAL,FLYING,80,45,38,56,4,Tackle
 PIDGEOTTO,Pidgeotto,/pokemon/pidgeotto.png,NORMAL,FLYING,126,60,53,71,4,Wing Attack
-PIDGEOT,Pidgeot,/pokemon/pidgeot.png,NORMAL,FLYING,166,80,73,101,4,Fly
+PIDGEOT,Pidgeot,/pokemon/pidgeot.png,NORMAL,FLYING,166,80,73,101,4,Brave Bird
 RATTATA,Rattata,/pokemon/rattata.png,NORMAL,,60,56,35,72,3,Tackle
 RATICATE,Raticate,/pokemon/raticate.png,NORMAL,,110,81,65,97,3,Hyper Fang
 SPEAROW,Spearow,/pokemon/spearow.png,NORMAL,FLYING,80,60,31,70,4,Wing Attack
@@ -26,7 +26,7 @@ ARBOK,Arbok,/pokemon/arbok.png,POISON,,120,95,74,80,3,Venoshock
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,90,3,Thunderbolt
 RAICHU,Raichu,/pokemon/raichu.png,ELECTRIC,,120,90,68,110,3,Volt Tackle
 SANDSHREW,Sandshrew,/pokemon/sandshrew.png,GROUND,,100,75,115,40,3,Bulldoze
-SANDSLASH,Sandslash,/pokemon/sandslash.png,GROUND,,150,100,93,65,3,Dig
+SANDSLASH,Sandslash,/pokemon/sandslash.png,GROUND,,150,100,93,65,3,Earthquake
 NIDORANF,Nidoran♀,/pokemon/nidoran♀.png,POISON,,110,47,46,41,3,Poison Sting
 NIDORINA,Nidorina,/pokemon/nidorina.png,POISON,,140,62,61,56,3,Poison Tail
 NIDOQUEEN,Nidoqueen,/pokemon/nidoqueen.png,POISON,GROUND,180,92,86,76,3,Poison Jab
@@ -49,7 +49,7 @@ PARASECT,Parasect,/pokemon/parasect.png,BUG,GRASS,120,95,80,30,2,X-Scissor
 VENONAT,Venonat,/pokemon/venonat.png,BUG,POISON,120,55,53,45,3,Bug Bite
 VENOMOTH,Venomoth,/pokemon/venomoth.png,BUG,POISON,140,90,68,90,3,Bug Buzz
 DIGLETT,Diglett,/pokemon/diglett.png,GROUND,,20,55,35,95,4,Bulldoze
-DUGTRIO,Dugtrio,/pokemon/dugtrio/png,GROUND,,70,100,60,120,4,Dig
+DUGTRIO,Dugtrio,/pokemon/dugtrio/png,GROUND,,70,100,60,120,4,Earthquake
 MEOWTH,Meowth,/pokemon/meowth.png,NORMAL,,80,45,38,90,3,Pay Day
 PERSIAN,Persian,/pokemon/persian.png,NORMAL,,130,70,63,115,3,Slash
 PSYDUCK,Psyduck,/pokemon/psyduck.png,WATER,,100,65,49,55,2,Water Gun
@@ -387,13 +387,16 @@ JIRACHI,Jirachi,/pokemon/jirachi.png,STEEL,PSYCHIC,200,100,100,100,3,Flash Canno
 DEOXYS,Deoxys,/pokemon/deoxys.png,PSYCHIC,,100,150,50,150,3,Psychic
 TURTWIG,Turtwig,/pokemon/turtwig.png,GRASS,,110,68,60,31,3,Leafage
 GROTLE,Grotle,/pokemon/grotle.png,GRASS,,150,89,75,36,3,Razor Leaf
+TORTERRA,Torterra,/pokemon/torterra.png,GRASS,GROUND,190,109,95,56,2,Earthquake
 CHIMCHAR,Chimchar,/pokemon/chimchar.png,FIRE,,88,58,44,61,4,Ember
 MONFERNO,Monferno,/pokemon/monferno.png,FIRE,FIGHTING,128,78,52,81,3,Flame Wheel
 INFERNAPE,Infernape,/pokemon/infernape.png,FIRE,FIGHTING,152,104,71,108,3,Flamethrower
 PIPLUP,Piplup,/pokemon/piplup.png,WATER,,106,56,55,40,3,Bubble
 PRINPLUP,Prinplup,/pokemon/prinplup.png,WATER,,128,81,72,50,3,Bubble Beam
+EMPOLEON,Empoleon,/pokemon/empoleon.png,WATER,STEEL,168,111,95,60,3,Hydro Pump
 STARLY,Starly,/pokemon/starly.png,NORMAL,FLYING,80,55,30,60,4,Quick Attack
 STARAVIA,Staravia,/pokemon/staravia.png,NORMAL,FLYING,110,75,45,80,4,Wing Attack
+STARAPTOR,Staraptor,/pokemon/staraptor.png,NORMAL,FLYING,170,120,65,100,4,Brave Bird
 BIDOOF,Bidoof,/pokemon/bidoof.png,NORMAL,,118,45,40,31,3,Tackle
 BIBAREL,Bibarel,/pokemon/bibarel.png,NORMAL,WATER,158,85,60,71,3,Hyper Fang
 KRICKETOT,Kricketot,/pokemon/kricketot.png,BUG,,74,25,41,25,2,Struggle Bug
@@ -418,12 +421,14 @@ CHERUBI,Cherubi,/pokemon/cherubi.png,GRASS,,90,62,49,35,3,Leafage
 CHERRIM,Cherrim,/pokemon/cherrim.png,GRASS,,140,90,94,85,3,Magical Leaf
 SHELLOS,Shellos,/pokemon/shellos.png,WATER,,152,57,55,34,2,Water Gun
 GASTRODON,Gastrodon,/pokemon/gastrodon.png,WATER,GROUND,222,92,75,39,2,Muddy Water
+AMBIPOM,Ambipom,/pokemon/ambipom.png,NORMAL,,150,100,66,115,3,Double Hit
 DRIFLOON,Drifloon,/pokemon/drifloon.png,GHOST,FLYING,180,60,39,70,4,Astonish
 DRIFBLIM,Drifblim,/pokemon/drifblim.png,GHOST,FLYING,300,90,49,80,3,Shadow Ball
 BUNEARY,Buneary,/pokemon/buneary.png,NORMAL,,110,66,50,85,3,Pound
 LOPUNNY,Lopunny,/pokemon/lopunny.png,NORMAL,,130,76,90,105,4,Headbutt
 CHINGLING,Chingling,/pokemon/chingling.png,PSYCHIC,,90,65,50,45,3,Confusion
 STUNKY,Stunky,/pokemon/stunky.png,POISON,DARK,126,63,44,74,3,Poison Tail
+SKUNTANK,Skuntank,/pokemon/skuntank.png,POISON,DARK,206,93,64,84,3,Night Slash
 BRONZOR,Bronzor,/pokemon/bronzor.png,STEEL,PSYCHIC,114,24,86,23,2,Confusion
 BONSLY,Bonsly,/pokemon/bonsly.png,ROCK,,100,80,70,10,2,Rock Throw
 MIMEJR,Mime Jr.,/pokemon/mimejr.png,PSYCHIC,FAIRY,40,70,68,60,3,Confusion
