@@ -472,6 +472,17 @@ export const MOVES: Move[] = [
       { kind: 'statChange', chance: .5, increase: false, self: false, stat: 'defense', stages: 1}
     ],
 },
+{
+    name: 'Aura Sphere',
+    power: 80,
+    type: PokemonType.FIGHTING,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
   {
     name: 'Wide Swipe',
     power: 15,
