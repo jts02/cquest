@@ -1112,6 +1112,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Aqua Jet',
+        power: 40,
+        type: PokemonType.WATER,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Quick Attack',
         power: 40,
         type: PokemonType.NORMAL,

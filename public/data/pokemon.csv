@@ -316,7 +316,7 @@ ILLUMISE,Illumise,/pokemon/illumise.png,BUG,,130,73,80,85,3,Bug Buzz
 ROSELIA,Roselia,/pokemon/roselia.png,GRASS,POISON,100,100,63,65,3,Magical Leaf
 GULPIN,Gulpin,/pokemon/gulpin.png,POISON,,140,43,53,40,3,Sludge
 SWALOT,Swalot,/pokemon/swalot.png,POISON,,200,73,83,55,3,Sludge Bomb
-CARVANHA,Carvanha,/pokemon/carvanha.png,WATER,DARK,90,90,20,65,3,Bite
+CARVANHA,Carvanha,/pokemon/carvanha.png,WATER,DARK,90,90,20,65,3,Aqua Jet
 SHARPEDO,Sharpedo,/pokemon/sharpedo.png,WATER,DARK,140,120,40,95,3,Liquidation
 WAILMER,Wailmer,/pokemon/wailmer.png,WATER,,260,70,35,60,2,Water Pulse
 WAILORD,Wailord,/pokemon/wailord.png,WATER,,340,90,45,60,2,Surf
@@ -394,5 +394,11 @@ BIDOOF,Bidoof,/pokemon/bidoof.png,NORMAL,,118,45,40,31,3,Tackle
 KRICKETOT,Kricketot,/pokemon/kricketot.png,BUG,,74,25,41,25,2,Struggle Bug
 SHINX,Shinx,/pokemon/shinx.png,ELECTRIC,,90,65,34,45,4,Thunder Shock
 BUDEW,Budew,/pokemon/budew.png,GRASS,POISON,80,50,53,55,3,Absorb
+COMBEE,Combee,/pokemon/combee.png,BUG,FLYING,60,30,42,70,3,Struggle Bug
 PACHIRISU,Pachirisu,/pokemon/pachirisu.png,ELECTRIC,,120,45,80,95,3,Spark
+BUIZEL,Buizel,/pokemon/buizel.png,WATER,110,65,33,85,3,Aqua Jet
+CHERUBI,Cherubi,/pokemon/cherubi.png,GRASS,,90,62,49,35,3,Leafage
+SHELLOS,Shellos,/pokemon/shellos.png,WATER,,152,57,55,34,2,Water Gun
+DRIFLOON,Drifloon,/pokemon/drifloon.png,GHOST,FLYING,180,60,39,70,4,Astonish
 GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,102,3,Dragon Rush
+MUNCHLAX,munchlax,/pokemon/munchlax.png,NORMAL,,270,85,63,5,2,Tackle
