@@ -400,9 +400,12 @@ KRICKETOT,Kricketot,/pokemon/kricketot.png,BUG,,74,25,41,25,2,Struggle Bug
 KRICKETUNE,Kricketune,/pokemon/kricketune.png,BUG,,154,85,51,65,2,Bug Bite
 SHINX,Shinx,/pokemon/shinx.png,ELECTRIC,,90,65,34,45,4,Thunder Shock
 LUXIO,Luxio,/pokemon/luxio.png,ELECTRIC,,120,85,49,60,3,Spark
+LUXRAY,Luxray,/pokemon/luxray.png,ELECTRIC,,160,120,79,70,3,Thunder
 BUDEW,Budew,/pokemon/budew.png,GRASS,POISON,80,50,53,55,3,Absorb
 CRANIDOS,Cranidos,/pokemon/cranidos.png,ROCK,,134,125,35,58,4,Rock Tomb
+RAMPARDOS,Rampardos,/pokemon/rampardos.png,ROCK,,194,165,55,58,2,Stone Edge
 SHIELDON,Shieldon,/pokemon/shieldon.png,ROCK,STEEL,60,42,103,30,3,Ancient Power
+BASTIODON,Bastiodon,/pokemon/bastiodon.png,ROCK,STEEL,120,52,153,30,2,Iron Head
 BURMY,Burmy,/pokemon/burmy.png,BUG,,80,29,45,36,1,Tackle
 WORMADAM,Wormadam,/pokemon/wormadam.png,BUG,GRASS,120,79,95,36,2,Energy Ball
 MOTHIM,Mothim,/pokemon/mothim.png,BUG,FLYING,140,94,50,66,3,Bug Buzz
@@ -410,11 +413,20 @@ COMBEE,Combee,/pokemon/combee.png,BUG,FLYING,60,30,42,70,3,Struggle Bug
 VESPIQUEN,Vespiquen,/pokemon/vespiquen.png,BUG,FLYING,140,80,102,40,2,Attack Order
 PACHIRISU,Pachirisu,/pokemon/pachirisu.png,ELECTRIC,,120,45,80,95,3,Spark
 BUIZEL,Buizel,/pokemon/buizel.png,WATER,,110,65,33,85,3,Aqua Jet
+FLOATZEL,Floatzel,/pokemon/floatzel.png,WATER,,170,105,53,115,3,Aqua Tail
 CHERUBI,Cherubi,/pokemon/cherubi.png,GRASS,,90,62,49,35,3,Leafage
+CHERRIM,Cherrim,/pokemon/cherrim.png,GRASS,,140,90,94,85,3,Magical Leaf
 SHELLOS,Shellos,/pokemon/shellos.png,WATER,,152,57,55,34,2,Water Gun
+GASTRODON,Gastrodon,/pokemon/gastrodon.png,WATER,GROUND,222,92,75,39,2,Muddy Water
 DRIFLOON,Drifloon,/pokemon/drifloon.png,GHOST,FLYING,180,60,39,70,4,Astonish
 BUNEARY,Buneary,/pokemon/buneary.png,NORMAL,,110,66,50,85,3,Pound
 LOPUNNY,Lopunny,/pokemon/lopunny.png,NORMAL,,130,76,90,105,4,Headbutt
 CHINGLING,Chingling,/pokemon/chingling.png,PSYCHIC,,90,65,50,45,3,Confusion
+STUNKY,Stunky,/pokemon/stunky.png,POISON,DARK,126,63,44,74,3,Poison Tail
+BRONZOR,Bronzor,/pokemon/bronzor.png,STEEL,PSYCHIC,114,24,86,23,2,Confusion
+BONSLY,Bonsly,/pokemon/bonsly.png,ROCK,,100,80,70,10,2,Rock Throw
+MIMEJR,Mime Jr.,/pokemon/mimejr.png,PSYCHIC,FAIRY,40,70,68,60,3,Confusion
+HAPPINY,Happiny,/pokemon/happiny.png,NORMAL,,200,15,35,30,3,Pound
+SPIRITOMB,Spiritomb,/pokemon/spiritomb.png,GHOST,DARK,100,92,108,35,1,Shadow Ball
 GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,102,3,Dragon Rush
 MUNCHLAX,Munchlax,/pokemon/munchlax.png,NORMAL,,270,85,63,5,3,Tackle

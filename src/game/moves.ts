@@ -199,6 +199,21 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Muddy Water',
+        power: 90,
+        type: PokemonType.WATER,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+      ],
+      additionalEffects: [],
+    },
+    {
         name: 'Dragon Ascent',
         power: 120,
         type: PokemonType.FLYING,
