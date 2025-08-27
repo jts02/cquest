@@ -492,3 +492,22 @@ MANAPHY,Manaphy,/pokemon/manaphy.png,WATER,,200,100,100,100,3,Surf
 DARKRAI,Darkrai,/pokemon/darkrai.png,DARK,,140,135,90,125,3,Dark Pulse
 SHAYMIN,Shaymin,/pokemon/shaymin.png,GRASS,,200,100,100,100,3,Seed Flare
 ARCEUS,Arceus,/pokemon/arceus.png,NORMAL,,240,120,120,120,4,Judgment
+VICTINI,Victini,/pokemon/victini.png,FIRE,PSYCHIC,200,100,100,100,3,V-Create
+SNIVY,Snivy,/pokemon/snivy.png,GRASS,,90,45,55,63,3,Vine Whip
+TEPIG,Tepig,/pokemon/tepig.png,FIRE,,130,63,45,45,3,Ember
+OSHAWOTT,Oshawott,/pokemon/oshawott.png,WATER,,110,63,45,45,3,Water Gun
+PATRAT,Patrat,/pokemon/patrat.png,NORMAL,,90,55,39,42,3,Tackle
+LILLIPUP,Lillipup,/pokemon/lillipup.png,NORMAL,,90,60,45,55,3,Tackle
+PURRLOIN,Purrloin,/pokemon/purrloin.png,DARK,,82,50,37,66,3,Scratch
+PANSAGE,Pansage,/pokemon/pansage.png,GRASS,,100,53,48,64,3,Vine Whip
+PANSEAR,Pansear,/pokemon/pansear.png,FIRE,,100,53,48,64,3,Incinerate
+PANPOUR,Panpour,/pokemon/panpour.png,WATER,,100,53,48,64,3,Water Gun
+MUNNA,Munna,/pokemon/munna.png,PSYCHIC,,152,67,50,24,2,Psybeam
+MUSHARNA,Musharna,/pokemon/musharna.png,PSYCHIC,,232,107,90,29,2,Psychic
+PIDOVE,Pidove,/pokemon/pidove.png,NORMAL,FLYING,100,55,40,43,4,Gust
+BLITZLE,Blitzle,/pokemon/blitzle.png,ELECTRIC,,90,60,32,76,4,Spark
+ROGGENROLA,Roggenrola,/pokemon/roggenrola.png,ROCK,,110,75,55,15,3,Smack Down
+WOOBAT,Woobat,/pokemon/woobat.png,PSYCHIC,FLYING,130,55,43,72,3,Confusion
+SWOOBAT,Swoobat,/pokemon/swoobat.png,PSYCHIC,FLYING,134,77,55,114,3,Air Slash
+DRILBUR,Drilbur,/pokemon/drilbur.png,GROUND,,120,85,43,68,3,Bulldoze
+AUDINO,Audino,/pokemon/audino.png,NORMAL,,206,60,86,50,3,Pound

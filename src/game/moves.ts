@@ -168,6 +168,18 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Gust',
+        power: 40,
+        type: PokemonType.FLYING,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+      ],
+      additionalEffects: [],
+    },
+    {
         name: 'Icy Wind',
         power: 55,
         type: PokemonType.ICE,
@@ -358,6 +370,22 @@ export const MOVES: Move[] = [
           { x: 1, y: -3 },
       ],
       additionalEffects: [],
+    },
+    {
+        name: 'V-Create',
+        power: 180,
+        type: PokemonType.FIRE,
+        // V in front of user
+        shape: [
+          { x: 0, y: -1 },
+          { x: -1, y: -2 },
+          { x: 1, y: -2 },
+          { x: -2, y: -3 },
+          { x: 2, y: -3 },
+      ],
+      additionalEffects: [
+        { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'defense', stages: 1}
+      ],
     },
   {
     name: 'Dragon Rage',
@@ -1038,6 +1066,16 @@ export const MOVES: Move[] = [
         name: 'Ember',
         power: 40,
         type: PokemonType.FIRE,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Smack Down',
+        power: 50,
+        type: PokemonType.ROCK,
         // Just two squares forward
         shape: [
             { x: 0, y: -2 },
