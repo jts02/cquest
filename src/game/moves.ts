@@ -101,6 +101,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Mud-Slap',
+        power: 50,
+        type: PokemonType.GROUND,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Iron Head',
         power: 80,
         type: PokemonType.STEEL,
@@ -2092,6 +2103,25 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Electroweb',
+        power: 55,
+        type: PokemonType.ELECTRIC,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'speed', stages: 1}
+        ],
+    },
+    {
         name: 'Discharge',
         power: 80,
         type: PokemonType.ELECTRIC,
@@ -2380,6 +2410,19 @@ export const MOVES: Move[] = [
         name: 'Bulldoze',
         power: 60,
         type: PokemonType.GROUND,
+        // Cross around user
+        shape: [
+            { x: 0, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: 0, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Night Daze',
+        power: 85,
+        type: PokemonType.DARK,
         // Cross around user
         shape: [
             { x: 0, y: -1 },
