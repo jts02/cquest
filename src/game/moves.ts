@@ -1093,6 +1093,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Pounce',
+        power: 50,
+        type: PokemonType.BUG,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Weather Ball',
         power: 50,
         type: PokemonType.NORMAL,
@@ -1383,6 +1393,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Vital Throw',
+        power: 70,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Brick Break',
         power: 75,
         type: PokemonType.FIGHTING,
@@ -1525,6 +1545,16 @@ export const MOVES: Move[] = [
     {
         name: 'Scratch',
         power: 40,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Covet',
+        power: 60,
         type: PokemonType.NORMAL,
         // Just one square forward
         shape: [
@@ -2020,6 +2050,20 @@ export const MOVES: Move[] = [
         name: 'Seed Bomb',
         power: 80,
         type: PokemonType.GRASS,
+        // X in front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
+            { x: -1, y: -1 },
+            { x: 1, y: -1 },
+        ],
+      additionalEffects: [],
+    },
+    {
+        name: 'Flame Burst',
+        power: 75,
+        type: PokemonType.FIRE,
         // X in front of user
         shape: [
             { x: -1, y: -3 },
