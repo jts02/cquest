@@ -645,6 +645,17 @@ export const MOVES: Move[] = [
     ],
 },
 {
+    name: 'Horn Leech',
+    power: 75,
+    type: PokemonType.GRASS,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [
+        { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
+    ],
+},
+{
     name: 'Leech Life',
     power: 80,
     type: PokemonType.BUG,
