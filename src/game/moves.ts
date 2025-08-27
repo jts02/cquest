@@ -123,6 +123,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Mirror Shot',
+        power: 65,
+        type: PokemonType.STEEL,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Meteor Mash',
         power: 90,
         type: PokemonType.STEEL,
@@ -487,9 +498,39 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Strength',
+    power: 80,
+    type: PokemonType.NORMAL,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Mega Punch',
     power: 80,
     type: PokemonType.NORMAL,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Throat Chop',
+    power: 80,
+    type: PokemonType.DARK,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Sacred Sword',
+    power: 90,
+    type: PokemonType.FIGHTING,
     // One square forward
     shape: [
       { x: 0, y: -1 },
@@ -2072,6 +2113,36 @@ export const MOVES: Move[] = [
         name: 'Seed Bomb',
         power: 80,
         type: PokemonType.GRASS,
+        // X in front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
+            { x: -1, y: -1 },
+            { x: 1, y: -1 },
+        ],
+      additionalEffects: [],
+    },
+    {
+        name: 'Bleakwind Storm',
+        power: 100,
+        type: PokemonType.FLYING,
+        // X in front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
+            { x: -1, y: -1 },
+            { x: 1, y: -1 },
+        ],
+      additionalEffects: [
+        { kind: 'statChange', chance: .3, increase: false, self: false, stat: 'speed', stages: 1}
+      ],
+    },
+    {
+        name: 'Wildbolt Storm',
+        power: 100,
+        type: PokemonType.ELECTRIC,
         // X in front of user
         shape: [
             { x: -1, y: -3 },
