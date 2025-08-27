@@ -526,7 +526,7 @@ AUDINO,Audino,/pokemon/audino.png,NORMAL,,206,60,86,50,3,Pound
 TIMBURR,Timburr,/pokemon/timburr.png,FIGHTING,,150,80,45,35,3,Low Kick
 GURDURR,Gurdurr,/pokemon/gurdurr.png,FIGHTING,,170,105,68,40,3,Wake-Up Slap
 CONKELDURR,Conkeldurr,/pokemon/conkeldurr.png,FIGHTING,,210,140,80,45,3,Dynamic Punch
-TYMPOLE,Tympole,/pokemon/tympole.png,WATER,100,50,40,64,3,Bubble
+TYMPOLE,Tympole,/pokemon/tympole.png,WATER,,100,50,40,64,3,Bubble
 PALPITOAD,Palpitoad,/pokemon/palpitoad.png,WATER,GROUND,150,65,55,69,3,Bubble Beam
 THROH,Throh,/pokemon/throh.png,FIGHTING,,240,100,85,45,2,Vital Throw
 SAWK,Sawk,/pokemon/sawk.png,FIGHTING,,150,125,75,85,3,Brick Break
