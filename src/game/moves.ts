@@ -747,15 +747,22 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Payback',
+    power: 50,
+    type: PokemonType.DARK,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Struggle Bug',
     power: 50,
     type: PokemonType.BUG,
     shape: [
         { x: 0, y: -1 },
     ],
-    additionalEffects: [
-        { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
-    ],
+    additionalEffects: [],
 },
   {
     name: 'Acid',

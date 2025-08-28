@@ -655,13 +655,19 @@ BRAIXEN,Braixen,/pokemon/braixen.png,FIRE,,118,90,64,73,3,Psybeam
 FROAKIE,Froakie,/pokemon/froakie.png,WATER,,82,62,42,71,3,Water Gun
 FROGADIER,Frogadier,/pokemon/frogadier.png,WATER,,108,83,54,97,3,Water Pulse
 BUNNELBY,Bunnelby,/pokemon/bunnelby.png,NORMAL,,76,36,37,57,3,Tackle
+DIGGERSBY,Diggersby,/pokemon/diggersby.png,NORMAL,GROUND,170,56,77,78,3,Body Slam
 FLETCHLING,Fletchling,/pokemon/fletchling.png,NORMAL,FLYING,90,50,41,62,4,Peck
+FLETCHINDER,Fletchinder,/pokemon/fletchinder.png,FIRE,FLYING,124,73,54,84,4,Acrobatics
 SCATTERBUG,Scatterbug,/pokemon/scatterbug.png,BUG,,76,35,33,35,1,Tackle
 SPEWPA,Spewpa,/pokemon/spewpa.png,BUG,,90,25,45,29,1,Harden
 VIVILLON,Vivillon,/pokemon/vivillon.png,BUG,FLYING,160,90,50,89,4,Bug Buzz
 FLABEBE,Flabébé,/pokemon/flabebe.png,FAIRY,,88,61,59,42,3,Fairy Wind
+FLOETTE,Floette,/pokemon/floette.png,FAIRY,,108,75,73,52,3,Draining Kiss
 SKIDDO,Skiddo,/pokemon/skiddo.png,GRASS,,132,65,53,52,3,Razor Leaf
 PANCHAM,Pancham,/pokemon/pancham.png,FIGHTING,,134,82,55,43,3,Circle Throw
 FURFROU,Furfrou,/pokemon/furfrou.png,NORMAL,,150,80,75,102,3,Headbutt
 ESPURR,Espurr,/pokemon/espurr.png,PSYCHIC,,124,63,57,68,3,Confusion
 HONEDGE,Honedge,/pokemon/honedge.png,STEEL,GHOST,90,80,69,28,2,Shadow Sneak
+SPRITZEE,Spritzee,/pokemon/spritzee.png,FAIRY,,156,63,63,23,3,Fairy Wind
+SWIRLIX,Swirlix,/pokemon/swirlix.png,FAIRY,,124,59,62,49,3,Fairy Wind
+INKAY,Inkay,/pokemon/inkay.png,DARK,PSYCHIC,106,54,50,45,3,Payback
