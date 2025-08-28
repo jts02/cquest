@@ -701,7 +701,7 @@ AURORUS,Aurorus,/pokemon/aurorus.png,ROCK,ICE,246,99,82,58,3,Ice Beam
 SYLVEON,Sylveon,/pokemon/sylveon.png,FAIRY,,190,110,98,60,4,Moonblast
 HAWLUCHA,Hawlucha,/pokemon/hawlucha.png,FIGHTING,FLYING,156,92,69,118,3,Flying Press
 DEDENNE,Dedenne,/pokemon/dedenne.png,ELECTRIC,FAIRY,134,81,62,101,3,Discharge
-CARBINK,Carbink/pokemon/carbink.png,ROCK,FAIRY,100,50,150,50,2,Power Gem
+CARBINK,Carbink,/pokemon/carbink.png,ROCK,FAIRY,100,50,150,50,2,Power Gem
 GOOMY,Goomy,/pokemon/goomy.png,DRAGON,,90,55,55,40,2,Water Gun
 SLIGGOO,Sliggoo,/pokemon/sliggoo.png,DRAGON,,136,83,83,60,2,Dragon Breath
 GOODRA,Goodra,/pokemon/goodra.png,DRAGON,,180,110,110,80,2,Dragon Pulse
