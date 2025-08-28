@@ -649,8 +649,11 @@ KELDEO,Keldeo,/pokemon/keldeo.png,WATER,FIGHTING,182,129,90,108,3,Secret Sword
 MELOETTA,Meloetta,/pokemon/meloetta.png,NORMAL,PSYCHIC,200,128,103,90,3,Hyper Voice
 GENESECT,Genesect,/pokemon/genesect.png,BUG,STEEL,142,120,95,99,3,Techno Blast
 CHESPIN,Chespin,/pokemon/chespin.png,GRASS,,112,61,55,38,3,Vine Whip
+QUILLADIN,Quilladin,/pokemon/quilladin.png,GRASS,,122,78,77,57,3,Seed Bomb
 FENNEKIN,Fennekin,/pokemon/fennekin.png,FIRE,,80,62,50,60,3,Ember
+BRAIXEN,Braixen,/pokemon/braixen.png,FIRE,,118,90,64,73,3,Psybeam
 FROAKIE,Froakie,/pokemon/froakie.png,WATER,,82,62,42,71,3,Water Gun
+FROGADIER,Frogadier,/pokemon/frogadier.png,WATER,,108,83,54,97,3,Water Pulse
 BUNNELBY,Bunnelby,/pokemon/bunnelby.png,NORMAL,,76,36,37,57,3,Tackle
 FLETCHLING,Fletchling,/pokemon/fletchling.png,NORMAL,FLYING,90,50,41,62,4,Peck
 SCATTERBUG,Scatterbug,/pokemon/scatterbug.png,BUG,,76,35,33,35,1,Tackle
