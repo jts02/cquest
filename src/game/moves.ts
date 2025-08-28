@@ -57,6 +57,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Thousand Waves',
+        power: 100,
+        type: PokemonType.GROUND,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Force Palm',
         power: 60,
         type: PokemonType.FIGHTING,
@@ -70,6 +81,16 @@ export const MOVES: Move[] = [
         name: 'Drill Run',
         power: 80,
         type: PokemonType.GROUND,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Diamond Storm',
+        power: 100,
+        type: PokemonType.ROCK,
         // Just two squares forward
         shape: [
             { x: 0, y: -2 },
@@ -165,6 +186,16 @@ export const MOVES: Move[] = [
         name: 'Ice Ball',
         power: 40,
         type: PokemonType.ICE,
+        // just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Steam Eruption',
+        power: 110,
+        type: PokemonType.WATER,
         // just two squares forward
         shape: [
             { x: 0, y: -2 },
@@ -310,9 +341,6 @@ export const MOVES: Move[] = [
           { x: -1, y: -1 },
           { x: 0, y: -1 },
           { x: 1, y: -1 },
-          { x: -1, y: -2 },
-          { x: 0, y: -2 },
-          { x: 1, y: -2 },
       ],
       additionalEffects: [],
     },
@@ -641,10 +669,19 @@ export const MOVES: Move[] = [
     name: 'Aura Sphere',
     power: 80,
     type: PokemonType.FIGHTING,
-    // Two squares forward
+    // Just Two squares forward
     shape: [
       { x: 0, y: -2 },
-      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Water Shuriken',
+    power: 75,
+    type: PokemonType.WATER,
+    // Just two squares forward
+    shape: [
+      { x: 0, y: -2 },
     ],
     additionalEffects: [],
 },
@@ -1324,6 +1361,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Flying Press',
+        power: 100,
+        type: PokemonType.FIGHTING,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Thunder',
         power: 110,
         type: PokemonType.ELECTRIC,
@@ -1557,6 +1604,16 @@ export const MOVES: Move[] = [
         name: 'Vital Throw',
         power: 70,
         type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Branch Poke',
+        power: 40,
+        type: PokemonType.GRASS,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
@@ -1928,6 +1985,18 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
         ],
         additionalEffects: [],
+    },
+    {
+        name: 'Oblivion Wing',
+        power: 80,
+        type: PokemonType.FLYING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [
+          { kind: 'heal', healPercentage: 0.75 }
+        ],
     },
     {
         name: 'Poison Jab',
@@ -2534,6 +2603,20 @@ export const MOVES: Move[] = [
         name: 'Sludge Bomb',
         power: 90,
         type: PokemonType.POISON,
+        // X In front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
+            { x: -1, y: -1 },
+            { x: 1, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Mystical Fire',
+        power: 75,
+        type: PokemonType.FIRE,
         // X In front of user
         shape: [
             { x: -1, y: -3 },
