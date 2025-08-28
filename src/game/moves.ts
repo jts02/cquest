@@ -1537,6 +1537,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Circle Throw',
+        power: 60,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Vital Throw',
         power: 70,
         type: PokemonType.FIGHTING,
