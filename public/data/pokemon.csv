@@ -495,7 +495,7 @@ ARCEUS,Arceus,/pokemon/arceus.png,NORMAL,,240,120,120,120,4,Judgment
 VICTINI,Victini,/pokemon/victini.png,FIRE,PSYCHIC,200,100,100,100,3,V-Create
 SNIVY,Snivy,/pokemon/snivy.png,GRASS,,90,45,55,63,4,Vine Whip
 SERVINE,Servine,/pokemon/servine.png,GRASS,,120,60,75,83,4,Leaf Blade
-SERPERIOR,Serperior,/pokemon/serperior.png,GRASS,,150,75,95,113,Leaf Storm
+SERPERIOR,Serperior,/pokemon/serperior.png,GRASS,,150,75,95,113,4,Leaf Storm
 TEPIG,Tepig,/pokemon/tepig.png,FIRE,,130,63,45,45,3,Ember
 PIGNITE,Pignite,/pokemon/pignite.png,FIRE,FIGHTING,180,93,55,55,3,Fire Punch
 EMBOAR,Emboar,/pokemon/emboar.png,FIRE,FIGHTING,220,123,65,65,2,Fire Blast
