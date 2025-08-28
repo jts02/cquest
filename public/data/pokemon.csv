@@ -633,7 +633,7 @@ HEATMOR,Heatmor,/pokemon/heatmor.png,FIRE,,170,105,66,65,2,Flamethrower
 DURANT,Durant,/pokemon/durant.png,BUG,STEEL,116,109,80,109,4,Iron Head
 DEINO,Deino,/pokemon/deino.png,DARK,DRAGON,104,65,50,38,3,Dragon Rage
 ZWEILOUS,Zweilous,/pokemon/zweilous.png,DARK,DRAGON,144,85,70,58,3,Crunch
-HYDREIGON,Hydreigon,/pokemon/hydreigon.png,184,125,90,98,3,Dragon Pulse
+HYDREIGON,Hydreigon,/pokemon/hydreigon.png,DARK,DRAGON,184,125,90,98,3,Dragon Pulse
 LARVESTA,Larvesta,/pokemon/larvesta.png,BUG,FIRE,110,85,55,60,3,Flame Wheel
 VOLCARONA,Volcarona,/pokemon/volcarona.png,BUG,FIRE,170,135,85,100,3,Fiery Dance
 COBALION,Cobalion,/pokemon/cobalion.png,STEEL,FIGHTING,182,90,102,108,3,Sacred Sword
