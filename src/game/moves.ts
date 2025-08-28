@@ -63,7 +63,6 @@ export const MOVES: Move[] = [
         // Two squares forward
         shape: [
             { x: 0, y: -1 },
-            { x: 0, y: -2 },
         ],
         additionalEffects: [],
     },
@@ -71,9 +70,8 @@ export const MOVES: Move[] = [
         name: 'Drill Run',
         power: 80,
         type: PokemonType.GROUND,
-        // Two squares forward
+        // Just two squares forward
         shape: [
-            { x: 0, y: -1 },
             { x: 0, y: -2 },
         ],
         additionalEffects: [],
@@ -82,10 +80,9 @@ export const MOVES: Move[] = [
         name: 'Astonish',
         power: 30,
         type: PokemonType.GHOST,
-        // Two squares forward
+        // Just one square forward
         shape: [
             { x: 0, y: -1 },
-            { x: 0, y: -2 },
         ],
         additionalEffects: [],
     },
@@ -97,6 +94,16 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
             { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Bolt Strike',
+        power: 130,
+        type: PokemonType.ELECTRIC,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
         ],
         additionalEffects: [],
     },
@@ -115,10 +122,9 @@ export const MOVES: Move[] = [
         name: 'Iron Head',
         power: 80,
         type: PokemonType.STEEL,
-        // Two squares forward
+        // Just one square forward
         shape: [
             { x: 0, y: -1 },
-            { x: 0, y: -2 },
         ],
         additionalEffects: [],
     },
@@ -159,9 +165,8 @@ export const MOVES: Move[] = [
         name: 'Ice Ball',
         power: 40,
         type: PokemonType.ICE,
-        // Two squares forward
+        // just two squares forward
         shape: [
-            { x: 0, y: -1 },
             { x: 0, y: -2 },
         ],
         additionalEffects: [],
@@ -181,6 +186,18 @@ export const MOVES: Move[] = [
         name: 'Vine Whip',
         power: 45,
         type: PokemonType.GRASS,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+      ],
+      additionalEffects: [],
+    },
+    {
+        name: 'Gear Grind',
+        power: 100,
+        type: PokemonType.STEEL,
         // Horizontally in front of user
         shape: [
           { x: -1, y: -1 },
@@ -220,7 +237,7 @@ export const MOVES: Move[] = [
         // Horizontally in front of user
         shape: [
           { x: -1, y: -1 },
-          { x: 0, y: -1 },
+          { x: 0, y: -2 },
           { x: 1, y: -1 },
       ],
       additionalEffects: [
@@ -236,9 +253,6 @@ export const MOVES: Move[] = [
           { x: -1, y: -1 },
           { x: 0, y: -1 },
           { x: 1, y: -1 },
-          { x: -1, y: -2 },
-          { x: 0, y: -2 },
-          { x: 1, y: -2 },
       ],
       additionalEffects: [],
     },
@@ -343,9 +357,6 @@ export const MOVES: Move[] = [
           { x: -1, y: -1 },
           { x: 0, y: -1 },
           { x: 1, y: -1 },
-          { x: -1, y: -2 },
-          { x: 0, y: -2 },
-          { x: 1, y: -2 },
       ],
       additionalEffects: [
         { kind: 'statChange', chance: .3, increase: false, self: false, stat: 'defense', stages: 1}
@@ -479,9 +490,8 @@ export const MOVES: Move[] = [
     name: 'Body Slam',
     power: 85,
     type: PokemonType.NORMAL,
-    // Two squares forward
+    // Just two squares forward
     shape: [
-      { x: 0, y: -1 },
       { x: 0, y: -2 },
     ],
     additionalEffects: [],
@@ -490,10 +500,9 @@ export const MOVES: Move[] = [
     name: 'Slam',
     power: 80,
     type: PokemonType.NORMAL,
-    // Two squares forward
+    // Just one square forward
     shape: [
       { x: 0, y: -1 },
-      { x: 0, y: -2 },
     ],
     additionalEffects: [],
 },
@@ -501,7 +510,7 @@ export const MOVES: Move[] = [
     name: 'Strength',
     power: 80,
     type: PokemonType.NORMAL,
-    // Two squares forward
+    // Just one square forward
     shape: [
       { x: 0, y: -1 },
     ],
@@ -538,6 +547,17 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Secret Sword',
+    power: 85,
+    type: PokemonType.FIGHTING,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Brine',
     power: 65,
     type: PokemonType.WATER,
@@ -552,9 +572,8 @@ export const MOVES: Move[] = [
     name: 'Flame Wheel',
     power: 60,
     type: PokemonType.FIRE,
-    // Two squares forward
+    // Just two squares forward
     shape: [
-      { x: 0, y: -1 },
       { x: 0, y: -2 },
     ],
     additionalEffects: [],
@@ -813,23 +832,65 @@ export const MOVES: Move[] = [
         { kind: 'statChange', chance: .1, increase: false, self: false, stat: 'defense', stages: 1}
     ],
 },
+{
+    name: 'Fiery Dance',
+    power: 80,
+    type: PokemonType.FIRE,
+    // Hollow cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [
+      { kind: 'statChange', chance: .5, increase: true, self: true, stat: 'attack', stages: 1}
+    ],
+},
   {
     name: 'Volt Tackle',
     power: 120,
     type: PokemonType.ELECTRIC,
-    // Hollow cross in front
+    // Horizontal 2 in front
     shape: [
-      { x: 0, y: -1 },
       { x: -1, y: -2 },
       { x: 0, y: -2 },
       { x: 1, y: -2 },
     ],
     additionalEffects: [],
 },
+{
+    name: 'Glaciate',
+    power: 65,
+    type: PokemonType.ICE,
+    // Horizontal 2 in front
+    shape: [
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+    ],
+    additionalEffects: [
+      { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'speed', stages: 1}
+    ],
+},
   {
     name: 'Stone Edge',
     power: 100,
     type: PokemonType.ROCK,
+    // Filled cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Blue Flare',
+    power: 130,
+    type: PokemonType.FIRE,
     // Filled cross in front
     shape: [
       { x: 0, y: -1 },
@@ -1126,6 +1187,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Techno Blast',
+        power: 120,
+        type: PokemonType.NORMAL,
+        shape: [
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Ember',
         power: 40,
         type: PokemonType.FIRE,
@@ -1378,6 +1449,16 @@ export const MOVES: Move[] = [
     {
         name: 'Quick Attack',
         power: 40,
+        type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Horn Attack',
+        power: 65,
         type: PokemonType.NORMAL,
         // Just one square forward
         shape: [
@@ -2154,6 +2235,20 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Sandsear Storm',
+        power: 100,
+        type: PokemonType.GROUND,
+        // X in front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
+            { x: -1, y: -1 },
+            { x: 1, y: -1 },
+        ],
+      additionalEffects: [],
+    },
+    {
         name: 'Flame Burst',
         power: 75,
         type: PokemonType.FIRE,
@@ -2577,9 +2672,10 @@ export const MOVES: Move[] = [
         power: 100,
         type: PokemonType.DRAGON,
         shape: [
-            { x: -1, y: -1 },
+            { x: -1, y: -2 },
             { x: 0, y: -1 },
-            { x: 1, y: -1 },
+            { x: 1, y: -2 },
+            { x: 0, y: -3 },
           ],
           additionalEffects: [],
         },

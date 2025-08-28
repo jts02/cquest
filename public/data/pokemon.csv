@@ -582,6 +582,7 @@ DUCKLETT,Ducklett,/pokemon/ducklett.png,WATER,FLYING,124,44,50,55,3,Water Gun
 SWANNA,Swanna,/pokemon/swanna.png,WATER,FLYING,150,87,63,98,3,Air Slash
 VANILLITE,Vanillite,/pokemon/vanillite.png,ICE,,72,65,55,44,3,Powder Snow
 VANILLISH,Vanillish,/pokemon/vanillish.png,ICE,,102,80,70,59,3,Icy Wind
+VANILLUXE,Vanilluxe,/pokemon/vanilluxe.png,ICE,,142,110,90,79,3,Ice Beam
 DEERLING,Deerling,/pokemon/deerling.png,NORMAL,GRASS,120,60,50,75,3,Tackle
 SAWSBUCK,Sawsbuck,/pokemon/sawsbuck.png,NORMAL,GRASS,160,100,70,95,3,Horn Leech
 EMOLGA,Emolga,/pokemon/emolga.png,ELECTRIC,FLYING,110,75,60,103,4,Spark
@@ -598,6 +599,7 @@ FERROSEED,Ferroseed,/pokemon/ferroseed.png,GRASS,STEEL,88,50,88,10,1,Metal Claw
 FERROTHORN,Ferrothorn,/pokemon/ferrothorn.png,GRASS,STEEL,148,94,124,20,1,Iron Head
 KLINK,Klink,/pokemon/klink.png,STEEL,,80,55,65,30,2,Thunder Shock
 KLANG,Klang,/pokemon/klang.png,STEEL,,120,75,90,50,2,Mirror Shot
+KLINKLANG,Klinklang,/pokemon/klinklang.png,STEEL,,120,100,100,90,2,Gear Grind
 TYNAMO,Tynamo,/pokemon/tynamo.png,ELECTRIC,,70,55,40,60,3,Tackle
 EELEKTRIK,Eelektrik,/pokemon/eelektrik.png,ELECTRIC,,130,85,70,40,3,Spark
 EELEKTROSS,Eelektross,/pokemon/eelektross.png,ELECTRIC,,170,115,80,50,3,Discharge
@@ -608,6 +610,7 @@ LAMPENT,Lampent,/pokemon/lampent.png,GHOST,FIRE,120,95,60,55,3,Hex
 CHANDELURE,Chandelure,/pokemon/chandelure.png,GHOST,FIRE,120,145,90,80,3,Shadow Ball
 AXEW,Axew,/pokemon/axew.png,DRAGON,,92,87,50,57,3,Dragon Rage
 FRAXURE,Fraxure,/pokemon/fraxure.png,DRAGON,,132,117,60,67,3,Dragon Tail
+HAXORUS,Haxorus,/pokemon/haxorus.png,DRAGON,,152,147,80,97,3,Dragon Claw
 CUBCHOO,Cubchoo,/pokemon/cubchoo.png,ICE,,110,70,40,40,3,Powder Snow
 BEARTIC,Beartic,/pokemon/beartic.png,ICE,,190,130,80,50,2,Icicle Crash
 CRYOGONAL,Cryogonal,/pokemon/cryogonal.png,ICE,,160,95,93,105,3,Ice Beam
@@ -615,12 +618,33 @@ SHELMET,Shelmet,/pokemon/shelmet.png,BUG,,100,40,75,25,2,Struggle Bug
 ACCELGOR,Accelgor,/pokemon/accelgor.png,BUG,,160,100,50,145,4,Bug Buzz
 STUNFISK,Stunfisk,/pokemon/stunfisk.png,GROUND,ELECTRIC,218,81,91,32,2,Discharge
 MIENFOO,Mienfoo,/pokemon/mienfoo.png,FIGHTING,,90,85,50,65,3,Force Palm
+MIENSHAO,Mienshao,/pokemon/mienshao.png,FIGHTING,,130,125,60,105,3,Drain Punch
 DRUDDIGON,Druddigon,/pokemon/druddigon.png,DRAGON,,154,120,90,48,3,Dragon Claw
 GOLETT,Golett,/pokemon/golett.png,GROUND,GHOST,118,74,50,35,2,Bulldoze
 GOLURK,Golurk,/pokemon/golurk.png,GROUND,GHOST,178,124,80,55,2,Earthquake
 PAWNIARD,Pawniard,/pokemon/pawniard.png,DARK,STEEL,90,85,55,60,3,Assurance
+BISHARP,Bisharp,/pokemon/bisharp.png,DARK,STEEL,130,125,85,70,3,Night Slash
+BOUFFALANT,Bouffalant,/pokemon/bouffalant.png,NORMAL,,190,110,95,55,3,Horn Attack
+RUFFLET,Rufflet,/pokemon/rufflet.png,NORMAL,FLYING,140,83,50,60,4,Wing Attack
+BRAVIARY,Braviary,/pokemon/braviary.png,NORMAL,FLYING,200,123,75,80,4,Brave Bird
+VULLABY,Vullaby,/pokemon/vullaby.png,DARK,FLYING,140,55,70,60,3,Pluck
+MANDIBUZZ,Mandibuzz,/pokemon/mandibuzz.png,DARK,FLYING,220,65,100,80,3,Throat Chop
+HEATMOR,Heatmor,/pokemon/heatmor.png,FIRE,,170,105,66,65,2,Flamethrower
+DURANT,Durant,/pokemon/durant.png,BUG,STEEL,116,109,80,109,4,Iron Head
+DEINO,Deino,/pokemon/deino.png,DARK,DRAGON,104,65,50,38,3,Dragon Rage
+ZWEILOUS,Zweilous,/pokemon/zweilous.png,DARK,DRAGON,144,85,70,58,3,Crunch
+HYDREIGON,Hydreigon,/pokemon/hydreigon.png,184,125,90,98,3,Dragon Pulse
 LARVESTA,Larvesta,/pokemon/larvesta.png,BUG,FIRE,110,85,55,60,3,Flame Wheel
+VOLCARONA,Volcarona,/pokemon/volcarona.png,BUG,FIRE,170,135,85,100,3,Fiery Dance
 COBALION,Cobalion,/pokemon/cobalion.png,STEEL,FIGHTING,182,90,102,108,3,Sacred Sword
+TERRAKION,Terrakion,/pokemon/terrakion.png,ROCK,FIGHTING,182,129,90,108,3,Sacred Sword
 VIRIZION,Virizion,/pokemon/virizion.png,GRASS,FIGHTING,182,90,102,108,3,Sacred Sword
 TORNADUS,Tornadus,/pokemon/tornadus.png,FLYING,,158,125,75,111,2,Bleakwind Storm
 THUNDURUS,Thundurus,/pokemon/thundurus.png,ELECTRIC,FLYING,158,125,75,111,2,Wildbolt Storm
+RESHIRAM,Reshiram,/pokemon/reshiram.png,DRAGON,FIRE,200,150,110,90,3,Blue Flare
+ZEKROM,Zekrom,/pokemon/zekrom.png,DRAGON,ELECTRIC,200,150,110,90,3,Bolt Strike
+LANDORUS,Landorus,/pokemon/landorus.png,GROUND,FLYING,178,125,85,101,3,Sandsear Storm
+KYUREM,Kyurem,/pokemon/kyurem.png,DRAGON,ICE,250,130,90,95,3,Blizzard
+KELDEO,Keldeo,/pokemon/keldeo.png,WATER,FIGHTING,182,129,90,108,3,Secret Sword
+MELOETTA,Meloetta,/pokemon/meloetta.png,NORMAL,PSYCHIC,200,128,103,90,3,Hyper Voice
+GENESECT,Genesect,/pokemon/genesect.png,BUG,STEEL,142,120,95,99,3,Techno Blast
