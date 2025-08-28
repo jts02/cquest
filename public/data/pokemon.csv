@@ -567,7 +567,7 @@ CARRACOSTA,Carracosta,/pokemon/carracosta.png,WATER,ROCK,148,108,99,32,2,Aqua Ta
 ARCHEN,Archen,/pokemon/archen.png,ROCK,FLYING,110,112,45,70,3,Rock Throw
 ARCHEOPS,Archeops,/pokemon/archeops.png,ROCK,FLYING,150,140,65,110,3,Rock Slide
 TRUBBISH,Trubbish,/pokemon/trubbish.png,POISON,,100,50,62,65,2,Sludge
-GARBODOR,Garbodor,/pokemon/garbodor.png,POISON,,160.95,82,75,2,Sludge Bomb
+GARBODOR,Garbodor,/pokemon/garbodor.png,POISON,,160,95,82,75,2,Sludge Bomb
 ZORUA,Zorua,/pokemon/zorua.png,DARK,,80,80,40,65,4,Snarl
 ZOROARK,Zoroark,/pokemon/zoroark.png,DARK,,120,120,60,105,4,Night Daze
 MINCCINO,Minccino,/pokemon/minccino.png,NORMAL,,110,50,40,75,3,Pound
