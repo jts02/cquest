@@ -2338,6 +2338,25 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Clanging Scales',
+        power: 110,
+        type: PokemonType.DRAGON,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'defense', stages: 1}
+        ],
+    },
+    {
         name: 'Snarl',
         power: 55,
         type: PokemonType.DARK,
