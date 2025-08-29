@@ -150,6 +150,18 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Trop Kick',
+        power: 70,
+        type: PokemonType.GRASS,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'attack', stages: 1}
+        ],
+    },
+    {
         name: 'Rock Smash',
         power: 40,
         type: PokemonType.FIGHTING,
@@ -2479,6 +2491,23 @@ export const MOVES: Move[] = [
         name: 'Extrasensory',
         power: 80,
         type: PokemonType.PSYCHIC,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Smog',
+        power: 30,
+        type: PokemonType.POISON,
         // All Around user
         shape: [
             { x: -1, y: -1 },
