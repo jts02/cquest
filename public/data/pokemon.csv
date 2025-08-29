@@ -44,7 +44,7 @@ GOLBAT,Golbat,/pokemon/golbat.png,POISON,FLYING,150,80,73,90,4,Poison Fang
 ODDISH,Oddish,/pokemon/oddish.png,GRASS,POISON,90,75,63,30,2,Absorb
 GLOOM,Gloom,/pokemon/gloom.png,GRASS,POISON,120,85,73,40,2,Mega Drain
 VILEPLUME,Vileplume,/pokemon/vileplume.png,GRASS,POISON,150,110,88,50,2,Giga Drain
-PARAS,Paras,/pokemon/paras.png,BUG,GRASS,35,70,55,25,2,Bug Bite
+PARAS,Paras,/pokemon/paras.png,BUG,GRASS,70,70,55,25,2,Bug Bite
 PARASECT,Parasect,/pokemon/parasect.png,BUG,GRASS,120,95,80,30,2,X-Scissor
 VENONAT,Venonat,/pokemon/venonat.png,BUG,POISON,120,55,53,45,3,Bug Bite
 VENOMOTH,Venomoth,/pokemon/venomoth.png,BUG,POISON,140,90,68,90,3,Bug Buzz
