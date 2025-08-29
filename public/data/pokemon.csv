@@ -722,10 +722,13 @@ HOOPA,Hoopa,/pokemon/hoopa.png,PSYCHIC,GHOST,160,150,95,70,3,Psychic
 VOLCANION,Volcanion,/pokemon/volcanion.png,FIRE,WATER,160,130,105,70,2,Steam Eruption
 ROWLET,Rowlet,/pokemon/rowlet.png,GRASS,FLYING,136,55,53,42,3,Leafage
 DARTRIX,Dartrix,/pokemon/dartrix.png,GRASS,FLYING,156,75,73,52,3,Razor Leaf
+DECIDUEYE,Decidueye,/pokemon/decidueye.png,GRASS,GHOST,156,107,88,70,3,Spirit Shackle
 LITTEN,Litten,/pokemon/litten.png,FIRE,,90,65,40,70,3,Ember
 TORRACAT,Torracat,/pokemon/torracat.png,FIRE,,130,85,50,90,3,Fire Fang
+INCINEROAR,Incineroar,/pokemon/incineroar.png,FIRE,DARK,190,115,90,60,3,Darkest Lariat
 POPPLIO,Popplio,/pokemon/popplio.png,WATER,,100,66,55,40,3,Water Gun
 BRIONNE,Brionne,/pokemon/brionne.png,WATER,,120,91,75,50,3,Bubble Beam
+PRIMARINA,Primarina,/pokemon/primarina.png,WATER,FAIRY,160,126,95,60,3,Sparkling Aria
 PIKIPEK,Pikipek,/pokemon/pikipek.png,NORMAL,FLYING,70,75,30,65,4,Peck
 TRUMBEAK,Trumbeak,/pokemon/trumbeak.png,NORMAL,FLYING,110,85,50,75,4,Pluck
 TOUCANNON,Toucannon,/pokemon/toucannon.png,NORMAL,FLYING,160,120,75,60,4,Drill Peck
@@ -733,6 +736,7 @@ YUNGOOS,Yungoos,/pokemon/yungoos.png,NORMAL,,96,70,30,45,3,Tackle
 GUMSHOOS,Gumshoos,/pokemon/gumshoos.png,NORMAL,,176,110,60,45,3,Hyper Fang
 GRUBBIN,Grubbin,/pokemon/grubbin.png,BUG,,94,62,45,46,1,Struggle Bug
 CHARJABUG,Charjabug,/pokemon/charjabug.png,BUG,ELECTRIC,114,82,85,36,1,Bug Bite
+VIKAVOLT,Vikavolt,/pokemon/vikavolt.png,BUG,ELECTRIC,154,145,83,43,2,Bug Buzz
 CRABRAWLER,Crabrawler,/pokemon/crabrawler.png,FIGHTING,,94,82,52,63,3,Rock Smash
 ORICORIO,Oricorio,/pokemon/oricorio.png,FIRE,FLYING,150,98,70,93,3,Revelation Dance
 CUTIEFLY,Cutiefly,/pokemon/cutiefly.png,BUG,FAIRY,80,55,40,84,4,Fairy Wind
@@ -741,13 +745,17 @@ ROCKRUFF,Rockruff,/pokemon/rockruff.png,ROCK,,90,65,40,60,3,Rock Throw
 LYCANROC,Lycanroc,/pokemon/lycanroc.png,ROCK,,150,115,65,112,3,Rock Slide
 WISHIWASHI,Wishiwashi,/pokemon/wishiwashi.png,WATER,,90,25,23,40,3,Water Gun
 MAREANIE,Mareanie,/pokemon/mareanie.png,POISON,WATER,100,53,57,45,2,Poison Sting
+TOXAPEX,Toxapex,/pokemon/toxapex.png,POISON,WATER,100,63,147,35,2,Poison Jab
 MUDBRAY,Mudbray,/pokemon/mudbray.png,GROUND,,140,100,63,45,3,Bulldoze
+MUDSDALE,Mudsdale,/pokemon/mudsdale.png,200,125,93,35,3,High Horsepower
 DEWPIDER,Dewpider,/pokemon/dewpider.png,WATER,BUG,76,40,62,27,3,Water Gun
 ARAQUANID,Araquanid,/pokemon/araquanid.png,WATER,BUG,136,70,112,42,3,Liquidation
 FOMANTIS,Fomantis,/pokemon/fomantis.png,GRASS,,80,55,35,35,3,Razor Leaf
+LURANTIS,Lurantis,/pokemon/lurantis.png,GRASS,,140,105,90,45,3,Leaf Blade
 MORELULL,Morelull,/pokemon/morelull.png,GRASS,FAIRY,80,65,65,15,2,Mega Drain
 SHIINOTIC,Shiinotic,/pokemon/shiinotic.png,GRASS,FAIRY,120,90,90,30,2,Giga Drain
 SALANDIT,Salandit,/pokemon/salandit.png,POISON,FIRE,96,71,40,77,3,Smog
+SALAZZLE,Salazzle,/pokemon/salazzle.png,POISON,FIRE,136,111,60,117,3,Sludge Wave
 STUFFUL,Stufful,/pokemon/stufful.png,NORMAL,FIGHTING,140,75,50,50,3,Tackle
 BEWEAR,Bewear,/pokemon/bewear.png,NORMAL,FIGHTING,240,125,70,60,3,Strength
 BOUNSWEET,Bounsweet,/pokemon/bounsweet.png,GRASS,,84,30,38,32,3,Razor Leaf
@@ -757,5 +765,15 @@ COMFEY,Comfey,/pokemon/comfey.png,FAIRY,,102,82,100,100,3,Dazzling Gleam
 ORANGURU,Oranguru,/pokemon/oranguru.png,NORMAL,PSYCHIC,180,90,95,60,3,Psychic
 PASSIMIAN,Passimian,/pokemon/passimian.png,FIGHTING,,200,120,75,80,3,Brick Break
 WIMPOD,Wimpod,/pokemon/wimpod.png,BUG,WATER,50,35,35,80,3,Struggle Bug
-SANDYGAST,Sandygast,/pokemon/sandygast.png,GHOST,GROUND,110,70,63,15,2,Sandygast
+GOLISOPOD,Golisopod,/pokemon/golisopod.png,150,125,115,40,3,Liquidation
+SANDYGAST,Sandygast,/pokemon/sandygast.png,GHOST,GROUND,110,70,63,15,2,Astonish
+PALOSSAND,Palossand,/pokemon/palossand.png,GHOST,GROUND,170,100,93,35,2,Shadow Ball
 PYUKUMUKU,Pyukumuku,/pokemon/pyukumuku.png,WATER,,110,60,130,5,1,Harden
+MINIOR,Minior,/pokemon/minior.png,ROCK,FLYING,120,60,100,60,3,Power Gem
+KOMALA,Komala,/pokemon/komala.png,NORMAL,,130,115,80,65,3,Slam
+TURTONATOR,Turtonator,/pokemon/turtonator.png,FIRE,DRAGON,120,91,110,36,2,Flamethrower
+TOGEDEMARU,Togedemaru,/pokemon/togedemaru.png,ELECTRIC,STEEL,130,98,68,96,3,Zing Zap
+MIMIKYU,Mimikyu,/pokemon/mimikyu.png,GHOST,FAIRY,110,90,93,96,3,Play Rough
+BRUXISH,Bruxish,/pokemon/bruxish.png,WATER,PSYCHIC,136,105,70,92,3,Psychic Fangs
+DHELMISE,Dhelmise,/pokemon/dhelmise.png,GHOST,GRASS,140,131,95,40,2,Shadow Claw
+JANGMOO,Jangmo-o,/pokemon/jangmo-o.png,DRAGON,,90,55,55,45,3,Dragon Tail

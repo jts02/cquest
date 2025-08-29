@@ -150,6 +150,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'High Horsepower',
+        power: 95,
+        type: PokemonType.GROUND,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Trop Kick',
         power: 70,
         type: PokemonType.GRASS,
@@ -301,6 +311,18 @@ export const MOVES: Move[] = [
         name: 'Aqua Tail',
         power: 90,
         type: PokemonType.WATER,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -1 },
+          { x: 0, y: -1 },
+          { x: 1, y: -1 },
+      ],
+      additionalEffects: [],
+    },
+    {
+        name: 'Sludge Wave',
+        power: 95,
+        type: PokemonType.POISON,
         // Horizontally in front of user
         shape: [
           { x: -1, y: -1 },
@@ -691,6 +713,26 @@ export const MOVES: Move[] = [
     name: 'Aura Sphere',
     power: 80,
     type: PokemonType.FIGHTING,
+    // Just Two squares forward
+    shape: [
+      { x: 0, y: -2 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Spirit Shackle',
+    power: 80,
+    type: PokemonType.GHOST,
+    // Just Two squares forward
+    shape: [
+      { x: 0, y: -2 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Darkest Lariat',
+    power: 85,
+    type: PokemonType.DARK,
     // Just Two squares forward
     shape: [
       { x: 0, y: -2 },
@@ -1706,6 +1748,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Zing Zap',
+        power: 80,
+        type: PokemonType.ELECTRIC,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Metal Claw',
         power: 50,
         type: PokemonType.STEEL,
@@ -1990,6 +2042,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Psychic Fangs',
+        power: 85,
+        type: PokemonType.PSYCHIC,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Bite',
         power: 60,
         type: PokemonType.DARK,
@@ -2245,6 +2307,23 @@ export const MOVES: Move[] = [
         name: 'Hyper Voice',
         power: 80,
         type: PokemonType.NORMAL,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Sparkling Aria',
+        power: 90,
+        type: PokemonType.WATER,
         // All Around user
         shape: [
             { x: -1, y: -1 },
