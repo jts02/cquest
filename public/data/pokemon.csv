@@ -738,6 +738,7 @@ GRUBBIN,Grubbin,/pokemon/grubbin.png,BUG,,94,62,45,46,1,Struggle Bug
 CHARJABUG,Charjabug,/pokemon/charjabug.png,BUG,ELECTRIC,114,82,85,36,1,Bug Bite
 VIKAVOLT,Vikavolt,/pokemon/vikavolt.png,BUG,ELECTRIC,154,145,83,43,2,Bug Buzz
 CRABRAWLER,Crabrawler,/pokemon/crabrawler.png,FIGHTING,,94,82,52,63,3,Rock Smash
+CRABOMINABLE,Crabominable,/pokemon/crabominable.png,FIGHTING,ICE,194,132,72,43,3,Ice Hammer
 ORICORIO,Oricorio,/pokemon/oricorio.png,FIRE,FLYING,150,98,70,93,3,Revelation Dance
 CUTIEFLY,Cutiefly,/pokemon/cutiefly.png,BUG,FAIRY,80,55,40,84,4,Fairy Wind
 RIBOMBEE,Ribombee,/pokemon/ribombee.png,BUG,FAIRY,120,95,65,124,4,Bug Buzz
@@ -779,3 +780,5 @@ DHELMISE,Dhelmise,/pokemon/dhelmise.png,GHOST,GRASS,140,131,95,40,2,Shadow Claw
 JANGMOO,Jangmo-o,/pokemon/jangmo-o.png,DRAGON,,90,55,55,45,3,Dragon Tail
 HAKAMOO,Hakamo-o,/pokemon/hakamo-o.png,DRAGON,FIGHTING,110,75,80,65,3,Dragon Claw
 KOMMOO,Kommo-o,/pokemon/kommo-o.png,DRAGON,FIGHTING,150,110,115,85,3,Clanging Scales
+SOLGALEO,Solgaleo,/pokemon/solgaleo.png,PSYCHIC,STEEL,274,137,98,97,3,Sunsteel Strike
+LUNALA,Lunala,/pokemon/lunala.png,PSYCHIC,GHOST,274,137,98,97,3,Moongeist Beam

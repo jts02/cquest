@@ -68,6 +68,30 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Sunsteel Strike',
+        power: 100,
+        type: PokemonType.STEEL,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Moongeist Beam',
+        power: 100,
+        type: PokemonType.GHOST,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Force Palm',
         power: 60,
         type: PokemonType.FIGHTING,
@@ -583,6 +607,26 @@ export const MOVES: Move[] = [
     power: 80,
     type: PokemonType.NORMAL,
     // Just one square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Ice Punch',
+    power: 75,
+    type: PokemonType.ICE,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Ice Hammer',
+    power: 100,
+    type: PokemonType.ICE,
+    // One square forward
     shape: [
       { x: 0, y: -1 },
     ],
