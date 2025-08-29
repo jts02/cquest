@@ -150,6 +150,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Rock Smash',
+        power: 40,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Mirror Shot',
         power: 65,
         type: PokemonType.STEEL,
@@ -890,6 +900,19 @@ export const MOVES: Move[] = [
     additionalEffects: [
       { kind: 'statChange', chance: .5, increase: true, self: true, stat: 'attack', stages: 1}
     ],
+},
+{
+    name: 'Revelation Dance',
+    power: 90,
+    type: PokemonType.FIRE,
+    // Hollow cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
 },
   {
     name: 'Volt Tackle',

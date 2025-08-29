@@ -720,3 +720,15 @@ ZYGARDE,Zygarde,/pokemon/zygarde.png,DRAGON,GHOST,216,100,108,95,3,Thousand Wave
 DIANCIE,Diancie,/pokemon/diancie.png,ROCK,FAIRY,100,100,150,50,2,Diamond Storm
 HOOPA,Hoopa,/pokemon/hoopa.png,PSYCHIC,GHOST,160,150,95,70,3,Psychic
 VOLCANION,Volcanion,/pokemon/volcanion.png,FIRE,WATER,160,130,105,70,2,Steam Eruption
+ROWLET,Rowlet,/pokemon/rowlet.png,GRASS,FLYING,136,55,53,42,3,Leafage
+LITTEN,Litten,/pokemon/litten.png,FIRE,,90,65,40,70,3,Ember
+POPPLIO,Popplio,/pokemon/popplio.png,WATER,,100,66,55,40,3,Water Gun
+PIKIPEK,Pikipek,/pokemon/pikipek.png,NORMAL,FLYING,70,75,30,65,4,Peck
+TRUMBEAK,Trumbeak,/pokemon/trumbeak.png,NORMAL,FLYING,110,85,50,75,4,Pluck
+YUNGOOS,Yungoos,/pokemon/yungoos.png,NORMAL,,96,70,30,45,3,Tackle
+GRUBBIN,Grubbin,/pokemon/grubbin.png,BUG,,94,62,45,46,1,Struggle Bug
+CRABRAWLER,Crabrawler,/pokemon/crabrawler.png,FIGHTING,,94,82,52,63,3,Rock Smash
+ORICORIO,Oricorio,/pokemon/oricorio.png,FIRE,FLYING,150,98,70,93,3,Revelation Dance
+CUTIEFLY,Cutiefly,/pokemon/cutiefly.png,BUG,FAIRY,80,55,40,84,4,Fairy Wind
+ROCKRUFF,Rockruff,/pokemon/rockruff.png,ROCK,,90,65,40,60,3,Rock Throw
+MUDBRAY,Mudbray,/pokemon/mudbray.png,GROUND,,140,100,63,45,3,Bulldoze
