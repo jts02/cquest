@@ -721,8 +721,11 @@ DIANCIE,Diancie,/pokemon/diancie.png,ROCK,FAIRY,100,100,150,50,2,Diamond Storm
 HOOPA,Hoopa,/pokemon/hoopa.png,PSYCHIC,GHOST,160,150,95,70,3,Psychic
 VOLCANION,Volcanion,/pokemon/volcanion.png,FIRE,WATER,160,130,105,70,2,Steam Eruption
 ROWLET,Rowlet,/pokemon/rowlet.png,GRASS,FLYING,136,55,53,42,3,Leafage
+DARTRIX,Dartrix,/pokemon/dartrix.png,GRASS,FLYING,156,75,73,52,3,Razor Leaf
 LITTEN,Litten,/pokemon/litten.png,FIRE,,90,65,40,70,3,Ember
+TORRACAT,Torracat,/pokemon/torracat.png,FIRE,,130,85,50,90,3,Fire Fang
 POPPLIO,Popplio,/pokemon/popplio.png,WATER,,100,66,55,40,3,Water Gun
+BRIONNE,Brionne,/pokemon/brionne.png,WATER,,120,91,75,50,3,Bubble Beam
 PIKIPEK,Pikipek,/pokemon/pikipek.png,NORMAL,FLYING,70,75,30,65,4,Peck
 TRUMBEAK,Trumbeak,/pokemon/trumbeak.png,NORMAL,FLYING,110,85,50,75,4,Pluck
 YUNGOOS,Yungoos,/pokemon/yungoos.png,NORMAL,,96,70,30,45,3,Tackle
