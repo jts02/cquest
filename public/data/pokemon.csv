@@ -847,7 +847,7 @@ HATENNA,Hatenna,/pokemon/hatenna.png,PSYCHIC,,84,56,49,39,3,Confusion
 IMPIDIMP,Impidimp,/pokemon/impidimp.png,DARK,FAIRY,90,55,35,50,3,Bite
 PERRSERKER,Perrserker,/pokemon/perrserker.png,STEEL,,140,110,80,50,3,Iron Head
 SIRFETCHD,Sirfetch'd,/pokemon/sirfetchd.png,FIGHTING,,124,135,89,65,3,Brick Break
-RUNERIGUS,Runerigus,/pokemon/runerigus.png,GROUND,GHOST,,116,95,125,30,2,Earthquake
+RUNERIGUS,Runerigus,/pokemon/runerigus.png,GROUND,GHOST,116,95,125,30,2,Earthquake
 MILCERY,Milcery,/pokemon/milcery.png,FAIRY,,90,50,51,34,2,Draining Kiss
 ALCREMIE,Alcremie,/pokemon/alcremie.png,FAIRY,,130,110,98,64,2,Dazzling Gleam
 CUFANT,Cufant,/pokemon/cufant.png,STEEL,,144,80,49,40,3,Stomp
