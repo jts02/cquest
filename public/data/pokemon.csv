@@ -748,7 +748,7 @@ WISHIWASHI,Wishiwashi,/pokemon/wishiwashi.png,WATER,,90,25,23,40,3,Water Gun
 MAREANIE,Mareanie,/pokemon/mareanie.png,POISON,WATER,100,53,57,45,2,Poison Sting
 TOXAPEX,Toxapex,/pokemon/toxapex.png,POISON,WATER,100,63,147,35,2,Poison Jab
 MUDBRAY,Mudbray,/pokemon/mudbray.png,GROUND,,140,100,63,45,3,Bulldoze
-MUDSDALE,Mudsdale,/pokemon/mudsdale.png,200,125,93,35,3,High Horsepower
+MUDSDALE,Mudsdale,/pokemon/mudsdale.png,GROUND,,200,125,93,35,3,High Horsepower
 DEWPIDER,Dewpider,/pokemon/dewpider.png,WATER,BUG,76,40,62,27,3,Water Gun
 ARAQUANID,Araquanid,/pokemon/araquanid.png,WATER,BUG,136,70,112,42,3,Liquidation
 FOMANTIS,Fomantis,/pokemon/fomantis.png,GRASS,,80,55,35,35,3,Razor Leaf
