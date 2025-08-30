@@ -143,6 +143,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Apple Acid',
+        power: 80,
+        type: PokemonType.GRASS,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Bolt Strike',
         power: 130,
         type: PokemonType.ELECTRIC,
@@ -1362,6 +1373,17 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Fire Lash',
+        power: 80,
+        type: PokemonType.FIRE,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Techno Blast',
         power: 120,
         type: PokemonType.NORMAL,
@@ -1375,6 +1397,16 @@ export const MOVES: Move[] = [
         name: 'Ember',
         power: 40,
         type: PokemonType.FIRE,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Grav Apple',
+        power: 80,
+        type: PokemonType.GRASS,
         // Just two squares forward
         shape: [
             { x: 0, y: -2 },
@@ -1415,6 +1447,16 @@ export const MOVES: Move[] = [
         name: 'Weather Ball',
         power: 50,
         type: PokemonType.NORMAL,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Leaf Tornado',
+        power: 60,
+        type: PokemonType.GRASS,
         // Just two squares forward
         shape: [
             { x: 0, y: -2 },
@@ -1890,6 +1932,18 @@ export const MOVES: Move[] = [
             { x: 0, y: -1 },
         ],
         additionalEffects: [],
+    },
+    {
+        name: 'Flame Charge',
+        power: 50,
+        type: PokemonType.FIRE,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: true, self: true, stat: 'speed', stages: 1}
+        ],
     },
     {
         name: 'Leaf Blade',
@@ -2613,6 +2667,23 @@ export const MOVES: Move[] = [
     },
     {
         name: 'Discharge',
+        power: 80,
+        type: PokemonType.ELECTRIC,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Overdrive',
         power: 80,
         type: PokemonType.ELECTRIC,
         // All Around user
