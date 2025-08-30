@@ -766,7 +766,7 @@ COMFEY,Comfey,/pokemon/comfey.png,FAIRY,,102,82,100,100,3,Dazzling Gleam
 ORANGURU,Oranguru,/pokemon/oranguru.png,NORMAL,PSYCHIC,180,90,95,60,3,Psychic
 PASSIMIAN,Passimian,/pokemon/passimian.png,FIGHTING,,200,120,75,80,3,Brick Break
 WIMPOD,Wimpod,/pokemon/wimpod.png,BUG,WATER,50,35,35,80,3,Struggle Bug
-GOLISOPOD,Golisopod,/pokemon/golisopod.png,150,125,115,40,3,Liquidation
+GOLISOPOD,Golisopod,/pokemon/golisopod.png,BUG,WATER,150,125,115,40,3,Liquidation
 SANDYGAST,Sandygast,/pokemon/sandygast.png,GHOST,GROUND,110,70,63,15,2,Astonish
 PALOSSAND,Palossand,/pokemon/palossand.png,GHOST,GROUND,170,100,93,35,2,Shadow Ball
 PYUKUMUKU,Pyukumuku,/pokemon/pyukumuku.png,WATER,,110,60,130,5,1,Harden
