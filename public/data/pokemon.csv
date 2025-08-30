@@ -808,3 +808,18 @@ BLACEPHALON,Blacephalon,/pokemon/blacephalon.png,FIRE,GHOST,106,151,66,107,3,Mys
 ZERAORA,Zeraora,/pokemon/zeraora.png,ELECTRIC,,176,112,78,143,4,Plasma Fists
 MELTAN,Meltan,/pokemon/meltan.png,STEEL,,92,65,50,34,2,Thunder Shock
 MELMETAL,Melmetal,/pokemon/melmetal.png,STEEL,,270,143,104,34,2,Double Iron Bash
+GROOKEY,Grookey,/pokemon/grookey.png,GRASS,,100,65,40,65,3,Branch Poke
+SCORBUNNY,Scorbunny,/pokemon/scorbunny.png,FIRE,,100,71,40,69,4,Ember
+SOBBLE,Sobble,/pokemon/sobble.png,WATER,,100,70,40,70,3,Water Gun
+SKWOVET,Skwovet,/pokemon/skwovet.png,NORMAL,,140,55,45,25,3,Tackle
+ROOKIDEE,Rookidee,/pokemon/rookidee.png,FLYING,,76,47,35,57,4,Peck
+CORVISQUIRE,Corvisquire,/pokemon/corvisquire.png,FLYING,,136,67,55,77,4,Pluck
+BLIPBUG,Blipbug,/pokekmon/blipbug.png,BUG,,50,25,33,45,1,Struggle Bug
+DOTTLER,Dottler,/pokemon/dottler.png,BUG,PSYCHIC,100,50,85,30,2,Confusion
+NICKIT,Nickit,/pokemon/nickit.png,DARK,,80,47,40,50,3,Snarl
+GOSSIFLEUR,Gossifleur,/pokemon/gossifleur.png,GRASS,,80,40,60,10,2,Leafage
+WOOLOO,Wooloo,/pokemon/wooloo.png,NORMAL,,84,40,50,48,3,Tackle
+CHEWTLE,Chewtle,/pokemon/chewtle.png,WATER,,100,64,44,44,3,Water Gun
+YAMPER,Yamper,/pokemon/yamper.png,ELECTRIC,,118,45,50,26,3,Spark
+ROLYCOLY,Rolycoly,/pokemon/rolycoly.png,ROCK,,60,40,50,30,2,Smack Down
+SIZZLIPEDE,Sizzlipede,/pokemon/sizzlipede.png,FIRE,BUG,100,65,48,45,3,Flame Wheel
