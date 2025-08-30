@@ -770,15 +770,41 @@ GOLISOPOD,Golisopod,/pokemon/golisopod.png,150,125,115,40,3,Liquidation
 SANDYGAST,Sandygast,/pokemon/sandygast.png,GHOST,GROUND,110,70,63,15,2,Astonish
 PALOSSAND,Palossand,/pokemon/palossand.png,GHOST,GROUND,170,100,93,35,2,Shadow Ball
 PYUKUMUKU,Pyukumuku,/pokemon/pyukumuku.png,WATER,,110,60,130,5,1,Harden
+TYPENULL,Type: Null,/pokemon/typenull.png,NORMAL,,190,95,95,59,2,Crush Claw
+SILVALLY,Silvally,/pokemon/silvally.png,NORMAL,,190,95,95,95,3,Multi-Attack
 MINIOR,Minior,/pokemon/minior.png,ROCK,FLYING,120,60,100,60,3,Power Gem
 KOMALA,Komala,/pokemon/komala.png,NORMAL,,130,115,80,65,3,Slam
 TURTONATOR,Turtonator,/pokemon/turtonator.png,FIRE,DRAGON,120,91,110,36,2,Flamethrower
 TOGEDEMARU,Togedemaru,/pokemon/togedemaru.png,ELECTRIC,STEEL,130,98,68,96,3,Zing Zap
 MIMIKYU,Mimikyu,/pokemon/mimikyu.png,GHOST,FAIRY,110,90,93,96,3,Play Rough
 BRUXISH,Bruxish,/pokemon/bruxish.png,WATER,PSYCHIC,136,105,70,92,3,Psychic Fangs
+DRAMPA,Drampa,/pokemon/drampa.png,NORMAL,DRAGON,156,135,88,36,2,Dragon Pulse
 DHELMISE,Dhelmise,/pokemon/dhelmise.png,GHOST,GRASS,140,131,95,40,2,Shadow Claw
 JANGMOO,Jangmo-o,/pokemon/jangmo-o.png,DRAGON,,90,55,55,45,3,Dragon Tail
 HAKAMOO,Hakamo-o,/pokemon/hakamo-o.png,DRAGON,FIGHTING,110,75,80,65,3,Dragon Claw
 KOMMOO,Kommo-o,/pokemon/kommo-o.png,DRAGON,FIGHTING,150,110,115,85,3,Clanging Scales
+TAPUKOKO,Tapu Koko,/pokemon/tapukoko.png,ELECTRIC,FAIRY,140,115,80,130,3,Thunder Punch
+TAPULELE,Tapu Lele,/pokemon/tapulele.png,PSYCHIC,FAIRY,140,130,95,95,3,Psyshock
+TAPUBULU,Tapu Bulu,/pokemon/tapubulu.png,GRASS,FAIRY,140,130,105,75,3,Horn Leech
+TAPUFINI,Tapu Fini,/pokemon/tapufini.png,WATER,FAIRY,140,95,123,85,3,Scald
+COSMOG,Cosmog,/pokemon/cosmog.png,PSYCHIC,,86,29,31,37,13,Splash
+COSMOEM,Cosmoem,/pokemon/cosmoem.png,PSYCHIC,,86,29,131,37,1,Cosmic Power
 SOLGALEO,Solgaleo,/pokemon/solgaleo.png,PSYCHIC,STEEL,274,137,98,97,3,Sunsteel Strike
 LUNALA,Lunala,/pokemon/lunala.png,PSYCHIC,GHOST,274,137,98,97,3,Moongeist Beam
+NIHILEGO,Nihilego,/pokemon/nihilego.png,ROCK,POISON,218,127,89,103,3,Power Gem
+BUZZWOLE,Buzzwole,/pokemon/buzzwole.png,BUG,FIGHTING,214,139,96,79,2,Dynamic Punch
+PHEROMOSA,Pheromosa,/pokemon/pheromosa.png,BUG,FIGHTING,142,137,37,151,4,Bug Buzz
+XURKITREE,Xurkitree,/pokemon/xurkitree.png,ELECTRIC,,166,173,71,83,3,Thunderbolt
+CELESTEELA,Celesteela,/pokemon/celesteela.png,STEEL,FLYING,194,107,102,61,2,Flash Cannon
+KARTANA,Kartana,/pokemon/kartana.png,GRASS,STEEL,118,181,81,109,3,Leaf Blade
+GUZZLORD,Guzzlord,/pokemon/guzzlord.png,DARK,DRAGON,446,101,53,43,2,Crunch
+NECROZMA,Necrozma,/pokemon/necrozma.png,PSYCHIC,,194,127,95,79,3,Photon Geyser
+MAGEARNA,Magearna,/pokemon/magearna.png,STEEL,FAIRY,160,130,115,65,3,Flash Cannon
+MARSHADOW,Marshadow,/pokemon/marshadow.png,FIGHTING,GHOST,180,125,85,125,3,Spectral Thief
+POIPOLE,Poipole,/pokemon/poipole.png,POISON,,134,73,67,73,3,Venoshock
+NAGANADEL,Naganadel,/pokemon/naganadel.png,POISON,DRAGON,146,127,73,121,3,Dragon Pulse
+STAKATAKA,Stakataka,/pokemon/stakataka.png,ROCK,STEEL,122,131,156,13,1,Iron Head
+BLACEPHALON,Blacephalon,/pokemon/blacephalon.png,FIRE,GHOST,106,151,66,107,3,Mystical Fire
+ZERAORA,Zeraora,/pokemon/zeraora.png,ELECTRIC,,176,112,78,143,4,Plasma Fists
+MELTAN,Meltan,/pokemon/meltan.png,STEEL,,92,65,50,34,2,Thunder Shock
+MELMETAL,Melmetal,/pokemon/melmetal.png,STEEL,,270,143,104,34,2,Double Iron Bash

@@ -633,6 +633,16 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Multi-Attack',
+    power: 120,
+    type: PokemonType.NORMAL,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Mega Punch',
     power: 80,
     type: PokemonType.NORMAL,
@@ -1502,6 +1512,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Photon Geyser',
+        power: 100,
+        type: PokemonType.PSYCHIC,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Rock Wrecker',
         power: 150,
         type: PokemonType.ROCK,
@@ -1695,6 +1715,16 @@ export const MOVES: Move[] = [
         name: 'Dynamic Punch',
         power: 100,
         type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Spectral Thief',
+        power: 90,
+        type: PokemonType.GHOST,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
@@ -2273,6 +2303,26 @@ export const MOVES: Move[] = [
         name: 'Bug Bite',
         power: 60,
         type: PokemonType.BUG,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Plasma Fists',
+        power: 100,
+        type: PokemonType.ELECTRIC,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Double Iron Bash',
+        power: 120,
+        type: PokemonType.STEEL,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
@@ -2939,14 +2989,7 @@ export const MOVES: Move[] = [
         type: PokemonType.NORMAL,
         // All Around user
         shape: [
-            { x: -1, y: -1 },
-            { x: 0, y: -1 },
-            { x: 1, y: -1 },
-            { x: -1, y: 0 },
-            { x: 1, y: 0 },
-            { x: -1, y: 1 },
-            { x: 0, y: 1 },
-            { x: 1, y: 1 },
+            { x: 0, y: 0 },
         ],
         additionalEffects: [],
     },
@@ -2959,6 +3002,17 @@ export const MOVES: Move[] = [
         ],
         additionalEffects: [
             { kind: 'statChange', chance: 1, increase: true, self: true, stat: 'defense', stages: 1}
+        ]
+    },
+    {
+        name: 'Cosmic Power',
+        power: 0,
+        type: PokemonType.PSYCHIC,
+        shape: [
+            { x:0, y: 0},
+        ],
+        additionalEffects: [
+            { kind: 'statChange', chance: 1, increase: true, self: true, stat: 'defense', stages: 2}
         ]
     },
     {
