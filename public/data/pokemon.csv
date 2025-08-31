@@ -943,4 +943,4 @@ KILOWATTREL,Kilowattrel,/pokemon/kilowattrel.png,ELECTRIC,FLYING,140,105,60,125,
 MASCHIFF,Maschiff,/pokemon/maschiff.png,DARK,,120,78,56,51,3,Bite
 MABOSSTIFF,Mabosstiff,/pokmeon/mabosstiff.png,DARK,,160,120,80,85,3,Crunch
 SHROODLE,Shroodle,/pokemon/shroodle.png,POISON,NORMAL,80,65,35,75,3,Poison Fang
-GRAFAIAI,Grafaiai,/pokemon/grafaiai.png,POISON,NORMAL,126,95,69,110,Poison Jab
+GRAFAIAI,Grafaiai,/pokemon/grafaiai.png,POISON,NORMAL,126,95,69,110,3,Poison Jab
