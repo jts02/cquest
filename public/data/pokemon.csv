@@ -1,30 +1,39 @@
 id,name,image,primaryType,secondaryType,maxHp,baseAttack,baseDefense,baseSpeed,movementRange,move
 BULBASAUR,Bulbasaur,/pokemon/bulbasaur.png,GRASS,POISON,90,65,57,45,3,Vine Whip
-IVYSAUR,Ivysaur,/pokemon/ivysaur.png,GRASS,POISON,120,80,72,60,3,Razor Leaf
-VENUSAUR,Venusaur,/pokemon/venusaur.png,GRASS,POISON,160,100,92,80,3,Seed Bomb
+IVYSAUR,Ivysaur,/pokemon/ivysaur.png,GRASS,POISON,120,80,72,60,3,Seed Bomb
+VENUSAUR,Venusaur,/pokemon/venusaur.png,GRASS,POISON,160,100,92,80,3,Power Whip
+VENUSAURMEGA,Venusaur (Mega),/pokemon/venusaur_mega.png,GRASS,POISON,160,122,122,80,3,Power Whip
 CHARMANDER,Charmander,/pokemon/charmander.png,FIRE,,78,60,47,65,4,Ember
 CHARMELEON,Charmeleon,/pokemon/charmeleon.png,FIRE,,116,80,62,80,3,Fire Fang
 CHARIZARD,Charizard,/pokemon/charizard.png,FIRE,FLYING,156,109,82,100,2,Flamethrower
+CHARIZARDMEGAX,Charizard (Mega X),/pokemon/charizard_mega_x.png,FIRE,DRAGON,156,130,98,100,2,Flamethrower
+CHARIZARDMEGAY,Charizard (Mega Y),/pokemon/charizard_mega_y.png,FIRE,FLYING,156,159,98,100,2,Flamethrower
 SQUIRTLE,Squirtle,/pokemon/squirtle.png,WATER,,88,49,65,43,3,Water Gun
 WARTORTLE,Wartortle,/pokemon/wartortle.png,WATER,,118,65,80,58,3,Water Pulse
 BLASTOISE,Blastoise,/pokemon/blastoise.png,WATER,,158,85,103,78,2,Hydro Pump
+BLASTOISEMEGA,Blastoise (Mega),/pokemon/blastoise.png,WATER,,158,135,118,78,2,Hydro Pump
 CATERPIE,Caterpie,/pokemon/caterpie.png,BUG,,90,30,28,45,1,Tackle
 METAPOD,Metapod,/pokemon/metapod.png,BUG,,100,20,40,30,1,Harden
 BUTTERFREE,Butterfree,/pokemon/butterfree.png,BUG,FLYING,120,90,65,70,4,Bug Buzz
 WEEDLE,Weedle,/pokemon/weedle.png,BUG,POISON,80,35,25,50,1,Poison Sting
 KAKUNA,Kakuna,/pokemon/kakuna.png,BUG,POISON,90,25,38,35,1,Harden
 BEEDRILL,Beedrill,/pokemon/beedrill.png,BUG,POISON,130,90,60,75,4,Poison Jab
+BEEDRILLMEGA,Beedrill (Mega),/pokemon/beedrill.png,BUG,POISON,130,150,60,145,4,Poison Jab
 PIDGEY,Pidgey,/pokemon/pidgey.png,NORMAL,FLYING,80,45,38,56,4,Tackle
 PIDGEOTTO,Pidgeotto,/pokemon/pidgeotto.png,NORMAL,FLYING,126,60,53,71,4,Wing Attack
 PIDGEOT,Pidgeot,/pokemon/pidgeot.png,NORMAL,FLYING,166,80,73,101,4,Brave Bird
+PIDGEOTMEGA,Pidgeot (Mega),/pokemon/pidgeot.png,NORMAL,FLYING,166,135,80,121,4,Hurricane
 RATTATA,Rattata,/pokemon/rattata.png,NORMAL,,60,56,35,72,3,Tackle
+RATTATAALOLA,Rattata (Alolan),/pokemon/rattata_alola.png,DARK,NORMAL,60,56,35,72,3,Tackle
 RATICATE,Raticate,/pokemon/raticate.png,NORMAL,,110,81,65,97,3,Hyper Fang
+RATICATEALOLA,Raticate (Alolan),/pokemon/raticate_alola.png,DARK,NORMAL,150,71,75,77,3,Crunch
 SPEAROW,Spearow,/pokemon/spearow.png,NORMAL,FLYING,80,60,31,70,4,Wing Attack
 FEAROW,Fearow,/pokemon/fearow.png,NORMAL,FLYING,130,90,63,100,4,Drill Peck
 EKANS,Ekans,/pokemon/ekans.png,POISON,,70,60,49,55,3,Poison Sting
 ARBOK,Arbok,/pokemon/arbok.png,POISON,,120,95,74,80,3,Venoshock
 PIKACHU,Pikachu,/pokemon/pikachu.png,ELECTRIC,,70,55,45,90,3,Thunderbolt
 RAICHU,Raichu,/pokemon/raichu.png,ELECTRIC,,120,90,68,110,3,Volt Tackle
+RAICHUALOLA,Raichu (Alolan),/pokemon/raichu_alola.png,ELECTRIC,PSYCHIC,120,95,68,110,3,Psychic
 SANDSHREW,Sandshrew,/pokemon/sandshrew.png,GROUND,,100,75,115,40,3,Bulldoze
 SANDSLASH,Sandslash,/pokemon/sandslash.png,GROUND,,150,100,93,65,3,Earthquake
 NIDORANF,Nidoran♀,/pokemon/nidoran♀.png,POISON,,110,47,46,41,3,Poison Sting
@@ -779,7 +788,7 @@ TOGEDEMARU,Togedemaru,/pokemon/togedemaru.png,ELECTRIC,STEEL,130,98,68,96,3,Zing
 MIMIKYU,Mimikyu,/pokemon/mimikyu.png,GHOST,FAIRY,110,90,93,96,3,Play Rough
 BRUXISH,Bruxish,/pokemon/bruxish.png,WATER,PSYCHIC,136,105,70,92,3,Psychic Fangs
 DRAMPA,Drampa,/pokemon/drampa.png,NORMAL,DRAGON,156,135,88,36,2,Dragon Pulse
-DHELMISE,Dhelmise,/pokemon/dhelmise.png,GHOST,GRASS,140,131,95,40,2,Shadow Claw
+DHELMISE,Dhelmise,/pokemon/dhelmise.png,GHOST,GRASS,140,131,95,40,2,Power Whip
 JANGMOO,Jangmo-o,/pokemon/jangmo-o.png,DRAGON,,90,55,55,45,3,Dragon Tail
 HAKAMOO,Hakamo-o,/pokemon/hakamo-o.png,DRAGON,FIGHTING,110,75,80,65,3,Dragon Claw
 KOMMOO,Kommo-o,/pokemon/kommo-o.png,DRAGON,FIGHTING,150,110,115,85,3,Clanging Scales

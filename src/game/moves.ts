@@ -741,6 +741,16 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Power Whip',
+    power: 120,
+    type: PokemonType.GRASS,
+    // Just one square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Kowtow Cleave',
     power: 85,
     type: PokemonType.DARK,
@@ -1747,6 +1757,16 @@ export const MOVES: Move[] = [
     {
         name: 'Fly',
         power: 90,
+        type: PokemonType.FLYING,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Hurricane',
+        power: 110,
         type: PokemonType.FLYING,
         // Just three squares forward
         shape: [
