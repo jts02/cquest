@@ -960,4 +960,12 @@ TINKATUFF,Tinkatuff,/pokemon/tinkatuff.png,FAIRY,STEEL,130,55,69,78,3,Draining K
 TINKATON,Tinkaton,/pokemon/tinkaton.png,FAIRY,STEEL,170,75,91,94,3,Play Rough
 WIGLETT,Wiglett,/pokemon/wiglett.png,WATER,,20,55,25,95,3,Aqua Jet
 WUGTRIO,Wugtrio,/pokemon/wugtrio.png,WATER,,70,100,60,120,3,Triple Dive
-BOMBIRDIER,Bombirdier,/pokemon/bombirdier,FLYING,DARK,140,103,85,82,3,Dual Wingbeat
+BOMBIRDIER,Bombirdier,/pokemon/bombirdier.png,FLYING,DARK,140,103,85,82,3,Dual Wingbeat
+FINIZEN,Finizen,/pokemon/finizen.png,WATER,,140,45,40,75,3,Aqua Jet
+PALAFIN,Palafin,/pokemon/palafin.png,WATER,,200,70,67,100,3,Aqua Tail
+VAROOM,Varoom,/pokemon/varoom.png,STEEL,POISON,90,70,54,47,2,Iron Head
+REVAVROOM,Revavroom,/pokemon/revavroom.png,STEEL,POISON,160,119,79,90,2,Spin Out
+CYCLIZAR,Cyclizar,/pokemon/cyclizar.png,DRAGON,NORMAL,140,95,65,121,3,Dragon Claw
+ORTHWORM,Orthworm,/pokemon/orthworm.png,STEEL,,140,85,100,65,3,Iron Tail
+GLIMMET,Glimmet,/pokemon/glimmet.png,ROCK,POISON,96,105,102,60,3,Ancient Power
+GLIMMORA,Glimmora,/pokemon/glimmora.png,ROCK,POISON,166,130,86,86,3,Power Gem
