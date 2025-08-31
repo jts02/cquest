@@ -164,6 +164,26 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Bolt Beak',
+        power: 85,
+        type: PokemonType.ELECTRIC,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Fishious Rend',
+        power: 85,
+        type: PokemonType.WATER,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Mud-Slap',
         power: 50,
         type: PokemonType.GROUND,
@@ -337,6 +357,18 @@ export const MOVES: Move[] = [
           { x: -1, y: -1 },
           { x: 0, y: -2 },
           { x: 1, y: -1 },
+      ],
+      additionalEffects: [
+        { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'defense', stages: 1}
+      ],
+    },
+    {
+        name: 'Headlong Rush',
+        power: 120,
+        type: PokemonType.GROUND,
+        // Horizontally in front of user
+        shape: [
+          { x: 0, y: -1 },
       ],
       additionalEffects: [
         { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'defense', stages: 1}
@@ -829,6 +861,18 @@ export const MOVES: Move[] = [
     name: 'Wide Swipe',
     power: 15,
     type: PokemonType.WATER,
+    // Three squares horizontally in front
+    shape: [
+      { x: -1, y: -1 },
+      { x: 0, y: -1 },
+      { x: 1, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Stone Axe',
+    power: 65,
+    type: PokemonType.ROCK,
     // Three squares horizontally in front
     shape: [
       { x: -1, y: -1 },
@@ -1534,6 +1578,36 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Dragon Darts',
+        power: 100,
+        type: PokemonType.DRAGON,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Pyro Ball',
+        power: 120,
+        type: PokemonType.FIRE,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Snipe Shot',
+        power: 80,
+        type: PokemonType.WATER,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Flying Press',
         power: 100,
         type: PokemonType.FIGHTING,
@@ -1803,6 +1877,16 @@ export const MOVES: Move[] = [
         ],
         additionalEffects: [],
     },
+      {
+        name: 'Submission',
+        power: 80,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
     {
         name: 'Branch Poke',
         power: 40,
@@ -1841,7 +1925,9 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -1 },
         ],
-        additionalEffects: [],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'defense', stages: 1}
+        ],
     },
     {
         name: 'Liquidation',
@@ -2042,6 +2128,28 @@ export const MOVES: Move[] = [
         name: 'Headbutt',
         power: 70,
         type: PokemonType.NORMAL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Psyshield Bash',
+        power: 70,
+        type: PokemonType.PSYCHIC,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: true, self: true, stat: 'defense', stages: 1}
+        ],
+    },
+    {
+        name: 'Dire Claw',
+        power: 80,
+        type: PokemonType.POISON,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
@@ -2469,6 +2577,42 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Barb Barrage',
+        power: 60,
+        type: PokemonType.POISON,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Drum Beating',
+        power: 80,
+        type: PokemonType.GRASS,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'speed', stages: 1}
+        ],
+    },
+    {
         name: 'Sparkling Aria',
         power: 90,
         type: PokemonType.WATER,
@@ -2605,6 +2749,20 @@ export const MOVES: Move[] = [
         name: 'Sandsear Storm',
         power: 100,
         type: PokemonType.GROUND,
+        // X in front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 1, y: -3 },
+            { x: 0, y: -2 },
+            { x: -1, y: -1 },
+            { x: 1, y: -1 },
+        ],
+      additionalEffects: [],
+    },
+    {
+        name: 'Springtide Storm',
+        power: 100,
+        type: PokemonType.FAIRY,
         // X in front of user
         shape: [
             { x: -1, y: -3 },
