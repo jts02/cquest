@@ -57,9 +57,31 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Aqua Cutter',
+        power: 70,
+        type: PokemonType.WATER,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Thousand Waves',
         power: 100,
         type: PokemonType.GROUND,
+        // Two squares forward
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Lunge',
+        power: 80,
+        type: PokemonType.BUG,
         // Two squares forward
         shape: [
             { x: 0, y: -1 },
@@ -915,6 +937,17 @@ export const MOVES: Move[] = [
     ],
 },
 {
+    name: 'Bitter Blade',
+    power: 90,
+    type: PokemonType.FIRE,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [
+        { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
+    ],
+},
+{
     name: 'Horn Leech',
     power: 75,
     type: PokemonType.GRASS,
@@ -1068,6 +1101,19 @@ export const MOVES: Move[] = [
     name: 'Revelation Dance',
     power: 90,
     type: PokemonType.FIRE,
+    // Hollow cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Aqua Step',
+    power: 80,
+    type: PokemonType.WATER,
     // Hollow cross in front
     shape: [
       { x: 0, y: -1 },
@@ -1608,6 +1654,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Flower Trick',
+        power: 105,
+        type: PokemonType.GRASS,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Flying Press',
         power: 100,
         type: PokemonType.FIGHTING,
@@ -1715,7 +1771,9 @@ export const MOVES: Move[] = [
         shape: [
             { x: 0, y: -2 },
         ],
-        additionalEffects: [],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'attack', stages: 1}
+        ],
     },
     {
         name: 'Rock Tomb',
@@ -2610,6 +2668,25 @@ export const MOVES: Move[] = [
         ],
         additionalEffects: [
           { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'speed', stages: 1}
+        ],
+    },
+    {
+        name: 'Torch Song',
+        power: 80,
+        type: PokemonType.Fire,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: true, self: true, stat: 'attack', stages: 1}
         ],
     },
     {
