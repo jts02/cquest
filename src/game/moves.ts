@@ -710,6 +710,26 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Hyper Drill',
+    power: 100,
+    type: PokemonType.NORMAL,
+    // Just one square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Kowtow Cleave',
+    power: 85,
+    type: PokemonType.DARK,
+    // Just one square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Strength',
     power: 80,
     type: PokemonType.NORMAL,
@@ -1206,6 +1226,20 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Inferno',
+    power: 100,
+    type: PokemonType.FIRE,
+    // Filled cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Blue Flare',
     power: 130,
     type: PokemonType.FIRE,
@@ -1666,6 +1700,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Twin Beam',
+        power: 80,
+        type: PokemonType.PSYCHIC,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Dragon Darts',
         power: 100,
         type: PokemonType.DRAGON,
@@ -2027,6 +2071,18 @@ export const MOVES: Move[] = [
         ],
         additionalEffects: [
           { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'defense', stages: 1}
+        ],
+    },
+    {
+        name: 'Spirit Break',
+        power: 75,
+        type: PokemonType.FAIRY,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'attack', stages: 1}
         ],
     },
     {
@@ -2778,6 +2834,25 @@ export const MOVES: Move[] = [
         ],
     },
     {
+        name: 'Make It Rain',
+        power: 120,
+        type: PokemonType.STEEL,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'attack', stages: 1}
+        ],
+    },
+    {
         name: 'Snarl',
         power: 55,
         type: PokemonType.DARK,
@@ -3018,7 +3093,9 @@ export const MOVES: Move[] = [
             { x: 0, y: 1 },
             { x: 1, y: 1 },
         ],
-        additionalEffects: [],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'attack', stages: 2}
+        ],
     },
     {
         name: 'Earthquake',
@@ -3111,6 +3188,23 @@ export const MOVES: Move[] = [
         name: 'Lava Plume',
         power: 80,
         type: PokemonType.FIRE,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Ice Spinner',
+        power: 80,
+        type: PokemonType.ICE,
         // All Around user
         shape: [
             { x: -1, y: -1 },

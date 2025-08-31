@@ -55,7 +55,7 @@ PERSIAN,Persian,/pokemon/persian.png,NORMAL,,130,70,63,115,3,Slash
 PSYDUCK,Psyduck,/pokemon/psyduck.png,WATER,,100,65,49,55,2,Water Gun
 GOLDUCK,Golduck,/pokemon/golduck.png,WATER,,160,95,79,85,3,Surf
 MANKEY,Mankey,/pokemon/mankey.png,FIGHTING,,80,80,40,70,3,Low Kick
-PRIMEAPE,Primeape,/pokemon/primeape.png,FIGHTING,,130,105,65,95,3,Cross Chop
+PRIMEAPE,Primeape,/pokemon/primeape.png,FIGHTING,,130,105,65,95,3,Brick Break
 GROWLITHE,Growlithe,/pokemon/growlithe.png,FIRE,,110,70,48,60,3,Flame Wheel
 ARCANINE,Arcanine,/pokemon/arcanine.png,FIRE,,180,110,80,95,3,Flare Blitz
 POLIWAG,Poliwag,/pokemon/poliwag.png,WATER,,80,50,40,90,3,Water Gun
@@ -969,3 +969,41 @@ CYCLIZAR,Cyclizar,/pokemon/cyclizar.png,DRAGON,NORMAL,140,95,65,121,3,Dragon Cla
 ORTHWORM,Orthworm,/pokemon/orthworm.png,STEEL,,140,85,100,65,3,Iron Tail
 GLIMMET,Glimmet,/pokemon/glimmet.png,ROCK,POISON,96,105,102,60,3,Ancient Power
 GLIMMORA,Glimmora,/pokemon/glimmora.png,ROCK,POISON,166,130,86,86,3,Power Gem
+GREAVARD,Greavard,/pokmeon/greavard.png,GHOST,,100,61,58,34,3,Lick
+HOUNDSTONE,Houndstone,/pokemon/houndstone.png,GHOST,,144,101,99,68,3,Shadow Ball
+FLAMIGO,Flamigo,/pokemon/flamigo.png,FLYING,FIGHTING,164,115,69,90,3,Dual Wingbeat
+CETODDLE,Cetoddle,/pokemon/cetoddle.png,ICE,,216,68,43,43,3,Ice Shard
+CETITAN,Cetitan,/pokemon/cetitan.png,ICE,,340,113,60,73,2,Ice Spinner
+VELUZA,Veluza,/pokemon/veluza.png,WATER,PSYCHIC,180,102,69,70,3,Liquidation
+DONDOZO,Dondozo,/pokemon/dondozo.png,WATER,,300,100,90,35,2,Aqua Tail
+TATSUGIRI,Tatsugiri,/pokemon/tatsugiri.png,DRAGON,WATER,136,120,78,82,3,Dragon Pulse
+ANNIHILAPE,Annihilape,/pokemon/annihilape.png,FIGHTING,GHOST,220,115,85,90,3,Cross Chop
+CLODSIRE,Clodsire,/pokemon/clodsire.png,POISON,GROUND,260,75,80,20,2,Poison Jab
+FARIGIRAF,Farigiraf,/pokemon/farigiraf.png,NORMAL,PSYCHIC,240,110,70,60,3,Twin Beam
+DUDUNSPARCE,Dudunsparce,/pokemon/dudunsparce.png,NORMAL,,250,100,78,55,3,Hyper Drill
+KINGAMBIT,Kingambit,/pokemon/kingambit.png,DARK,STEEL,200,135,103,50,1,Kowtow Cleave
+GREATTUSK,Great Tusk,/pokemon/greattusk.png,GROUND,FIGHTING,230,131,92,87,3,Earthquake
+SCREAMTAIL,Scream Tail,/pokemon/screamtail.png,FAIRY,PSYCHIC,230,65,107,111,3,Play Rough
+BRUTEBONNET,Brute Bonnet,/pokemon/brutebonnet.png,GRASS,DARK,222,127,99,55,1,Seed Bomb
+FLUTTERMANE,Flutter Mane,/pokemon/fluttermane.png,GHOST,FAIRY,110,135,95,135,3,Shadow Ball
+SLITHERWING,Slither Wing,/pokemon/slitherwing.png,BUG,FIGHTING,170,135,92,81,3,Lunge
+SANDYSHOCKS,Sandy Shocks,/pokemon/sandyshocks.png,ELECTRIC,GROUND,170,121,91,101,3,Discharge
+IRONTREADS,Iron Treads,/pokemon/irontreads.png,GROUND,STEEL,180,112,95,106,3,Earthquake
+IRONBUNDLE,Iron Bundle,/pokemon/ironbundle.png,ICE,WATER,112,124,87,136,3,Ice Beam
+IRONHANDS,Iron Hands,/pokemon/ironhands.png,FIGHTING,ELECTRIC,308,140,88,50,2,Drain Punch
+IRONJUGULIS,Iron Jugulis,/pokemon/ironjugulis.png,DARK,FLYING,188,122,83,108,3,Dark Pulse
+IRONMOTH,Iron Moth,/pokemon/ironmoth.png,FIRE,POISON,160,140,85,110,3,Fiery Dance
+IRONTHORNS,Iron Thorns,/pokemon/ironthorns.png,ROCK,ELECTRIC,200,134,97,72,2,Stone Edge
+FRIGIBAX,Frigibax,/pokemon/frigibax.png,DRAGON,ICE,130,75,45,55,3,Dragon Tail
+ARCTIBAX,Arctibax,/pokemon/arctibax.png,DRAGON,ICE,180,95,66,62,3,Dragon Claw
+BAXCALIBUR,Baxcalibur,/pokemon/baxcalibur.png,DRAGON,ICE,230,145,89,87,2,Dragon Rush
+GIMMIGHOUL,Gimmighoul,/pokemon/gimmighoul.png,GHOST,,90,75,70,10,1,Hex
+GHOLDENGO,Gholdengo,/pokemon/gholdengo.png,STEEL,GHOST,174,133,93,84,3,Make It Rain
+WOCHIEN,Wo-Chien,/pokemon/wo-chien.png,DARK,GRASS,170,95,118,70,3,Energy Ball
+CHIENPAO,Chien-Pao,/pokemon/chien-pao.png,DARK,ICE,160,120,73,135,3,Icicle Crash
+TINGLU,Ting-Lu,/pokemon/ting-lu.png,DARK,GROUND,310,110,103,45,3,Earthquake
+CHIYU,Chi-Yu,/pokemon/chi-yu.png,DARK,FIRE,110,135,100,100,3,Flamethrower
+ROARINGMOON,Roaring Moon,/pokemon/roaringmoon.png,DRAGON,DARK,210,139,86,119,3,Dragon Rush
+IRONVALIANT,Iron Valiant,/pokemon/ironvaliant.png,FAIRY,FIGHTING,148,130,75,116,3,Spirit Break
+KORAIDON,Koraidon,/pokemon/koraidon.png,FIGHTING,DRAGON,200,135,108,135,3,Close Combat
+MIRAIDON,Miraidon,/pokemon/miraidon.png,ELECTRIC,DRAGON,200,135,108,135,3,Thunderbolt
