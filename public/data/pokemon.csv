@@ -1012,3 +1012,15 @@ IRONLEAVES,Iron Leaves,/pokemon/ironleaves.png,GRASS,PSYCHIC,180,130,98,104,3,Le
 DIPPLIN,Dipplin,/pokemon/dipplin.png,GRASS,DRAGON,160,95,95,40,1,Syrup Bomb
 POLTCHAGEIST,Poltchageist,/pokemon/poltchageist.png,GRASS,GHOST,80,74,50,50,3,Mega Drain
 SINISTCHA,Sinistcha,/pokemon/sinistcha.png,GRASS,GHOST,142,121,93,70,3,Matcha Gotcha
+OKIDOGI,Okidogi,/pokemon/okidogi.png,POISON,FIGHTING,176,128,101,80,3,Drain Punch
+MUNKIDORI,Munkidori,/pokemon/munkidori.png,POISON,PSYCHIC,176,130,78,106,3,Psychic
+FEZANDIPITI,Fezandipiti,/pokemon/fezandipiti.png,POISON,FAIRY,176,91,104,99,3,Play Rough
+OGERPON,Ogerpon,/pokemon/ogerpon.png,GRASS,,160,120,90,110,4,Ivy Cudgel
+ARCHALUDON,Archaludon,/pokemon/archaludon.png,STEEL,DRAGON,180,105,125,85,2,Dragon Pulse
+HYDRAPPLE,Hydrapple,/pokemon/hydrapple.png,GRASS,DRAGON,212,120,95,44,1,Fickle Beam
+GOUGINGFIRE,Gouging Fire,/pokemon/gougingfire.png,FIRE,DRAGON,210,115,107,91,3,Flamethrower
+RAGINGBOLT,Raging Bolt,/pokemon/ragingbolt.png,ELECTRIC,DRAGON,250,137,90,75,3,Thunderbolt
+IRONBOULDER,Iron Boulder,/pokemon/ironboulder.png,ROCK,PSYCHIC,180,120,94,124,3,Mighty Cleave
+IRONCROWN,Iron Crown,/pokemon/ironcrown.png,STEEL,PSYCHIC,180,122,104,98,3,Tachyon Cutter
+TERAPAGOS,Terapagos,/pokemon/terapagos.png,NORMAL,,320,105,110,85,3,Tera Starstorm
+PECHARUNT,Pecharunt,/pokemon/pecharunt.png,POISON,GHOST,176,88,124,88,3,Malignant Chain

@@ -127,7 +127,7 @@ export const MOVES: Move[] = [
         name: 'Trailblaze',
         power: 50,
         type: PokemonType.GRASS,
-        // Just two squares forward
+        // Just one square forward
         shape: [
             { x: 0, y: -1 },
         ],
@@ -137,6 +137,16 @@ export const MOVES: Move[] = [
         name: 'Drill Run',
         power: 80,
         type: PokemonType.GROUND,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Tachyon Cutter',
+        power: 100,
+        type: PokemonType.STEEL,
         // Just two squares forward
         shape: [
             { x: 0, y: -2 },
@@ -689,6 +699,17 @@ export const MOVES: Move[] = [
     ],
     additionalEffects: [],
 },
+ {
+    name: 'Malignant Chain',
+    power: 100,
+    type: PokemonType.POISON,
+    // Two squares forward
+    shape: [
+      { x: 0, y: -1 },
+      { x: 0, y: -2 },
+    ],
+    additionalEffects: [],
+},
   {
     name: 'Body Slam',
     power: 85,
@@ -1010,6 +1031,15 @@ export const MOVES: Move[] = [
     ],
 },
 {
+    name: 'Ivy Cudgel',
+    power: 100,
+    type: PokemonType.GRASS,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Bitter Blade',
     power: 90,
     type: PokemonType.FIRE,
@@ -1226,6 +1256,20 @@ export const MOVES: Move[] = [
     name: 'Stone Edge',
     power: 100,
     type: PokemonType.ROCK,
+    // Filled cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 0, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Tera Starstorm',
+    power: 120,
+    type: PokemonType.NORMAL,
     // Filled cross in front
     shape: [
       { x: 0, y: -1 },
@@ -1731,6 +1775,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Fickle Beam',
+        power: 104,
+        type: PokemonType.DRAGON,
+        // Just three squares forward
+        shape: [
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Pyro Ball',
         power: 120,
         type: PokemonType.FIRE,
@@ -2202,6 +2256,16 @@ export const MOVES: Move[] = [
         name: 'Leaf Blade',
         power: 90,
         type: PokemonType.GRASS,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Mighty Cleave',
+        power: 95,
+        type: PokemonType.ROCK,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
