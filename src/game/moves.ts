@@ -999,6 +999,17 @@ export const MOVES: Move[] = [
     ],
 },
 {
+    name: 'Matcha Gotcha',
+    power: 80,
+    type: PokemonType.GRASS,
+    shape: [
+        { x: 0, y: -1 },
+    ],
+    additionalEffects: [
+        { kind: 'heal', healPercentage: 0.5 } // this is a HealEffect
+    ],
+},
+{
     name: 'Bitter Blade',
     power: 90,
     type: PokemonType.FIRE,
@@ -3148,6 +3159,25 @@ export const MOVES: Move[] = [
         ],
         additionalEffects: [
           { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'speed', stages: 2}
+        ],
+    },
+    {
+        name: 'Syrup Bomb',
+        power: 60,
+        type: PokemonType.GRASS,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'speed', stages: 1}
         ],
     },
     {
