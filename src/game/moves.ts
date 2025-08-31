@@ -124,6 +124,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Trailblaze',
+        power: 50,
+        type: PokemonType.GRASS,
+        // Just two squares forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Drill Run',
         power: 80,
         type: PokemonType.GROUND,
@@ -207,7 +217,7 @@ export const MOVES: Move[] = [
     },
     {
         name: 'Mud-Slap',
-        power: 50,
+        power: 20,
         type: PokemonType.GROUND,
         // Two squares forward
         shape: [
@@ -217,9 +227,41 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Mud Shot',
+        power: 50,
+        type: PokemonType.GROUND,
+        // Just wo squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Lumina Crash',
+        power: 80,
+        type: PokemonType.PSYCHIC,
+        // Just wo squares forward
+        shape: [
+            { x: 0, y: -2 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'defense', stages: 2}
+        ],
+    },
+    {
         name: 'Iron Head',
         power: 80,
         type: PokemonType.STEEL,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Triple Dive',
+        power: 90,
+        type: PokemonType.WATER,
         // Just one square forward
         shape: [
             { x: 0, y: -1 },
@@ -2461,6 +2503,16 @@ export const MOVES: Move[] = [
     },
     {
         name: 'Drill Peck',
+        power: 80,
+        type: PokemonType.FLYING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Dual Wingbeat',
         power: 80,
         type: PokemonType.FLYING,
         // Just one square forward
