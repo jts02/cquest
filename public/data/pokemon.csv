@@ -875,7 +875,7 @@ FROSMOTH,Frosmoth,/pokemon/frosmoth.png,ICE,BUG,140,125,75,65,3,Ice Beam
 STONJOURNER,Stonjourner,/pokemon/stonjourner.png,ROCK,,200,125,78,70,2,Rock Slide
 EISCUE,Eiscue,/pokemon/eiscue.png,ICE,,150,80,100,50,3,Ice Punch
 INDEEDEE,Indeedee,/pokemon/indeedee.png,PSYCHIC,NORMAL,140,95,85,85,3,Psychic
-MORPEKO,Morpeko,/pokemon/morpeko.png,ELECTRIC,DARK,116,95,58,97,Spark
+MORPEKO,Morpeko,/pokemon/morpeko.png,ELECTRIC,DARK,116,95,58,97,3,Spark
 CUFANT,Cufant,/pokemon/cufant.png,STEEL,,144,80,49,40,3,Stomp
 COPPERAJAH,Copperajah,/pokemon/copperajah.png,STEEL,,244,130,69,30,2,Iron Head
 DRACOZOLT,Dracozolt,/pokemon/dracozolt.png,ELECTRIC,DRAGON,180,100,80,75,3,Bolt Beak
