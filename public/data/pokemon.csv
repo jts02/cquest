@@ -67,7 +67,7 @@ DUGTRIO,Dugtrio,/pokemon/dugtrio/png,GROUND,,70,100,60,120,4,Earthquake
 DUGTRIOALOLA,Dugtrio (Alolan),/pokemon/dugtrio_alola.png,GROUND,STEEL,70,100,65,110,4,Iron Head
 MEOWTH,Meowth,/pokemon/meowth.png,NORMAL,,80,45,38,90,3,Pay Day
 MEOWTHALOLA,Meowth (Alolan),/pokemon/meowth_alola.png,DARK,,80,50,38,90,3,Snarl
-MEOWTHGALAR,Meowth (Galarian)/pokemon/meowth_galar.png,STEEL,,100,65,48,40,3,Metal Claw
+MEOWTHGALAR,Meowth (Galarian),/pokemon/meowth_galar.png,STEEL,,100,65,48,40,3,Metal Claw
 PERSIAN,Persian,/pokemon/persian.png,NORMAL,,130,70,63,115,3,Slash
 PERSIANALOLA,Persian (Alolan),/pokemon/persian_alola.png,DARK,,130,75,63,115,3,Dark Pulse
 PSYDUCK,Psyduck,/pokemon/psyduck.png,WATER,,100,65,49,55,2,Water Gun
