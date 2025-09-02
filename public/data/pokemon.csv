@@ -191,7 +191,7 @@ SNORLAX,Snorlax,/pokemon/snorlax.png,NORMAL,,320,110,88,30,2,Body Slam
 ARTICUNO,Articuno,/pokemon/articuno.png,ICE,FLYING,180,95,113,85,3,Blizzard
 ARTICUNOGALAR,Articuno (Galarian),/pokemon/articuno_galar.png,PSYCHIC,FLYING,180,125,93,95,3,Psychic
 ZAPDOS,Zapdos,/pokemon/zapdos.png,ELECTRIC,FLYING,180,125,88,100,3,Zap Cannon
-ZAPDOSGALAR,Zapdos (Galarian),FIGHTING,FLYING,180,125,90,100,3,Close Combat
+ZAPDOSGALAR,Zapdos (Galarian),/pokemon/zapdos_galar.png,FIGHTING,FLYING,180,125,90,100,3,Close Combat
 MOLTRES,Moltres,/pokemon/moltres.png,FIRE,FLYING,180,125,88,95,3,Fire Blast
 MOLTRESGALAR,Moltres (Galarian),/pokemon/moltres_galar.png,DARK,FLYING,180,100,108,90,3,Dark Pulse
 DRATINI,Dratini,/pokemon/dratini.png,DRAGON,,82,64,48,50,3,Dragon Rage
