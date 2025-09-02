@@ -107,7 +107,7 @@ SLOWPOKE,Slowpoke,/pokemon/slowpoke.png,WATER,PSYCHIC,180,65,53,15,1,Confusion
 SLOWPOKEGALAR,Slowpoke (Galarian),/pokemon/slowpoke_galar.png,PSYCHIC,,180,65,53,15,1,Confusion
 SLOWBRO,Slowbro,/pokemon/slowbro.png,WATER,PSYCHIC,190,100,95,30,1,Surf
 SLOWBROMEGA,Slowbro (Mega),/pokemon/slowbro_mega.png,WATER,PSYCHIC,190,130,130,30,1,Surf
-SLOWBROGALAR,Slowbro (Galarian),/pokemon/slowbro_galar.png,190,100,83,30,1,Shell Side Arm
+SLOWBROGALAR,Slowbro (Galarian),/pokemon/slowbro_galar.png,POISON,PSYCHIC,190,100,83,30,1,Shell Side Arm
 MAGNEMITE,Magnemite,/pokemon/magnemite.png,ELECTRIC,STEEL,50,95,63,45,3,Thunder Shock
 MAGNETON,Magneton,/pokemon/magneton.png,ELECTRIC,STEEL,100,120,83,70,3,Discharge
 FARFETCHD,Farfetch'd,/pokemon/farfetchd.png,NORMAL,FLYING,104,90,59,60,3,Cut
