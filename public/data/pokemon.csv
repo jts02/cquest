@@ -111,7 +111,7 @@ SLOWBROGALAR,Slowbro (Galarian),/pokemon/slowbro_galar.png,POISON,PSYCHIC,190,10
 MAGNEMITE,Magnemite,/pokemon/magnemite.png,ELECTRIC,STEEL,50,95,63,45,3,Thunder Shock
 MAGNETON,Magneton,/pokemon/magneton.png,ELECTRIC,STEEL,100,120,83,70,3,Discharge
 FARFETCHD,Farfetch'd,/pokemon/farfetchd.png,NORMAL,FLYING,104,90,59,60,3,Cut
-FARFETCHDGALAR,Farfetch'd (Galarian),/pokemon/farfetchd_galar.png,FIGHTING,104,95,59,55,3,Rock Smash
+FARFETCHDGALAR,Farfetch'd (Galarian),/pokemon/farfetchd_galar.png,FIGHTING,,104,95,59,55,3,Rock Smash
 DODUO,Doduo,/pokemon/doduo.png,NORMAL,FLYING,70,85,40,75,3,Pluck
 DODRIO,Dodrio,/pokemon/dodrio.png,NORMAL,FLYING,120,110,65,110,3,Drill Peck
 SEEL,Seel,/pokemon/seel.png,WATER,,130,45,70,45,3,Brine
