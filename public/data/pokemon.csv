@@ -501,7 +501,9 @@ RAMPARDOS,Rampardos,/pokemon/rampardos.png,ROCK,,194,165,55,58,2,Stone Edge
 SHIELDON,Shieldon,/pokemon/shieldon.png,ROCK,STEEL,60,42,103,30,3,Ancient Power
 BASTIODON,Bastiodon,/pokemon/bastiodon.png,ROCK,STEEL,120,52,153,30,2,Iron Head
 BURMY,Burmy,/pokemon/burmy.png,BUG,,80,29,45,36,1,Tackle
-WORMADAM,Wormadam,/pokemon/wormadam.png,BUG,GRASS,120,79,95,36,2,Energy Ball
+WORMADAM,Wormadam (Plant Cloak),/pokemon/wormadam.png,BUG,GRASS,120,79,95,36,2,Giga Drain
+WORMADAMSANDY,Wormadam (Sandy Cloak),/pokemon/wormadam_sandy.png,BUG,GROUND,120,79,95,36,2,Bulldoze
+WORMADAMTRASH,Wormadam (Trash Cloak),/pokemon/wormadam_trash.png,BUG,STEEL,120,69,95,36,2,Iron Head
 MOTHIM,Mothim,/pokemon/mothim.png,BUG,FLYING,140,94,50,66,3,Bug Buzz
 COMBEE,Combee,/pokemon/combee.png,BUG,FLYING,60,30,42,70,3,Struggle Bug
 VESPIQUEN,Vespiquen,/pokemon/vespiquen.png,BUG,FLYING,140,80,102,40,2,Attack Order
@@ -517,6 +519,7 @@ DRIFLOON,Drifloon,/pokemon/drifloon.png,GHOST,FLYING,180,60,39,70,4,Astonish
 DRIFBLIM,Drifblim,/pokemon/drifblim.png,GHOST,FLYING,300,90,49,80,3,Shadow Ball
 BUNEARY,Buneary,/pokemon/buneary.png,NORMAL,,110,66,50,85,3,Pound
 LOPUNNY,Lopunny,/pokemon/lopunny.png,NORMAL,,130,76,90,105,4,Headbutt
+LOPUNNYMEGA,Lopunny (Mega),/pokemon/lopunny_mega.png,NORMAL,FIGHTING,130,136,95,135,4,Headbutt
 MISMAGIUS,Mismagius,/pokemon/mismagius.png,GHOST,,120,105,83,105,3,Shadow Ball
 HONCHKROW,Honchkrow,/pokemon/honchkrow.png,DARK,FLYING,200,125,52,71,3,Night Slash
 GLAMEOW,Glameow,/pokemon/glameow.png,NORMAL,,98,55,40,85,3,Scratch
@@ -534,9 +537,11 @@ SPIRITOMB,Spiritomb,/pokemon/spiritomb.png,GHOST,DARK,100,92,108,35,1,Shadow Bal
 GIBLE,Gible,/pokemon/gible.png,DRAGON,GROUND,116,70,45,42,3,Dragon Rage
 GABITE,Gabite,/pokemon/gabite.png,DRAGON,GROUND,136,90,60,82,3,Dragon Claw
 GARCHOMP,Garchomp,/pokemon/garchomp.png,DRAGON,GROUND,216,130,90,102,3,Dragon Rush
+GARCHOMPMEGA,Garchomp (Mega),/pokemon/garchomp_mega.png,DRAGON,GROUND,216,170,105,92,3,Dragon Rush
 MUNCHLAX,Munchlax,/pokemon/munchlax.png,NORMAL,,270,85,63,5,3,Tackle
 RIOLU,Riolu,/pokemon/riolu.png,FIGHTING,,80,70,40,60,3,Force Palm
 LUCARIO,Lucario,/pokemon/lucario.png,FIGHTING,STEEL,140,115,70,90,3,Aura Sphere
+LUCARIOMEGA,Lucario (Mega),/pokemon/lucario_mega.png,FIGHTING,STEEL,140,145,79,112,3,Close Combat
 HIPPOPOTAS,Hippopotas,/pokemon/hippopotas.png,GROUND,,136,72,60,32,2,Bulldoze
 HIPPOWDON,Hippowdon,/pokemon/hippowdon.png,GROUND,,216,112,95,47,2,Earthquake
 SKORUPI,Skorupi,/pokemon/skorupi.png,POISON,BUG,80,50,73,65,3,Poison Fang
@@ -549,6 +554,7 @@ LUMINEON,Lumineon,/pokemon/lumineon.png,WATER,,138,69,81,91,3,Waterfall
 MANTYKE,Mantyke,/pokemon/mantyke.png,WATER,FLYING,90,60,85,50,3,Water Gun
 SNOVER,Snover,/pokemon/snover.png,GRASS,ICE,120,62,55,40,3,Icy Wind
 ABOMASNOW,Abomasnow,/pokemon/abomasnow.png,GRASS,ICE,180,92,80,60,2,Blizzard
+ABOMASNOWMEGA,Abomasnow (Mega),/pokemon/abomasnow_mega.png,GRASS,ICE,180,132,105,30,2,Blizzard
 WEAVILE,Weavile,/pokemon/weavile.png,DARK,ICE,140,120,75,125,3,Night Slash
 MAGNEZONE,Magnezone,/pokemon/magnezone.png,ELECTRIC,STEEL,140,130,103,60,3,Thunderbolt
 LICKILICKY,Lickilicky,/pokemon/lickilicky.png,NORMAL,,220,85,95,50,2,Slam
@@ -564,6 +570,7 @@ GLISCOR,Gliscor,/pokemon/gliscor.png,GROUND,FLYING,150,95,100,95,3,Earthquake
 MAMOSWINE,Mamoswine,/pokemon/mamoswine.png,ICE,GROUND,220,130,70,80,2,Icicle Crash
 PORYGONZ,Porygon-Z,/pokemon/porygon-z.png,NORMAL,,170,135,73,90,3,Uproar
 GALLADE,Gallade,/pokemon/gallade.png,PSYCHIC,FIGHTING,136,125,90,80,3,Psycho Cut
+GALLADEMEGA,Gallade (Mega),/pokemon/gallade.png,PSYCHIC,FIGHTING,136,165,105,110,3,Psycho Cut
 PROBOPASS,Probopass,/pokemon/probopass.png,ROCK,STEEL,120,75,148,40,2,Power Gem
 DUSKNOIR,Dusknoir,/pokemon/dusknoir.png,GHOST,,90,100,135,45,3,Shadow Punch
 FROSLASS,Froslass,/pokemon/froslass.png,ICE,GHOST,140,80,70,110,3,Ice Beam
