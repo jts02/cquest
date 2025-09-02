@@ -596,7 +596,7 @@ PHIONE,Phione,/pokemon/phione.png,WATER,,160,80,80,80,3,Water Pulse
 MANAPHY,Manaphy,/pokemon/manaphy.png,WATER,,200,100,100,100,3,Surf
 DARKRAI,Darkrai,/pokemon/darkrai.png,DARK,,140,135,90,125,3,Dark Pulse
 SHAYMIN,Shaymin,/pokemon/shaymin.png,GRASS,,200,100,100,100,3,Seed Flare
-SHAYMINSKY,Shaymin (Sky Forme),/pokemon/shaymin_sky.png,200,120,75,127,3,Seed Flare
+SHAYMINSKY,Shaymin (Sky Forme),/pokemon/shaymin_sky.png,GRASS,FLYING,200,120,75,127,3,Seed Flare
 ARCEUS,Arceus,/pokemon/arceus.png,NORMAL,,240,120,120,120,4,Judgment
 VICTINI,Victini,/pokemon/victini.png,FIRE,PSYCHIC,200,100,100,100,3,V-Create
 SNIVY,Snivy,/pokemon/snivy.png,GRASS,,90,45,55,63,4,Vine Whip
