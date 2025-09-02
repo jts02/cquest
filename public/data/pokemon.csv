@@ -47,7 +47,7 @@ NIDOKING,Nidoking,/pokemon/nidoking.png,POISON,GROUND,162,102,76,85,3,Poison Jab
 CLEFAIRY,Clefairy,/pokemon/clefairy.png,FAIRY,,140,60,57,35,3,Draining Kiss
 CLEFABLE,Clefable,/pokemon/clefable.png,FAIRY,,190,95,82,60,3,Moonblast
 VULPIX,Vulpix,/pokemon/vulpix.png,FIRE,,76,50,53,65,3,Incinerate
-VULPIXALOLA,Vulpix (Alolan),/pokemon/vulpix_alola.png,ICE,,Icy Wind
+VULPIXALOLA,Vulpix (Alolan),/pokemon/vulpix_alola.png,ICE,,76,50,53,65,3,Icy Wind
 NINETALES,Ninetales,/pokemon/ninetales.png,FIRE,,146,81,88,100,3,Flamethrower
 NINETALESALOLA,Ninetales (Alolan),/pokemon/ninetales_alola.png,ICE,FAIRY,146,81,88,109,3,Ice Beam
 JIGGLYPUFF,Jigglypuff,/pokemon/jigglypuff.png,NORMAL,FAIRY,210,45,23,20,3,Round
