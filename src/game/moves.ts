@@ -731,6 +731,26 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Slash',
+    power: 70,
+    type: PokemonType.NORMAL,
+    // Just one square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Cut',
+    power: 50,
+    type: PokemonType.NORMAL,
+    // Just one square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Hyper Drill',
     power: 100,
     type: PokemonType.NORMAL,
@@ -1487,6 +1507,39 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Raging Bull (Fighting)',
+        power: 90,
+        type: PokemonType.FIGHTING,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Raging Bull (Fire)',
+        power: 90,
+        type: PokemonType.FIRE,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Raging Bull (Water)',
+        power: 90,
+        type: PokemonType.WATER,
+        shape: [
+            { x: 0, y: -1 },
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Waterfall',
         power: 80,
         type: PokemonType.WATER,
@@ -2117,6 +2170,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Shell Side Arm',
+        power: 90,
+        type: PokemonType.POISON,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Branch Poke',
         power: 40,
         type: PokemonType.GRASS,
@@ -2252,6 +2315,16 @@ export const MOVES: Move[] = [
     },
     {
         name: 'Flare Blitz',
+        power: 120,
+        type: PokemonType.FIRE,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Raging Fury',
         power: 120,
         type: PokemonType.FIRE,
         // Just one square forward
@@ -3387,6 +3460,23 @@ export const MOVES: Move[] = [
         name: 'Bonemerang',
         power: 100,
         type: PokemonType.GROUND,
+        // Ring in front of user
+        shape: [
+            { x: -1, y: -3 },
+            { x: 0, y: -3 },
+            { x: 1, y: -3 },
+            { x: -1, y: -2 },
+            { x: 1, y: -2 },
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Shadow Bone',
+        power: 85,
+        type: PokemonType.GHOST,
         // Ring in front of user
         shape: [
             { x: -1, y: -3 },
