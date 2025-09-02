@@ -758,7 +758,7 @@ VIRIZION,Virizion,/pokemon/virizion.png,GRASS,FIGHTING,182,90,102,108,3,Sacred S
 TORNADUS,Tornadus,/pokemon/tornadus.png,FLYING,,158,125,75,111,2,Bleakwind Storm
 TORNADUSTHERIAN,Tornadus (Therian Forme),/pokemon/tornadus_therian.png,FLYING,,158,110,85,121,2,Bleakwind Storm
 THUNDURUS,Thundurus,/pokemon/thundurus.png,ELECTRIC,FLYING,158,125,75,111,2,Wildbolt Storm
-THUNDURUSTHERIAN,Thundurus (Therian Forme),ELECTRIC,FLYING,158,145,75,101,2,Wildbolt Storm
+THUNDURUSTHERIAN,Thundurus (Therian Forme),/pokemon/thundurus_therian.png,ELECTRIC,FLYING,158,145,75,101,2,Wildbolt Storm
 RESHIRAM,Reshiram,/pokemon/reshiram.png,DRAGON,FIRE,200,150,110,90,3,Blue Flare
 ZEKROM,Zekrom,/pokemon/zekrom.png,DRAGON,ELECTRIC,200,150,110,90,3,Bolt Strike
 LANDORUS,Landorus,/pokemon/landorus.png,GROUND,FLYING,178,125,85,101,2,Sandsear Storm
