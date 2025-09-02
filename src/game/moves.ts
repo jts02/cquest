@@ -3471,6 +3471,25 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Overheat',
+        power: 130,
+        type: PokemonType.FIRE,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: true, stat: 'attack', stages: 2}
+        ],
+    },
+    {
         name: 'Bonemerang',
         power: 100,
         type: PokemonType.GROUND,

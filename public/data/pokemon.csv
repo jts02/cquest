@@ -575,19 +575,28 @@ PROBOPASS,Probopass,/pokemon/probopass.png,ROCK,STEEL,120,75,148,40,2,Power Gem
 DUSKNOIR,Dusknoir,/pokemon/dusknoir.png,GHOST,,90,100,135,45,3,Shadow Punch
 FROSLASS,Froslass,/pokemon/froslass.png,ICE,GHOST,140,80,70,110,3,Ice Beam
 ROTOM,Rotom,/pokemon/rotom.png,ELECTRIC,GHOST,100,95,77,91,4,Discharge
+ROTOMHEAT,Rotom (Heat),/pokemon/rotom_heat.png,ELECTRIC,FIRE,100,105,107,86,3,Overheat
+ROTOMWASH,Rotom (Wash),/pokemon/rotom_wash.png,ELECTRIC,WATER,100,105,107,86,3,Hydro Pump
+ROTOMFROST,Rotom (Frost),/pokemon/rotom_frost.png,ELECTRIC,ICE,100,105,107,86,3,Blizzard
+ROTOMFAN,Rotom (Fan),/pokemon/rotom_fan.png,ELECTRIC,FLYING,100,105,107,86,3,Air Slash
+ROTOMMOW,Rotom (Mow),/pokemon/rotom_mow.png,ELECTRIC,GRASS,100,105,107,86,3,Leaf Storm
 UXIE,Uxie,/pokemon/uxie.png,PSYCHIC,,150,75,130,95,3,Psychic
 MESPRIT,Mesprit,/pokemon/mesprit.png,PSYCHIC,,160,105,105,80,3,Psychic
 AZELF,Azelf,/pokemon/azelf.png,PSYCHIC,,150,125,70,115,3,Psychic
 DIALGA,Dialga,/pokemon/dialga.png,STEEL,DRAGON,200,150,110,90,3,Roar of Time
+DIALGAORIGIN,Dialga (Origin Forme),/pokemon/dialga_origin.png,STEEL,DRAGON,200,150,120,90,3,Roar of Time
 PALKIA,Palkia,/pokemon/palkia.png,WATER,DRAGON,180,150,110,100,3,Spacial Rend
+PALKIAORIGIN,Palkia (Origin Forme),/pokemon/palkia_origin.png,WATER,DRAGON,180,150,110,120,3,Spacial Rend
 HEATRAN,Heatran,/pokemon/heatran.png,FIRE,STEEL,182,130,106,77,2,Magma Storm
 REGIGIGAS,Regigigas,/pokemon/regigigas.png,NORMAL,,220,160,110,100,1,Mega Punch
 GIRATINA,Giratina,/pokemon/giratina.png,GHOST,DRAGON,300,100,120,90,3,Shadow Force
+GIRATINAORIGIN,Giratina (Origin Forme),/pokemon/giratina_origin.png,GHOST,DRAGON,300,120,100,90,3,Shadow Force
 CRESSELIA,Cresselia,/pokemon/cresselia.png,PSYCHIC,,240,75,115,85,3,Psychic
 PHIONE,Phione,/pokemon/phione.png,WATER,,160,80,80,80,3,Water Pulse
 MANAPHY,Manaphy,/pokemon/manaphy.png,WATER,,200,100,100,100,3,Surf
 DARKRAI,Darkrai,/pokemon/darkrai.png,DARK,,140,135,90,125,3,Dark Pulse
 SHAYMIN,Shaymin,/pokemon/shaymin.png,GRASS,,200,100,100,100,3,Seed Flare
+SHAYMINSKY,Shaymin (Sky Forme),/pokemon/shaymin_sky.png,200,120,75,127,3,Seed Flare
 ARCEUS,Arceus,/pokemon/arceus.png,NORMAL,,240,120,120,120,4,Judgment
 VICTINI,Victini,/pokemon/victini.png,FIRE,PSYCHIC,200,100,100,100,3,V-Create
 SNIVY,Snivy,/pokemon/snivy.png,GRASS,,90,45,55,63,4,Vine Whip
