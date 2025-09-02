@@ -620,6 +620,36 @@ export const MOVES: Move[] = [
       additionalEffects: [],
     },
     {
+        name: 'Ice Burn',
+        power: 140,
+        type: PokemonType.ICE,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+          { x: -1, y: -3 },
+          { x: 0, y: -3 },
+          { x: 1, y: -3 },
+      ],
+      additionalEffects: [],
+    },
+    {
+        name: 'Freeze Shock',
+        power: 140,
+        type: PokemonType.ICE,
+        // Horizontally in front of user
+        shape: [
+          { x: -1, y: -2 },
+          { x: 0, y: -2 },
+          { x: 1, y: -2 },
+          { x: -1, y: -3 },
+          { x: 0, y: -3 },
+          { x: 1, y: -3 },
+      ],
+      additionalEffects: [],
+    },
+    {
         name: 'V-Create',
         power: 180,
         type: PokemonType.FIRE,
@@ -2730,6 +2760,16 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Esper Wing',
+        power: 80,
+        type: PokemonType.PSYCHIC,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [],
+    },
+    {
         name: 'Crabhammer',
         power: 100,
         type: PokemonType.WATER,
@@ -3652,6 +3692,19 @@ export const MOVES: Move[] = [
         name: 'Night Daze',
         power: 85,
         type: PokemonType.DARK,
+        // Cross around user
+        shape: [
+            { x: 0, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: 0, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Bitter Malice',
+        power: 75,
+        type: PokemonType.GHOST,
         // Cross around user
         shape: [
             { x: 0, y: -1 },

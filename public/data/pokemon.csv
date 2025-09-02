@@ -607,7 +607,8 @@ PIGNITE,Pignite,/pokemon/pignite.png,FIRE,FIGHTING,180,93,55,55,3,Fire Punch
 EMBOAR,Emboar,/pokemon/emboar.png,FIRE,FIGHTING,220,123,65,65,2,Fire Blast
 OSHAWOTT,Oshawott,/pokemon/oshawott.png,WATER,,110,63,45,45,3,Water Gun
 DEWOTT,Dewott,/pokemon/dewott.png,WATER,,150,83,60,60,3,Water Pulse
-SAMUROTT,Samurott,/pokemon/samurott.png,WATER,,180,108,73,85,3,Aqua Tail
+SAMUROTT,Samurott,/pokemon/samurott.png,WATER,,180,108,73,85,3,Surf
+SAMUROTTHISUI,Samurott (Hisuian),/pokemon/samurott_hisui.png,WATER,DARK,180,108,73,85,3,Aqua Tail
 PATRAT,Patrat,/pokemon/patrat.png,NORMAL,,90,55,39,42,3,Tackle
 WATCHOG,Watchog,/pokemon/watchog.png,NORMAL,,120,85,69,77,3,Hyper Fang
 LILLIPUP,Lillipup,/pokemon/lillipup.png,NORMAL,,90,60,45,55,3,Tackle
@@ -635,7 +636,8 @@ WOOBAT,Woobat,/pokemon/woobat.png,PSYCHIC,FLYING,130,55,43,72,3,Confusion
 SWOOBAT,Swoobat,/pokemon/swoobat.png,PSYCHIC,FLYING,134,77,55,114,3,Air Slash
 DRILBUR,Drilbur,/pokemon/drilbur.png,GROUND,,120,85,43,68,3,Bulldoze
 EXCADRILL,Excadrill,/pokemon/excadrill.png,GROUND,STEEL,220,135,63,88,3,Drill Run
-AUDINO,Audino,/pokemon/audino.png,NORMAL,,206,60,86,50,3,Pound
+AUDINO,Audino,/pokemon/audino.png,NORMAL,,206,60,86,50,3,Hyper Voice
+AUDINOMEGA,Audino (Mega),/pokemon/audino_mega.png,NORMAL,FAIRY,206,80,126,50,3,Hyper Voice
 TIMBURR,Timburr,/pokemon/timburr.png,FIGHTING,,150,80,45,35,3,Low Kick
 GURDURR,Gurdurr,/pokemon/gurdurr.png,FIGHTING,,170,105,68,40,3,Wake-Up Slap
 CONKELDURR,Conkeldurr,/pokemon/conkeldurr.png,FIGHTING,,210,140,80,45,3,Dynamic Punch
@@ -654,12 +656,15 @@ COTTONEE,Cottonee,/pokemon/cottonee.png,GRASS,FAIRY,80,37,55,66,4,Mega Drain
 WHIMSICOTT,Whimsicott,/pokemon/whimsicott.png,GRASS,FAIRY,120,77,80,116,4,Giga Drain
 PETILIL,Petilil,/pokemon/petilil.png,GRASS,,90,70,50,30,3,Mega Drain
 LILLIGANT,Lilligant,/pokemon/lilligant.png,GRASS,,140,110,75,90,3,Giga Drain
+LILLIGANTHISUI,Lilligant (Hisuian),/pokemon/lilligant_hisui.png,GRASS,FIGHTING,140,105,75,105,3,Leaf Blade
 BASCULIN,Basculin,/pokemon/basculin.png,WATER,,140,92,60,98,3,Waterfall
 SANDILE,Sandile,/pokemon/sandile.png,GROUND,DARK,100,72,35,65,3,Mud-Slap
 KROKOROK,Krokorok,/pokemon/krokorok.png,GROUND,DARK,120,82,45,74,3,Bite
 KROOKODILE,Krookodile,/pokemon/krookodile.png,GROUND,DARK,190,117,75,92,3,Crunch
 DARUMAKA,Darumaka,/pokemon/darumaka.png,FIRE,,140,90,45,50,3,Flame Wheel
+DARUMAKAGALAR,Darumaka (Galarian),/pokemon/darumaka_galar.png,ICE,,140,90,45,50,3,Ice Fang
 DARMANITAN,Darmanitan,/pokemon/darmanitan.png,FIRE,,210,140,55,95,3,Fire Punch
+DARMANITANGALAR,Darmanitan (Galarian),/pokemon/darmanitan_galar.png,ICE,,210,140,55,95,3,Ice Punch
 MARACTUS,Maractus,/pokemon/maraactus.png,GRASS,,150,106,67,60,2,Giga Drain
 DWEBBLE,Dwebble,/pokemon/dwebble.png,BUG,ROCK,100,65,60,55,2,Bug Bite
 CRUSTLE,Crustle,/pokemon/crustle.png,BUG,ROCK,140,95,100,45,2,X-Scissor
@@ -667,6 +672,7 @@ SCRAGGY,Scraggy,/pokemon/scraggy.png,DARK,FIGHTING,100,75,70,48,3,Feint Attack
 SCRAFTY,Scrafty,/pokemon/scrafty.png,DARK,FIGHTING,130,90,115,58,3,Throat Chop
 SIGILYPH,Sigilyph,/pokemon/sigilyph.png,PSYCHIC,FLYING,144,103,80,97,3,Psychic
 YAMASK,Yamask,/pokemon/yamask.png,GHOST,,76,55,75,30,3,Astonish
+YAMASKGALAR,Yamask (Galarian),/pokemon/yamask_galar.png,GROUND,GHOST,76,55,75,30,2,Astonish
 COFAGRIGUS,Cofagrigus,/pokemon/cofagrigus.png,GHOST,,116,95,125,30,2,Shadow Ball
 TIRTOUGA,Tirtouga,/pokemon/tirtouga.png,WATER,ROCK,108,78,74,22,2,Aqua Jet
 CARRACOSTA,Carracosta,/pokemon/carracosta.png,WATER,ROCK,148,108,99,32,2,Aqua Tail
@@ -675,7 +681,9 @@ ARCHEOPS,Archeops,/pokemon/archeops.png,ROCK,FLYING,150,140,65,110,3,Rock Slide
 TRUBBISH,Trubbish,/pokemon/trubbish.png,POISON,,100,50,62,65,2,Sludge
 GARBODOR,Garbodor,/pokemon/garbodor.png,POISON,,160,95,82,75,2,Sludge Bomb
 ZORUA,Zorua,/pokemon/zorua.png,DARK,,80,80,40,65,4,Snarl
+ZORUAHISUI,Zorua (Hisuian),/pokemon/zorua_hisui.png,NORMAL,GHOST,70,85,40,70,4,Hex
 ZOROARK,Zoroark,/pokemon/zoroark.png,DARK,,120,120,60,105,4,Night Daze
+ZOROARKHISUI,Zoroark (Hisuian),/pokemon/zoroark_hisui.png,NORMAL,GHOST,110,125,60,110,4,Bitter Malice
 MINCCINO,Minccino,/pokemon/minccino.png,NORMAL,,110,50,40,75,3,Pound
 CINCCINO,Cinccino,/pokemon/cinccino.png,NORMAL,,150,95,60,115,3,Slam
 GOTHITA,Gothita,/pokemon/gothita.png,PSYCHIC,,90,55,58,45,3,Confusion
@@ -722,7 +730,8 @@ BEARTIC,Beartic,/pokemon/beartic.png,ICE,,190,130,80,50,2,Icicle Crash
 CRYOGONAL,Cryogonal,/pokemon/cryogonal.png,ICE,,160,95,93,105,3,Ice Beam
 SHELMET,Shelmet,/pokemon/shelmet.png,BUG,,100,40,75,25,2,Struggle Bug
 ACCELGOR,Accelgor,/pokemon/accelgor.png,BUG,,160,100,50,145,4,Bug Buzz
-STUNFISK,Stunfisk,/pokemon/stunfisk.png,GROUND,ELECTRIC,218,81,91,32,2,Discharge
+STUNFISK,Stunfisk,/pokemon/stunfisk.png,GROUND,ELECTRIC,218,81,91,32,2,Earth Power
+STUNFISKGALAR,Stunfisk (Galarian),/pokemon/stunfisk_galar.png,GROUND,STEEL,218,81,92,32,2,Earthquake
 MIENFOO,Mienfoo,/pokemon/mienfoo.png,FIGHTING,,90,85,50,65,3,Force Palm
 MIENSHAO,Mienshao,/pokemon/mienshao.png,FIGHTING,,130,125,60,105,3,Drain Punch
 DRUDDIGON,Druddigon,/pokemon/druddigon.png,DRAGON,,154,120,90,48,3,Dragon Claw
@@ -733,6 +742,7 @@ BISHARP,Bisharp,/pokemon/bisharp.png,DARK,STEEL,130,125,85,70,3,Night Slash
 BOUFFALANT,Bouffalant,/pokemon/bouffalant.png,NORMAL,,190,110,95,55,3,Horn Attack
 RUFFLET,Rufflet,/pokemon/rufflet.png,NORMAL,FLYING,140,83,50,60,4,Wing Attack
 BRAVIARY,Braviary,/pokemon/braviary.png,NORMAL,FLYING,200,123,75,80,4,Brave Bird
+BRAVIARYHISUI,Braviary (Hisuian),/pokemon/braviary_hisui.png,PSYCHIC,FLYING,220,112,70,65,4,Esper Wing
 VULLABY,Vullaby,/pokemon/vullaby.png,DARK,FLYING,140,55,70,60,3,Pluck
 MANDIBUZZ,Mandibuzz,/pokemon/mandibuzz.png,DARK,FLYING,220,65,100,80,3,Throat Chop
 HEATMOR,Heatmor,/pokemon/heatmor.png,FIRE,,170,105,66,65,2,Flamethrower
@@ -746,13 +756,19 @@ COBALION,Cobalion,/pokemon/cobalion.png,STEEL,FIGHTING,182,90,102,108,3,Sacred S
 TERRAKION,Terrakion,/pokemon/terrakion.png,ROCK,FIGHTING,182,129,90,108,3,Sacred Sword
 VIRIZION,Virizion,/pokemon/virizion.png,GRASS,FIGHTING,182,90,102,108,3,Sacred Sword
 TORNADUS,Tornadus,/pokemon/tornadus.png,FLYING,,158,125,75,111,2,Bleakwind Storm
+TORNADUSTHERIAN,Tornadus (Therian Forme),/pokemon/tornadus_therian.png,FLYING,,158,110,85,121,2,Bleakwind Storm
 THUNDURUS,Thundurus,/pokemon/thundurus.png,ELECTRIC,FLYING,158,125,75,111,2,Wildbolt Storm
+THUNDURUSTHERIAN,Thundurus (Therian Forme),ELECTRIC,FLYING,158,145,75,101,2,Wildbolt Storm
 RESHIRAM,Reshiram,/pokemon/reshiram.png,DRAGON,FIRE,200,150,110,90,3,Blue Flare
 ZEKROM,Zekrom,/pokemon/zekrom.png,DRAGON,ELECTRIC,200,150,110,90,3,Bolt Strike
 LANDORUS,Landorus,/pokemon/landorus.png,GROUND,FLYING,178,125,85,101,2,Sandsear Storm
+LANDOURSTHERIAN,Landorus (Therian Forme),/pokemon/landorus_therian.png,GROUND,FLYING,178,145,85,91,2,Sandsear Storm
 KYUREM,Kyurem,/pokemon/kyurem.png,DRAGON,ICE,250,130,90,95,3,Blizzard
+KYUREMWHITE,Kyurem (White),/pokemon/kyurem_white.png,DRAGON,ICE,250,170,95,95,2,Ice Burn
+KYUREMBLACK,Kyurem (Black),/pokemon/kyurem_black.png,DRAGON,ICE,250,170,95,95,2,Freeze Shock
 KELDEO,Keldeo,/pokemon/keldeo.png,WATER,FIGHTING,182,129,90,108,3,Secret Sword
 MELOETTA,Meloetta,/pokemon/meloetta.png,NORMAL,PSYCHIC,200,128,103,90,3,Hyper Voice
+MELOETTAPIROUETTE,Meloetta (Pirouette Forme),/pokemon/meloetta_pirouette.png,NORMAL,FIGHTING,200,128,84,128,3,Close Combat
 GENESECT,Genesect,/pokemon/genesect.png,BUG,STEEL,142,120,95,99,3,Techno Blast
 CHESPIN,Chespin,/pokemon/chespin.png,GRASS,,112,61,55,38,3,Vine Whip
 QUILLADIN,Quilladin,/pokemon/quilladin.png,GRASS,,122,78,77,57,3,Magical Leaf
