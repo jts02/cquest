@@ -2150,6 +2150,18 @@ export const MOVES: Move[] = [
         additionalEffects: [],
     },
     {
+        name: 'Low Sweep',
+        power: 65,
+        type: PokemonType.FIGHTING,
+        // Just one square forward
+        shape: [
+            { x: 0, y: -1 },
+        ],
+        additionalEffects: [
+          { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'speed', stages: 1}
+        ],
+    },
+    {
         name: 'Vital Throw',
         power: 70,
         type: PokemonType.FIGHTING,
