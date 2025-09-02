@@ -500,7 +500,9 @@ export const MOVES: Move[] = [
           { x: 0, y: -2 },
           { x: 1, y: -2 },
       ],
-      additionalEffects: [],
+      additionalEffects: [
+        { kind: 'statChange', chance: 1, increase: false, self: false, stat: 'speed', stages: 1}
+      ],
     },
     {
         name: 'Uproar',

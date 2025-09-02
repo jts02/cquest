@@ -316,16 +316,21 @@ CELEBI,Celebi,/pokemon/celebi.png,GRASS,PSYCHIC,200,100,100,100,4,Psychic
 TREECKO,Treecko,/pokemon/treecko.png,GRASS,,80,65,45,70,4,Absorb
 GROVYLE,Grovyle,/pokemon/grovyle.png,GRASS,,100,85,55,95,3,Leaf Blade
 SCEPTILE,Sceptile,/pokemon/sceptile.png,GRASS,,140,105,75,120,3,Leaf Storm
+SCEPTILEMEGA,Sceptile (Mega),/pokemon/sceptile_mega.png,GRASS,DRAGON,140,145,80,145,3,Leaf Storm
 TORCHIC,Torchic,/pokemon/torchic.png,FIRE,,90,70,45,45,3,Ember
-COMBUSKEN,Combusken,/pokemon/combusken.png,FIRE,FIGHTING,120,85,60,55,3,Double Kick
+COMBUSKEN,Combusken,/pokemon/combusken.png,FIRE,FIGHTING,120,85,60,55,3,Flame Charge
 BLAZIKEN,Blaziken,/pokemon/blaziken.png,FIRE,FIGHTING,160,120,70,80,3,Blaze Kick
+BLAZIKENMEGA,Blaziken (Mega),/pokemon/blaziken_mega.png,FIRE,FIGHTING,160,160,80,100,3,Blaze Kick
 MUDKIP,Mudkip,/pokemon/mudkip.png,WATER,,100,70,50,40,3,Water Gun
 MARSHTOMP,Marshtomp,/pokemon/marshtomp.png,WATER,GROUND,140,85,70,50,3,Water Pulse
-SWAMPERT,Swampert,/pokemon/swampert.png,WATER,GROUND,200,110,90,60,2,Earthquake
+SWAMPERT,Swampert,/pokemon/swampert.png,WATER,GROUND,200,110,90,60,2,Muddy Water
+SWAMPERTMEGA,Swampert (Mega),/pokemon/swampert_mega.png,WATER,GROUND,200,150,110,70,2,Muddy Water
 POOCHYENA,Poochyena,/pokemon/poochyena.png,DARK,,70,55,33,35,3,Bite
 MIGHTYENA,Mightyena,/pokemon/mightyena.png,DARK,,140,90,65,70,3,Crunch
 ZIGZAGOON,Zigzagoon,/pokemon/zigzagoon.png,NORMAL,,76,30,41,60,3,Tackle
+ZIGZAGOONGALAR,Zigzagoon (Galarian),/pokemon/zigzagoon_galar.png,DARK,NORMAL,76,30,41,60,3,Tackle
 LINOONE,Linoone,/pokemon/linoone.png,NORMAL,,156,70,61,100,3,Slash
+LINOONEGALAR,Linoone (Galarian),/pokemon/linoone_galar.png,DARK,NORMAL,156,70,61,100,3,Night Slash
 WURMPLE,Wurmple,/pokemon/wurmple.png,BUG,,90,45,33,20,1,Tackle
 SILCOON,Silcoon,/pokemon/silcoon.png,BUG,,100,35,40,15,1,Harden
 BEAUTIFLY,Beautifly,/pokemon/beautifly.png,BUG,FLYING,120,100,50,65,4,Bug Buzz
@@ -344,6 +349,7 @@ PELIPPER,Pelipper,/pokemon/pelipper.png,WATER,FLYING,120,95,85,65,3,Air Slash
 RALTS,Ralts,/pokemon/ralts.png,PSYCHIC,FAIRY,56,45,30,40,3,Confusion
 KIRLIA,Kirlia,/pokemon/kirlia.png,PSYCHIC,FAIRY,76,65,45,50,3,Psyshock
 GARDEVOIR,Gardevoir,/pokemon/gardevoir.png,PSYCHIC,FAIRY,136,125,90,80,3,Psychic
+GARDEVOIRMEGA,Gardevoir (Mega),/pokemon/gardevoir_mega.png,PSYCHIC,FAIRY,136,165,100,100,3,Psychic
 SURSKIT,Surskit,/pokemon/surskit.png,BUG,WATER,80,50,42,65,3,Struggle Bug
 MASQUERAIN,Masquerain,/pokemon/masquerain.png,BUG,FLYING,140,100,72,80,3,Bug Buzz
 SHROOMISH,Shroomish,/pokemon/shroomish.png,GRASS,,120,40,60,35,2,Mega Drain
@@ -364,10 +370,13 @@ NOSEPASS,Nosepass,/pokemon/nosepass.png,ROCK,,60,45,118,30,3,Rock Slide
 SKITTY,Skitty,/pokemon/skitty.png,NORMAL,,100,45,40,50,3,Tackle
 DELCATTY,Delcatty,/pokemon/delcatty.png,NORMAL,,140,65,60,90,3,Facade
 SABLEYE,Sableye,/pokemon/sableye.png,DARK,GHOST,100,75,70,50,3,Knock Off
+SABLEYEMEGA,Sableye (Mega),/pokemon/sableye_mega.png,DARK,GHOST,100,85,120,20,2,Knock Off
 MAWILE,Mawile,/pokemon/mawile.png,STEEL,FAIRY,100,85,70,50,3,Iron Head
+MAWILEMEGA,Mawile (Mega),/pokemon/mawile_mega.png,STEEL,FAIRY,100,105,110,50,3,Iron Head
 ARON,Aron,/pokemon/aron.png,STEEL,ROCK,100,70,70,30,3,Metal Claw
 LAIRON,Lairon,/pokemon/lairon.png,STEEL,ROCK,120,90,95,40,3,Iron Head
 AGGRON,Aggron,/pokemon/aggron.png,STEEL,ROCK,140,110,120,50,2,Iron Tail
+AGGRONMEGA,Aggron (Mega),/pokemon/aggron_mega.png,STEEL,ROCK,140,140,155,50,2,Iron Tail
 MEDITITE,Meditite,/pokemon/meditite.png,FIGHTING,PSYCHIC,60,40,55,60,3,Force Palm
 MEDICHAM,Medicham,/pokemon/medicham.png,FIGHTING,PSYCHIC,120,60,75,80,3,Zen Headbutt
 ELECTRIKE,Electrike,/pokemon/electrike.png,ELECTRIC,,80,55,40,65,3,Shock Wave
