@@ -853,6 +853,176 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Multi-Attack (Fire)',
+    power: 120,
+    type: PokemonType.FIRE,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Water)',
+    power: 120,
+    type: PokemonType.WATER,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Grass)',
+    power: 120,
+    type: PokemonType.GRASS,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Electric)',
+    power: 120,
+    type: PokemonType.ELECTRIC,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Ice)',
+    power: 120,
+    type: PokemonType.ICE,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Fighting)',
+    power: 120,
+    type: PokemonType.FIGHTING,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Poison)',
+    power: 120,
+    type: PokemonType.POISON,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Ground)',
+    power: 120,
+    type: PokemonType.GROUND,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Flying)',
+    power: 120,
+    type: PokemonType.FLYING,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Psychic)',
+    power: 120,
+    type: PokemonType.PSYCHIC,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Bug)',
+    power: 120,
+    type: PokemonType.BUG,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Rock)',
+    power: 120,
+    type: PokemonType.ROCK,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Ghost)',
+    power: 120,
+    type: PokemonType.GHOST,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Dragon)',
+    power: 120,
+    type: PokemonType.DRAGON,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Dark)',
+    power: 120,
+    type: PokemonType.DARK,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Steel)',
+    power: 120,
+    type: PokemonType.STEEL,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Multi-Attack (Fairy)',
+    power: 120,
+    type: PokemonType.FAIRY,
+    // One square forward
+    shape: [
+      { x: 0, y: -1 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Mega Punch',
     power: 80,
     type: PokemonType.NORMAL,
@@ -1752,6 +1922,46 @@ export const MOVES: Move[] = [
         name: 'Techno Blast',
         power: 120,
         type: PokemonType.NORMAL,
+        shape: [
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Techno Blast (Electric)',
+        power: 120,
+        type: PokemonType.ELECTRIC,
+        shape: [
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Techno Blast (Fire)',
+        power: 120,
+        type: PokemonType.FIRE,
+        shape: [
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Techno Blast (Ice)',
+        power: 120,
+        type: PokemonType.ICE,
+        shape: [
+            { x: 0, y: -2 },
+            { x: 0, y: -3 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Techno Blast (Water)',
+        power: 120,
+        type: PokemonType.WATER,
         shape: [
             { x: 0, y: -2 },
             { x: 0, y: -3 },
@@ -3814,6 +4024,295 @@ export const MOVES: Move[] = [
         name: 'Judgment',
         power: 100,
         type: PokemonType.NORMAL,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Fire)',
+        power: 100,
+        type: PokemonType.FIRE,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Water)',
+        power: 100,
+        type: PokemonType.WATER,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Grass)',
+        power: 100,
+        type: PokemonType.GRASS,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Electric)',
+        power: 100,
+        type: PokemonType.ELECTRIC,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Ice)',
+        power: 100,
+        type: PokemonType.ICE,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Fighting)',
+        power: 100,
+        type: PokemonType.FIGHTING,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Poison)',
+        power: 100,
+        type: PokemonType.POISON,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Ground)',
+        power: 100,
+        type: PokemonType.GROUND,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Flying)',
+        power: 100,
+        type: PokemonType.FLYING,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Psychic)',
+        power: 100,
+        type: PokemonType.PSYCHIC,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Bug)',
+        power: 100,
+        type: PokemonType.BUG,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Rock)',
+        power: 100,
+        type: PokemonType.ROCK,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Ghost)',
+        power: 100,
+        type: PokemonType.GHOST,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Dragon)',
+        power: 100,
+        type: PokemonType.DRAGON,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Dark)',
+        power: 100,
+        type: PokemonType.DARK,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Steel)',
+        power: 100,
+        type: PokemonType.STEEL,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Judgment (Fairy)',
+        power: 100,
+        type: PokemonType.FAIRY,
         // All Around user
         shape: [
             { x: -1, y: -1 },
