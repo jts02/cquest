@@ -994,6 +994,16 @@ export const MOVES: Move[] = [
     additionalEffects: [],
 },
 {
+    name: 'Triple Arrows',
+    power: 90,
+    type: PokemonType.FIGHTING,
+    // Just Two squares forward
+    shape: [
+      { x: 0, y: -2 },
+    ],
+    additionalEffects: [],
+},
+{
     name: 'Darkest Lariat',
     power: 85,
     type: PokemonType.DARK,
@@ -1266,6 +1276,45 @@ export const MOVES: Move[] = [
     name: 'Revelation Dance',
     power: 90,
     type: PokemonType.FIRE,
+    // Hollow cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Revelation Dance (Electric)',
+    power: 90,
+    type: PokemonType.ELECTRIC,
+    // Hollow cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Revelation Dance (Psychic)',
+    power: 90,
+    type: PokemonType.PSYCHIC,
+    // Hollow cross in front
+    shape: [
+      { x: 0, y: -1 },
+      { x: -1, y: -2 },
+      { x: 1, y: -2 },
+      { x: 0, y: -3 },
+    ],
+    additionalEffects: [],
+},
+{
+    name: 'Revelation Dance (Ghost)',
+    power: 90,
+    type: PokemonType.GHOST,
     // Hollow cross in front
     shape: [
       { x: 0, y: -1 },
@@ -3114,6 +3163,40 @@ export const MOVES: Move[] = [
         name: 'Triple Kick',
         power: 60,
         type: PokemonType.FIGHTING,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Glacial Lance',
+        power: 120,
+        type: PokemonType.ICE,
+        // All Around user
+        shape: [
+            { x: -1, y: -1 },
+            { x: 0, y: -1 },
+            { x: 1, y: -1 },
+            { x: -1, y: 0 },
+            { x: 1, y: 0 },
+            { x: -1, y: 1 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+        ],
+        additionalEffects: [],
+    },
+    {
+        name: 'Astral Barrage',
+        power: 120,
+        type: PokemonType.GHOST,
         // All Around user
         shape: [
             { x: -1, y: -1 },
