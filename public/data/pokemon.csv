@@ -787,6 +787,10 @@ KELDEO,Keldeo,/pokemon/keldeo.png,WATER,FIGHTING,182,129,90,108,3,Secret Sword
 MELOETTA,Meloetta,/pokemon/meloetta.png,NORMAL,PSYCHIC,200,128,103,90,3,Hyper Voice
 MELOETTAPIROUETTE,Meloetta (Pirouette Forme),/pokemon/meloetta_pirouette.png,NORMAL,FIGHTING,200,128,84,128,3,Close Combat
 GENESECT,Genesect,/pokemon/genesect.png,BUG,STEEL,142,120,95,99,3,Techno Blast
+GENESECTBURN,Genesect (Burn),/pokemon/genesect_burn.png,BUG,STEEL,142,120,95,99,3,Techno Blast (Fire)
+GENESECTCHILL,Genesect (Chill),/pokemon/genesect_chill.png,BUG,STEEL,142,120,95,99,3,Techno Blast (Ice)
+GENESECTDOUSE,Genesect (Douse),/pokemon/genesect_douse.png,BUG,STEEL,142,120,95,99,3,Techno Blast (Water)
+GENESECTSHOCK,Genesect (Shock),/pokemon/genesect_shock.png,BUG,STEEL,142,120,95,99,3,Techno Blast (Electric)
 CHESPIN,Chespin,/pokemon/chespin.png,GRASS,,112,61,55,38,3,Vine Whip
 QUILLADIN,Quilladin,/pokemon/quilladin.png,GRASS,,122,78,77,57,3,Magical Leaf
 CHESNAUGHT,Chesnaught,/pokemon/chesnaught.png,GRASS,FIGHTING,176,107,99,64,3,Seed Bomb
