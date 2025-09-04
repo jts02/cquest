@@ -4360,18 +4360,19 @@ export const MOVES: Move[] = [
             { kind: 'statChange', chance: 1, increase: true, self: true, stat: 'defense', stages: 2}
         ]
     },
-    {
-        name: 'Dragon Rush',
-        power: 100,
-        type: PokemonType.DRAGON,
-        shape: [
-            { x: -1, y: -2 },
-            { x: 0, y: -1 },
-            { x: 1, y: -2 },
-            { x: 0, y: -3 },
-          ],
-          additionalEffects: [],
-        },
+{
+    name: 'Dragon Rush',
+    power: 100,
+    type: PokemonType.DRAGON,
+    shape: [
+        { x: 0, y: -1 },
+        { x: -1, y: 0 },
+        { x: 1, y: 0 },
+        { x: 0, y: 1 },
+        ],
+    additionalEffects: [],
+    hop: { x: 0, y: -2 },
+},
 ]
 
 export const  rotatePosition = (pos: Position, facing: Facing): Position => {
