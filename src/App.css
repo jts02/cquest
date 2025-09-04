@@ -27,6 +27,7 @@
 .cell.dark { background: #b9b9b9; }
 .cell.move { box-shadow: inset 0 0 0 4px rgba(100, 108, 255, 0.5); }
 .cell.atk { box-shadow: inset 0 0 0 4px rgba(255, 99, 71, 0.6); }
+.cell.hop { box-shadow: inset 0 0 0 4px rgba(34, 197, 94, 0.7); }
 
 .piece {
   width: 56px;

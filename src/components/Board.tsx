@@ -8,6 +8,7 @@ export interface BoardProps {
   activePokemonId: string | null
   highlightMoves: Set<string>
   highlightAttack: Set<string>
+  highlightHop: Set<string>
   onCellClick: (pos: Position) => void
 }
 
@@ -33,6 +34,7 @@ export const Board: React.FC<BoardProps> = ({
   activePokemonId,
   highlightMoves,
   highlightAttack,
+  highlightHop,
   onCellClick,
 }) => {
   console.log('highlightMoves:', highlightMoves);
@@ -44,12 +46,13 @@ export const Board: React.FC<BoardProps> = ({
       const cellKey = `${x},${y}`
       const isMove = highlightMoves.has(cellKey)
       const isAtk = highlightAttack.has(cellKey)
+      const isHop = highlightHop.has(cellKey)
       const occupant = pokemons.find((p) => p.position.x === x && p.position.y === y)
       const isActive = occupant?.id === activePokemonId
       cells.push(
         <div
           key={cellKey}
-          className={`cell ${isDark ? 'dark' : 'light'} ${isMove ? 'move' : ''} ${isAtk ? 'atk' : ''}`}
+          className={`cell ${isDark ? 'dark' : 'light'} ${isMove ? 'move' : ''} ${isAtk ? 'atk' : ''} ${isHop ? 'hop' : ''}`}
           onClick={() => onCellClick({ x, y })}
         >
           {occupant && (

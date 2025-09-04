@@ -413,6 +413,7 @@ function App() {
           activePokemonId={activePokemon?.id ?? null}
           highlightMoves={hasMoved ? new Set<string>() : moveHighlights}
           highlightAttack={attackHighlights}
+          highlightHop={hasMoved && isHopValid ? new Set<string>([hopPositionKey]) : new Set<string>()}
           onCellClick={handleCellClick}
         />
       </div>
