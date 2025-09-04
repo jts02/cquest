@@ -937,6 +937,23 @@ PALOSSAND,Palossand,/pokemon/palossand.png,GHOST,GROUND,170,100,93,35,2,Shadow B
 PYUKUMUKU,Pyukumuku,/pokemon/pyukumuku.png,WATER,,110,60,130,5,1,Harden
 TYPENULL,Type: Null,/pokemon/typenull.png,NORMAL,,190,95,95,59,2,Crush Claw
 SILVALLY,Silvally,/pokemon/silvally.png,NORMAL,,190,95,95,95,3,Multi-Attack
+SILVALLYFIRE,Silvally (Fire),/pokemon/silvally_fire.png,FIRE,,190,95,95,95,3,Multi-Attack (Fire)
+SILVALLYWATER,Silvally (Water),/pokemon/silvally_water.png,WATER,,190,95,95,95,3,Multi-Attack (Water)
+SILVALLYGRASS,Silvally (Grass),/pokemon/silvally_grass.png,GRASS,,190,95,95,95,3,Multi-Attack (Grass)
+SILVALLYELECTRIC,Silvally (Electric),/pokemon/silvally_electric.png,ELECTRIC,,190,95,95,95,3,Multi-Attack (Electric)
+SILVALLYICE,Silvally (Ice),/pokemon/silvally_ice.png,ICE,,190,95,95,95,3,Multi-Attack (Ice)
+SILVALLYFIGHTING,Silvally (Fighting),/pokemon/silvally_fighting.png,FIGHTING,,190,95,95,95,3,Multi-Attack (Fighting)
+SILVALLYPOISON,Silvally (Poison),/pokemon/silvally_poison.png,POISON,,190,95,95,95,3,Multi-Attack (Poison)
+SILVALLYGROUND,Silvally (Ground),/pokemon/silvally_ground.png,GROUND,,190,95,95,95,3,Multi-Attack (Ground)
+SILVALLYFLYING,Silvally (Flying),/pokemon/silvally_flying.png,FLYING,,190,95,95,95,3,Multi-Attack (Flying)
+SILVALLYPSYCHIC,Silvally (Psychic),/pokemon/silvally_psychic.png,PSYCHIC,,190,95,95,95,3,Multi-Attack (Psychic)
+SILVALLYBUG,Silvally (Bug),/pokemon/silvally_bug.png,BUG,,190,95,95,95,3,Multi-Attack (Bug)
+SILVALLYROCK,Silvally (Rock),/pokemon/silvally_rock.png,ROCK,,190,95,95,95,3,Multi-Attack (Rock)
+SILVALLYGHOST,Silvally (Ghost),/pokemon/silvally_ghost.png,GHOST,,190,95,95,95,3,Multi-Attack (Ghost)
+SILVALLYDRAGON,Silvally (Dragon),/pokemon/silvally_dragon.png,DRAGON,,190,95,95,95,3,Multi-Attack (Dragon)
+SILVALLYDARK,Silvally (Dark),/pokemon/silvally_dark.png,DARK,,190,95,95,95,3,Multi-Attack (Dark)
+SILVALLYSTEEL,Silvally (Steel),/pokemon/silvally_steel.png,STEEL,,190,95,95,95,3,Multi-Attack (Steel)
+SILVALLYFAIRY,Silvally (Fairy),/pokemon/silvally_fairy.png,FAIRY,,190,95,95,95,3,Multi-Attack (Fairy)
 MINIOR,Minior,/pokemon/minior.png,ROCK,FLYING,120,60,100,60,3,Power Gem
 KOMALA,Komala,/pokemon/komala.png,NORMAL,,130,115,80,65,3,Slam
 TURTONATOR,Turtonator,/pokemon/turtonator.png,FIRE,DRAGON,120,91,110,36,2,Flamethrower
