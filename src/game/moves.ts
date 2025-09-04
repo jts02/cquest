@@ -31,6 +31,7 @@ export interface Move {
   type: PokemonType
   shape: Position[] // Relative coordinates from attacker facing "north"
   additionalEffects: AdditionalEffect[]
+  hop?: Position
 }
 
 export const MOVES: Move[] = [
@@ -1433,14 +1434,15 @@ export const MOVES: Move[] = [
     type: PokemonType.FIRE,
     // Hollow cross in front
     shape: [
-      { x: 0, y: -1 },
-      { x: -1, y: -2 },
-      { x: 1, y: -2 },
-      { x: 0, y: -3 },
-    ],
+        { x: 0, y: -1 },
+        { x: -1, y: 0 },
+        { x: 1, y: 0 },
+        { x: 0, y: 1 },
+      ],
     additionalEffects: [
       { kind: 'statChange', chance: .5, increase: true, self: true, stat: 'attack', stages: 1}
     ],
+    hop: { x: 0, y: -2 },
 },
 {
     name: 'Revelation Dance',
@@ -4389,4 +4391,10 @@ return shape.map(offset => {
     y: attackerPos.y + rotated.y
     }
 })
+}
+
+export const addHopPosition = (pos: Position, facing: Facing, hop: Position | undefined) => {
+    if (!hop) return pos
+    const rotatedHop = rotatePosition(hop, facing)
+    return { x: pos.x + rotatedHop.x, y: pos.y + rotatedHop.y }
 }

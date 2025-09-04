@@ -5,7 +5,7 @@ import { Controls } from './components/Controls'
 import { getDamage, getMultiplier, Pokemon } from './game/Pokemon'
 import { BOARD_SIZE, loadSpeciesFromCsv, defaultFacingForTeam, makePositionsForTeam } from './game/data'
 import { Facing, PlayerId, Position, PokemonSpecies } from './game/types'
-import { getMoveSquares, StatChangeEffect } from './game/moves'
+import { getMoveSquares, StatChangeEffect, addHopPosition } from './game/moves'
 
 type WinnerState = 'A' | 'B' | 'Draw' | null
 
@@ -127,7 +127,8 @@ function App() {
     if (!activePokemon) return result
   
     console.log('activepokemon:', activePokemon);
-    const squares = getMoveSquares(activePokemon.position, activePokemon.facing, activePokemon.move.shape)
+    const movePosition = activePokemon.move.hop ? addHopPosition(activePokemon.position, activePokemon.facing, activePokemon.move.hop) : activePokemon.position;
+    const squares = getMoveSquares(movePosition, activePokemon.facing, activePokemon.move.shape)
   
     for (const pos of squares) {
       if (isInside(pos)) {
@@ -378,13 +379,24 @@ function App() {
       </div>
     )
   }
+  const hopPosition = activePokemon ? addHopPosition(activePokemon.position, activePokemon.facing, activePokemon.move.hop) : null
+  const hopPositionKey = hopPosition ? `${hopPosition?.x},${hopPosition?.y}` : ""
+  console.log('hopPosition:', hopPosition);
+  console.log('activePokemon position:', activePokemon?.position);
+  const occupied = getOccupiedSet(activePokemon?.id)
+
+  if (hopPosition && !occupied.has(hopPositionKey) && isInside(hopPosition)) {
+    moveHighlights.add(hopPositionKey)
+  } else {
+    
+  }
   return (
     <div className="app">
       <div className="left">
         <Board
           pokemons={pokemons}
           activePokemonId={activePokemon?.id ?? null}
-          highlightMoves={hasMoved ? new Set() : moveHighlights}
+          highlightMoves={hasMoved ? new Set<string>([hopPositionKey]) : moveHighlights}
           highlightAttack={attackHighlights}
           onCellClick={handleCellClick}
         />

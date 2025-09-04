@@ -35,6 +35,7 @@ export const Board: React.FC<BoardProps> = ({
   highlightAttack,
   onCellClick,
 }) => {
+  console.log('highlightMoves:', highlightMoves);
   const gridRows = []
   for (let y = 0; y < BOARD_SIZE; y++) {
     const cells = []
