@@ -752,6 +752,7 @@ export const MOVES: Move[] = [
       { x: 0, y: -2 },
     ],
     additionalEffects: [],
+    hop: { x: 0, y: -1 },
 },
 {
     name: 'Slam',
@@ -1084,6 +1085,7 @@ export const MOVES: Move[] = [
       { x: 0, y: -2 },
     ],
     additionalEffects: [],
+    hop: { x: 0, y: -1 },
 },
 {
     name: 'Powder Snow',
@@ -1520,6 +1522,7 @@ export const MOVES: Move[] = [
       { x: 1, y: -2 },
     ],
     additionalEffects: [],
+    hop: { x: 0, y: -1 },
 },
 {
     name: 'Glaciate',
