@@ -598,6 +598,23 @@ DARKRAI,Darkrai,/pokemon/darkrai.png,DARK,,140,135,90,125,3,Dark Pulse
 SHAYMIN,Shaymin,/pokemon/shaymin.png,GRASS,,200,100,100,100,3,Seed Flare
 SHAYMINSKY,Shaymin (Sky Forme),/pokemon/shaymin_sky.png,GRASS,FLYING,200,120,75,127,3,Seed Flare
 ARCEUS,Arceus,/pokemon/arceus.png,NORMAL,,240,120,120,120,4,Judgment
+ARCEUSFIRE,Arceus (Fire),/pokemon/arceus_fire.png,FIRE,,240,120,120,120,4,Judgment (Fire)
+ARCEUSWATER,Arceus (Water),/pokemon/arceus_water.png,WATER,,240,120,120,120,4,Judgment (Water)
+ARCEUSGRASS,Arceus (Grass),/pokemon/arceus_grass.png,GRASS,,240,120,120,120,4,Judgment (Grass)
+ARCEUSELECTRIC,Arceus (Electric),/pokemon/arceus_electric.png,ELECTRIC,,240,120,120,120,4,Judgment (Electric)
+ARCEUSICE,Arceus (Ice),/pokemon/arceus_ice.png,ICE,,240,120,120,120,4,Judgment (Ice)
+ARCEUSFIGHTING,Arceus (Fighting),/pokemon/arceus_fighting.png,FIGHTING,,240,120,120,120,4,Judgment (Fighting)
+ARCEUSPOISON,Arceus (Poison),/pokemon/arceus_poison.png,POISON,,240,120,120,120,4,Judgment (Poison)
+ARCEUSGROUND,Arceus (Ground),/pokemon/arceus_ground.png,GROUND,,240,120,120,120,4,Judgment (Ground)
+ARCEUSFLYING,Arceus (Flying),/pokemon/arceus_flying.png,FLYING,,240,120,120,120,4,Judgment (Flying)
+ARCEUSPSYCHIC,Arceus (Psychic),/pokemon/arceus_psychic.png,PSYCHIC,,240,120,120,120,4,Judgment (Psychic)
+ARCEUSBUG,Arceus (Bug),/pokemon/arceus_bug.png,BUG,,240,120,120,120,4,Judgment (Bug)
+ARCEUSROCK,Arceus (Rock),/pokemon/arceus_rock.png,ROCK,,240,120,120,120,4,Judgment (Rock)
+ARCEUSGHOST,Arceus (Ghost),/pokemon/arceus_ghost.png,GHOST,,240,120,120,120,4,Judgment (Ghost)
+ARCEUSDRAGON,Arceus (Dragon),/pokemon/arceus_dragon.png,DRAGON,,240,120,120,120,4,Judgment (Dragon)
+ARCEUSDARK,Arceus (Dark),/pokemon/arceus_dark.png,DARK,,240,120,120,120,4,Judgment (Dark)
+ARCEUSSTEEL,Arceus (Steel),/pokemon/arceus_steel.png,STEEL,,240,120,120,120,4,Judgment (Steel)
+ARCEUSFAIRY,Arceus (Fairy),/pokemon/arceus_fairy.png,FAIRY,,240,120,120,120,4,Judgment (Fairy)
 VICTINI,Victini,/pokemon/victini.png,FIRE,PSYCHIC,200,100,100,100,3,V-Create
 SNIVY,Snivy,/pokemon/snivy.png,GRASS,,90,45,55,63,4,Vine Whip
 SERVINE,Servine,/pokemon/servine.png,GRASS,,120,60,75,83,4,Leaf Blade
