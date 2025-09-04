@@ -138,6 +138,12 @@ function App() {
     return result
   }, [activePokemon])
 
+  // Calculate hop validity
+  const hopPosition = activePokemon ? addHopPosition(activePokemon.position, activePokemon.facing, activePokemon.move.hop) : null
+  const hopPositionKey = hopPosition ? `${hopPosition?.x},${hopPosition?.y}` : ""
+  const occupied = getOccupiedSet(activePokemon?.id)
+  const isHopValid = hopPosition && !occupied.has(hopPositionKey) && isInside(hopPosition)
+
   function handleCellClick(pos: Position) {
     if (isSetupPhase && placementMode) {
       // Place a new Pokemon of selected species for the specified team
@@ -169,6 +175,8 @@ function App() {
     }
     if (!activePokemon || winner || !gameStarted) return
     const key = `${pos.x},${pos.y}`
+    
+    // Handle regular movement
     if (moveHighlights.has(key) && !hasMoved && !actedThisRound.has(activePokemon.id)) {
       // Move active pokemon
       setPokemons((prev) =>
@@ -207,18 +215,20 @@ function App() {
       }
       console.log(`${pokemon.name}'s ${statChangeEffect.stat} went ${statChangeEffect.increase ? 'up' : 'down'} by ${statChangeEffect.stages} stages!`);
     }
-  function ProcessAddtionalEffects(activePokemon: Pokemon, targetPokemon: any[]) {
+  function ProcessAddtionalEffects(activePokemon: Pokemon, targetPokemon: Array<[Pokemon, number]>) {
     for (const effect of activePokemon.move.additionalEffects) {
       switch (effect.kind) {
-        case 'heal':
+        case 'heal': {
+          // Calculate heal amount based on damage dealt to first target
+          const rawDamage = targetPokemon.length > 0 ? targetPokemon[0][1] : 0;
           let healAmount = rawDamage * effect.healPercentage;
-          activePokemon.hp += healAmount;
           if (activePokemon.hp + healAmount >= activePokemon.maxHp) {
             healAmount = activePokemon.maxHp - activePokemon.hp;
           }
           activePokemon.hp += healAmount;
           console.log(`${activePokemon.name} healed for ${healAmount}`);
           break;
+        }
   
         case 'statChange':
           // // effect.stat and effect.increase
@@ -226,10 +236,10 @@ function App() {
             if (effect.self) {
               handleStatChange(activePokemon, effect);
             }
-            for (const target of targetPokemon) {
-              handleStatChange(target[0], effect);
-              }
+            for (const [target, _damage] of targetPokemon) {
+              handleStatChange(target, effect);
             }
+          }
           // console.log(
           //   `${activePokemon.name} ${
           //     effect.increase ? 'increases' : 'decreases'
@@ -253,17 +263,33 @@ function App() {
 
   function applyAttack() {
     if (!activePokemon || winner) return
+    
+    // Check if hop is required and valid
+    if (activePokemon.move.hop && !isHopValid) {
+      console.log('Cannot attack: hop position is invalid or occupied')
+      return
+    }
+    
+    // Move to hop position if the move has a hop
+    let finalPosition = activePokemon.position
+    if (activePokemon.move.hop && hopPosition) {
+      finalPosition = hopPosition
+    }
+    
     // Deal damage to enemies inside attackHighlights
     const targets = new Set(attackHighlights)
-    const targetPokemon = [];
+    const targetPokemon: Array<[Pokemon, number]> = [];
     setPokemons((prev) => {
       const updated = prev.map((p) => {
+        if (p.id === activePokemon.id) {
+          // Move the active Pokemon to hop position if applicable
+          return new Pokemon({ ...p, position: finalPosition })
+        }
         if (p.team === activePokemon.team) return p
         const key = `${p.position.x},${p.position.y}`
         if (targets.has(key)) {
           const rawDamage = getDamage(activePokemon, p);
-          const pokemonDamage = [p, rawDamage];
-          targetPokemon.push(pokemonDamage);
+          targetPokemon.push([p, rawDamage]);
           const newHp = p.hp - rawDamage;
           return new Pokemon({ ...p, hp: newHp })
         }
@@ -301,7 +327,7 @@ function App() {
     })
   }
 
-  const canAttack = !!activePokemon
+  const canAttack = !!activePokemon && (!activePokemon.move.hop || !!isHopValid)
 
   function TeamBuilder() {
     const [selectedSpecies, setSelectedSpecies] = useState<string>('')
@@ -379,24 +405,13 @@ function App() {
       </div>
     )
   }
-  const hopPosition = activePokemon ? addHopPosition(activePokemon.position, activePokemon.facing, activePokemon.move.hop) : null
-  const hopPositionKey = hopPosition ? `${hopPosition?.x},${hopPosition?.y}` : ""
-  console.log('hopPosition:', hopPosition);
-  console.log('activePokemon position:', activePokemon?.position);
-  const occupied = getOccupiedSet(activePokemon?.id)
-
-  if (hopPosition && !occupied.has(hopPositionKey) && isInside(hopPosition)) {
-    moveHighlights.add(hopPositionKey)
-  } else {
-    
-  }
   return (
     <div className="app">
       <div className="left">
         <Board
           pokemons={pokemons}
           activePokemonId={activePokemon?.id ?? null}
-          highlightMoves={hasMoved ? new Set<string>([hopPositionKey]) : moveHighlights}
+          highlightMoves={hasMoved ? new Set<string>() : moveHighlights}
           highlightAttack={attackHighlights}
           onCellClick={handleCellClick}
         />
