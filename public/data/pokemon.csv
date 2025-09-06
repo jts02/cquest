@@ -1092,7 +1092,8 @@ WYRDEER,Wyrdeer,/pokemon/wyrdeer.png,NORMAL,PSYCHIC,206,105,74,65,3,Psyshield Ba
 KLEAVOR,Kleavor,/pokemon/kleavor.png,BUG,ROCK,140,135,83,85,3,Stone Axe
 URSALUNA,Ursaluna,/pokemon/ursaluna.png,GROUND,NORMAL,260,140,93,50,2,Headlong Rush
 URSALUNABLOODMOON,Ursaluna (Bloodmoon),/pokemon/ursaluna_bloodmoon.png,GROUND,NORMAL,226,135,93,52,2,Earth Power
-BASCULEGION,Basculegion,/pokemon/basculegion.png,WATER,GHOST,240,100,70,78,3,Surf
+BASCULEGION,Basculegion (Female),/pokemon/basculegion.png,WATER,GHOST,240,100,70,78,3,Surf
+BASCULEGIONMALE,Basculegion (Male),/pokemon/basculegion_male.png,WATER,GHOST,120,240,70,78,3,Waterfall
 SNEASLER,Sneasler,/pokemon/sneasler.png,FIGHTING,POISON,160,130,70,120,3,Dire Claw
 OVERQWIL,Overqwil,/pokemon/overqwil.png,DARK,POISON,170,115,80,85,3,Barb Barrage
 ENAMORUS,Enamorus,/pokemon/enamorus.png,FAIRY,FLYING,148,135,75,106,2,Springtide Storm
